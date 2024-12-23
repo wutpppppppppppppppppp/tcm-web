@@ -13,7 +13,7 @@ const meta = {
   tags: ['autodocs'],
   decorators: [
     Story => (
-      <NextIntlClientProvider locale="en" messages={messages}>
+      <NextIntlClientProvider locale="th" messages={messages}>
         <Story />
       </NextIntlClientProvider>
     ),

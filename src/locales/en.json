@@ -1,62 +1,52 @@
 {
   "RootLayout": {
     "home_link": "Home",
-    "about_link": "About",
-    "counter_link": "Counter",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "about_link": "About Us",
+    "catalog_link": "Catalog",
+    "contact_link": "Contact Us",
+    "sign_in_link": "Sign In",
+    "sign_up_link": "Sign Up"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with <author></author>."
+    "description": "Supplier of chemical products - Laemthong Marketing Chemicals",
+    "made_with": "Created by <author></author>."
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.",
-    "sponsors_title": "Sponsors"
-  },
-  "Counter": {
-    "meta_title": "Counter",
-    "meta_description": "An example of DB operation",
-    "loading_counter": "Loading counter...",
-    "security_powered_by": "Security, bot detection and rate limiting powered by"
-  },
-  "CounterForm": {
-    "presentation": "The counter is stored in the database and incremented by the value you provide.",
-    "label_increment": "Increment by",
-    "button_increment": "Increment"
-  },
-  "CurrentCount": {
-    "count": "Count: {count}"
+    "meta_title": "Laemthong Marketing Chemicals Co., Ltd - Industrial Chemical Supplier",
+    "meta_description": "We specialize in importing and distributing all kinds of chemical products for industrial use and other businesses that require chemicals. Fair pricing and friendly service."
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+    "meta_title": "About Us",
+    "meta_description": "Industrial chemicals supplier for wastewater treatment, cleaning chemicals, and more.",
+    "about_paragraph": "We import and distribute all kinds of chemical products for industrial use and various other businesses, such as hotels, farms, swimming pools, foundries, drilling, soundproofing, fire protection, home decoration, wastewater treatment, and more. Suitable for all types of industries. Our clientele includes industrial estate clients as well as the general public.",
+    "about_footer": "With fair pricing and friendly service, our customers have trusted our products for a long time. We also provide fast delivery to meet customer demands. For industrial chemicals, lubricants, animal feed additives, and wastewater treatment chemicals, think of Laemthong Marketing Chemicals.",
+    "product": {
+      "meta_title": "Products and Services",
+      "meta_description": "Supplier and importer of quality chemical products at reasonable prices: talcum powder, graphite, vermiculite, bentonite, and other chemicals for various industries."
+    },
+    "about_service": "We provide consultation on chemical selection and offer express delivery services to factories in industrial estates such as Bang Pu, Bang Phli, Phraek Sa, Theparak, Bang Bo, Bang Pla, Bang Sao Thong, Bang Chalong, King Kaew, Rachathewa, Bang Na-Trad, Sisa Chorakhe, Rom Klao, Lat Krabang, Samut Songkhram, Sam Phran, Om Yai, Om Noi, Nakhon Chai Si, Thonburi, Rama II, Nong Khaem, Bangkok, Hua Mak, Nonthaburi, Sai Noi, Bang Len, Sam Khok, Lat Bua Luang, Lat Lum Kaeo, Bang Chan, Suwinthawong, Nong Chok, Bang Nam Priao, Bang Wua, Chachoengsao, Kabin Buri, Prachin Buri, Nakhon Nayok, Phra Nakhon Si Ayutthaya, Saraburi, Samut Sakhon, Maha Chai, Na Di, Sinsakhon, Krathum Baen, Khlong Luang, Pathum Thani, Nava Nakorn, and Bangkadi Industrial Estate."
   },
-  "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+  "Catalog": {
+    "meta_title": "Industrial Product Catalog | Laemthong Marketing Chemicals Co., Ltd",
+    "meta_description": "High-quality industrial chemical products, including talcum powder and raw materials for ceramics, rubber, plastics, and paper industries.",
+    "title": "Product Catalog",
+    "description": "All products of Laemthong Marketing Chemicals Co., Ltd for industrial use."
   },
-  "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
-    "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
+  "CatalogSlug": {
+    "meta_title": "Product {slug} | Laemthong Marketing Chemicals Co., Ltd",
+    "meta_description": "{slug} by Laemthong Marketing Chemicals Co., Ltd for industrial use.",
+    "title": "{name}",
+    "description": "{short_description}",
+    "full_description": "{full_description}",
+    "image": "{image}",
+    "meta_keywords": "{meta_keywords}"
   },
   "SignIn": {
-    "meta_title": "Sign in",
+    "meta_title": "Sign In",
     "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
   },
   "SignUp": {
-    "meta_title": "Sign up",
+    "meta_title": "Sign Up",
     "meta_description": "Effortlessly create an account through our intuitive sign-up process."
   },
   "Dashboard": {
@@ -68,7 +58,10 @@
   },
   "DashboardLayout": {
     "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "user_profile_link": "Manage Your Account",
+    "sign_out": "Sign Out"
+  },
+  "PortfolioSlug": {
+    "title": "hello"
   }
 }

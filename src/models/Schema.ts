@@ -1,4 +1,4 @@
-import { integer, pgTable, serial, timestamp } from 'drizzle-orm/pg-core';
+import { index, json, pgTable, serial, text, timestamp } from 'drizzle-orm/pg-core';
 
 // This file defines the structure of your database tables using the Drizzle ORM.
 
@@ -10,12 +10,32 @@ import { integer, pgTable, serial, timestamp } from 'drizzle-orm/pg-core';
 // The migration is automatically applied during the next database interaction,
 // so there's no need to run it manually or restart the Next.js server.
 
-export const counterSchema = pgTable('counter', {
+export type LocaleLang = {
+  th: string;
+  en: string;
+};
+
+export type LocaleLangMeta = {
+  th: string[];
+  en: string[];
+};
+
+export const productSchema = pgTable('product', {
   id: serial('id').primaryKey(),
-  count: integer('count').default(0),
+  slug: text('slug').notNull().unique(),
+  name: json().$type<LocaleLang>().notNull(),
+  short_description: json().$type<LocaleLang>().notNull(),
+  full_description: json().$type<LocaleLang>().notNull(),
+  image: text('image'),
+  meta_keywords: json().$type<LocaleLangMeta>().notNull(),
+  createdAt: timestamp('created_at', { mode: 'date' }).defaultNow().notNull(),
   updatedAt: timestamp('updated_at', { mode: 'date' })
     .defaultNow()
     .$onUpdate(() => new Date())
     .notNull(),
-  createdAt: timestamp('created_at', { mode: 'date' }).defaultNow().notNull(),
+}, (t) => {
+  return [
+    index('slug_idx').on(t.slug),
+    index('name_idx').on(t.name),
+  ];
 });
