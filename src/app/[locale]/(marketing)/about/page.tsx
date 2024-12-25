@@ -28,7 +28,7 @@ export default async function About(props: IAboutProps) {
   return (
     <>
       <p>{t('about_paragraph')}</p>
-      <p>hello</p>
+      <p>hello test</p>
     </>
   );
 };
