@@ -1,4 +1,3 @@
-import { Sponsors } from '@/components/Sponsors';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 type IIndexProps = {
@@ -30,7 +29,6 @@ export default async function Index(props: IIndexProps) {
     <>
       <h1>{t('meta_title')}</h1>
       <p>{t('meta_description')}</p>
-      <Sponsors />
     </>
   );
 };
