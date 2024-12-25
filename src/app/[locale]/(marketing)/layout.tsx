@@ -1,5 +1,4 @@
-import { DemoBanner } from '@/components/DemoBanner';
-import { LocaleSwitcher } from '@/components/LocaleSwitcher';
+import { Header } from '@/components/Header';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
@@ -10,6 +9,7 @@ export default async function Layout(props: {
 }) {
   const { locale } = await props.params;
   setRequestLocale(locale);
+
   const t = await getTranslations({
     locale,
     namespace: 'RootLayout',
@@ -17,7 +17,7 @@ export default async function Layout(props: {
 
   return (
     <>
-      <DemoBanner />
+      <Header />
       <BaseTemplate
         leftNav={(
           <>
@@ -39,52 +39,19 @@ export default async function Layout(props: {
             </li>
             <li>
               <Link
-                href="/counter/"
+                href="/catalog/"
                 className="border-none text-gray-700 hover:text-gray-900"
               >
-                {t('counter_link')}
+                {t('catalog_link')}
               </Link>
             </li>
             <li>
               <Link
-                href="/portfolio/"
+                href="/contact/"
                 className="border-none text-gray-700 hover:text-gray-900"
               >
-                {t('portfolio_link')}
+                {t('contact_link')}
               </Link>
-            </li>
-            <li>
-              <a
-                className="border-none text-gray-700 hover:text-gray-900"
-                href="https://github.com/ixartz/Next-js-Boilerplate"
-              >
-                GitHub
-              </a>
-            </li>
-          </>
-        )}
-        rightNav={(
-          <>
-            <li>
-              <Link
-                href="/sign-in/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                {t('sign_in_link')}
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                href="/sign-up/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                {t('sign_up_link')}
-              </Link>
-            </li>
-
-            <li>
-              <LocaleSwitcher />
             </li>
           </>
         )}

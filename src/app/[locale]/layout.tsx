@@ -11,8 +11,8 @@ import '@/styles/global.css';
 export const metadata: Metadata = {
   icons: [
     {
-      rel: 'apple-touch-icon',
-      url: '/apple-touch-icon.png',
+      rel: 'tcm-icon',
+      url: '/tcm-icon.png',
     },
     {
       rel: 'icon',
