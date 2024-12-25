@@ -1,3 +1,29 @@
+# 1.0.0 (2024-12-25)
+
+
+### Bug Fixes
+
+* package lock json ([287b698](https://github.com/wutpppppppppppppppppp/tcm-web/commit/287b6982d188a9c7783a6f597fe5725a29087618))
+* reinstall package lock ([b7da62e](https://github.com/wutpppppppppppppppppp/tcm-web/commit/b7da62ef7047a036e814eb8c860787ea60578a09))
+* unmatched package lock ([f457503](https://github.com/wutpppppppppppppppppp/tcm-web/commit/f4575038f976718ddc3c1eaf794543f73bef2d85))
+* unused stories book ([e391164](https://github.com/wutpppppppppppppppppp/tcm-web/commit/e391164715360d9816c93028654a3a0b99614fb8))
+
+
+### Features
+
+* clean up for dev ([e178962](https://github.com/wutpppppppppppppppppp/tcm-web/commit/e17896255908fc1c115c4f1b7ad023f72a180598))
+* setup the locale configuration ([5886ff2](https://github.com/wutpppppppppppppppppp/tcm-web/commit/5886ff207fc039fa6e7ed3235a97d4791d69d0f6))
+
+
+### Performance Improvements
+
+* delete unused dependencies ([dfb1ccb](https://github.com/wutpppppppppppppppppp/tcm-web/commit/dfb1ccb9ce41ca135b4d5eb1f68b6db094336b15))
+
+
+### Reverts
+
+* test vercel ([d208b91](https://github.com/wutpppppppppppppppppp/tcm-web/commit/d208b915f69f506a8b9895a79ac5193a54a3fbe1))
+
 ## [3.60.4](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.3...v3.60.4) (2024-12-16)
 
 
