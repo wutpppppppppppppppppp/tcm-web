@@ -10,8 +10,8 @@ export const BaseTemplate = (props: {
   const t = useTranslations('BaseTemplate');
 
   return (
-    <div className="w-full px-1 text-gray-700 antialiased">
-      <div className="mx-auto max-w-screen-md">
+    <div className="flex w-full justify-center px-1 text-gray-700 antialiased">
+      <div className="max-w-screen-md">
         <header className="border-b border-gray-300">
           <div className="flex-col justify-items-center pb-8 pt-16">
             <Image
@@ -28,13 +28,13 @@ export const BaseTemplate = (props: {
 
           <div className="flex justify-center gap-x-5">
             <nav>
-              <ul className="flex flex-wrap gap-x-5 text-xl">
+              <ul className="flex list-none flex-wrap gap-x-5 text-xl">
                 {props.leftNav}
               </ul>
             </nav>
 
             <nav>
-              <ul className="flex flex-wrap gap-x-5 text-xl">
+              <ul className="flex list-none flex-wrap gap-x-5 text-xl">
                 {props.rightNav}
               </ul>
             </nav>

@@ -8,5 +8,33 @@ body {
 }
 
 p {
-  @apply my-6;
+  @apply mb-3 text-sm;
+}
+
+strong {
+  @apply mb-2;
+}
+
+h1,
+h2 {
+  @apply font-bold;
+}
+
+h1 {
+  @apply text-xl;
+}
+h2 {
+  @apply mt-6 mb-1 text-lg;
+}
+
+a {
+  @apply text-[#42c5ab] hover:text-[#25A954] hover:cursor-pointer text-sm font-bold mb-2;
+}
+
+ul {
+  @apply gap-2 list-disc pl-6;
+}
+
+li {
+  @apply text-sm mb-2;
 }
