@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v1.0.0...v1.1.0) (2024-12-28)
+
+
+### Features
+
+* **Add About Page:** add about page and edit global css ([0d49c9d](https://github.com/wutpppppppppppppppppp/tcm-web/commit/0d49c9de77bb2db2180a9c5e845a3fc2962f3778))
+
 # 1.0.0 (2024-12-25)
 
 
