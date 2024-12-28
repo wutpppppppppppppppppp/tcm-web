@@ -32,7 +32,7 @@ export default async function About(props: IAboutProps) {
   });
 
   return (
-    <div className="flex flex-col gap-4">
+    <>
       <section>
         <h1>
           {t('meta_title')}
@@ -41,16 +41,16 @@ export default async function About(props: IAboutProps) {
         <div className="flex flex-col items-center">
           <h2>{t('meta_description')}</h2>
           <p className="text-justify">{t('about_paragraph')}</p>
-          <Image className="mb-3" src={tcm_bigbag} alt="สารเคมี" />
-          <Link href="/">{t('Index.meta_title')}</Link>
-          <Link href="/">{t('Index.meta_description')}</Link>
+          <Image src={tcm_bigbag} alt="สารเคมี" />
+          <Link href="/" className="about">{t('Index.meta_title')}</Link>
+          <Link href="/" className="about">{t('Index.meta_description')}</Link>
         </div>
         <div className="mt-2 flex flex-col">
           <p>{t('about_footer_one')}</p>
           <p>{t('about_footer_two')}</p>
           <p className="font-bold">
             {t('about_footer_three')}
-            <Link href="/">{t('Index.meta_title')}</Link>
+            <Link href="/" className="about">{t('Index.meta_title')}</Link>
           </p>
           <p className="font-bold">
             {t('Location_title')}
@@ -109,7 +109,7 @@ export default async function About(props: IAboutProps) {
               {t('product.description_three')}
             </li>
           </ul>
-          <Image className="mb-3" src={tcm_talcum} alt="Talcum" />
+          <Image src={tcm_talcum} alt="Talcum" />
           <ul>
             <li>
               {t('product.category_one')}
@@ -133,7 +133,7 @@ export default async function About(props: IAboutProps) {
               {t('product.category_seven')}
             </li>
           </ul>
-          <Image className="mb-3" src={tcm_graphite} alt="Graphite" />
+          <Image src={tcm_graphite} alt="Graphite" />
           <ul>
             <li className="font-bold">
               {t('product.product_one')}
@@ -168,12 +168,12 @@ export default async function About(props: IAboutProps) {
               </span>
             </li>
           </ul>
-          <Image className="mb-3" src={tcm_woodenpallet} alt="WoodenPallet" />
+          <Image src={tcm_woodenpallet} alt="WoodenPallet" />
           <p className="text-justify font-bold">
             {t('about_service_title')}
             <span className="font-normal">{t('about_service_description')}</span>
           </p>
-          <Link href="/">{t('footer')}</Link>
+          <Link href="/" className="about">{t('footer')}</Link>
           <p className="font-bold">
             {t('Tel_title')}
             {' '}
@@ -185,6 +185,6 @@ export default async function About(props: IAboutProps) {
           </p>
         </div>
       </section>
-    </div>
+    </>
   );
 };
