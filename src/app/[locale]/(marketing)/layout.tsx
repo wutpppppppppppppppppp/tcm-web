@@ -56,7 +56,7 @@ export default async function Layout(props: {
           </>
         )}
       >
-        <div className="py-5 text-xl [&_p]:my-6">{props.children}</div>
+        <div className="py-5 text-xl">{props.children}</div>
       </BaseTemplate>
     </>
   );
