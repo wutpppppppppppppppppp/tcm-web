@@ -50,7 +50,6 @@ export const BaseTemplate = (props: {
             author: () => (
               <Link
                 href="https://github.com/wutpppppppppppppppppp"
-                className="text-blue-700 hover:border-b-2 hover:border-blue-700"
               >
                 wutpppppppppppppppppp
               </Link>
