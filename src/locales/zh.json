@@ -95,7 +95,53 @@
     "user_profile_link": "Manage Your Account",
     "sign_out": "Sign Out"
   },
-  "PortfolioSlug": {
-    "title": "hello"
+  "Contact": {
+    "meta_title": "ติดต่อเรา",
+    "meta_description": "ช่องทางการติดต่อ บริษัท เคมีแหลมทองมาร์เกตติ้ง จำกัด",
+    "contact_info": {
+      "title": "ติดต่อเรา",
+      "name": {
+        "title": "ชื่อธุรกิจ",
+        "value": "บริษัท เคมีแหลมทองมาร์เกตติ้ง จำกัด"
+      },
+      "address": {
+        "title": "ที่อยู่",
+        "value": "409 ถนนสมเด็จเจ้าพระยา แขวงคลองสาน เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย"
+      },
+      "phone": {
+        "title": "โทรศัพท์",
+        "value": "06-6112-4917, 08-5921-7191, 08-1481,4917, 0-2439-0298"
+      },
+      "fax": {
+        "title": "โทรสาร",
+        "value": "0-2438-3412"
+      },
+      "line_id": {
+        "title": "ไอดีไลน์",
+        "value": "thai_chemical"
+      },
+      "email": {
+        "title": "อีเมล",
+        "value": "peangjanpiya@gmail.com"
+      },
+      "website": {
+        "title": "เว็บไซต์",
+        "value": "รอนะจ๊ะ"
+      },
+      "office_hours": {
+        "title": "เวลาทำการ",
+        "value": "จันทร์-ศุกร์ 08.00-17.00 น."
+      },
+      "map": {
+        "title": "แผนที่",
+        "value": "https://maps.app.goo.gl/5WgaqWyCeFpC2s2X6"
+      }
+    },
+    "image": {
+      "title": "ภาพกิจการ",
+      "title1": "บริษัทเคมีแหลมทองมาร์เกตติ้งจำกัด",
+      "title2": "นำเข้าและจัดจำหน่ายเคมีภัณฑ์",
+      "title3": "สำหรับอุตสาหกรรม"
+    }
   }
 }

@@ -7,8 +7,8 @@ export const Header = async () => {
 
   return (
     <div className="flex items-center justify-between bg-gray-300 px-4 py-2">
-      <div className="text-gray-700">hello</div>
-      <div className="flex gap-4">
+      <div className="text-gray-700">Thai Chemical Marketing Co.,LTD</div>
+      <div className="flex items-center gap-4">
         <Link
           href="/sign-in/"
           className="text-gray-700 hover:text-gray-200"

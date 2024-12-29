@@ -1,6 +1,7 @@
 import { AppConfig } from '@/utils/AppConfig';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const BaseTemplate = (props: {
   leftNav: React.ReactNode;
@@ -47,12 +48,11 @@ export const BaseTemplate = (props: {
           {`© Copyright ${new Date().getFullYear()} ${AppConfig.name}. `}
           {t.rich('made_with', {
             author: () => (
-              <a
+              <Link
                 href="https://github.com/wutpppppppppppppppppp"
-                className="text-blue-700 hover:border-b-2 hover:border-blue-700"
               >
                 wutpppppppppppppppppp
-              </a>
+              </Link>
             ),
           })}
           {/*

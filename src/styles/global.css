@@ -7,12 +7,15 @@ body {
   font-family: Anuphan;
 }
 
+section {
+  @apply mb-4;
+}
 p {
   @apply mb-3 text-sm;
 }
 
-strong {
-  @apply mb-2;
+p.table {
+  @apply mb-0 text-sm w-5/6 h-fit;
 }
 
 h1,
@@ -21,20 +24,34 @@ h2 {
 }
 
 h1 {
-  @apply text-xl;
+  @apply text-xl mb-6;
 }
 h2 {
-  @apply mt-6 mb-1 text-lg;
+  @apply mb-1 text-lg;
+}
+
+h2.table {
+  @apply mb-0 text-lg w-1/6 pl-4;
 }
 
 a {
-  @apply text-[#42c5ab] hover:text-[#25A954] hover:cursor-pointer text-sm font-bold mb-2;
+  @apply text-[#42c5ab] hover:text-[#25A954] hover:cursor-pointer text-sm font-bold;
 }
-
+a.about {
+  @apply mb-2;
+}
 ul {
   @apply gap-2 list-disc pl-6;
 }
 
 li {
   @apply text-sm mb-2;
+}
+
+div #table :nth-of-type(even) {
+  @apply bg-gray-50;
+}
+
+img {
+  @apply mb-3;
 }
