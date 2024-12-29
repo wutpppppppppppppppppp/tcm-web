@@ -99,7 +99,7 @@ export default async function Contact(props: IContactProps) {
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
 
-        <div className="flex space-x-4">
+        <div className="flex gap-4">
           <div>
             <Image
               src={warehouse2}
