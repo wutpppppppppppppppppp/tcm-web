@@ -3,6 +3,7 @@ import warehouse3 from '@/public/assets/images/tcm-warehouse3.jpg';
 import warehouse4 from '@/public/assets/images/tcm-warehouse4.jpg';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
+import Link from 'next/link';
 
 type IContactProps = {
   params: Promise<{ slug: string; locale: string }>;
@@ -50,46 +51,43 @@ export default async function Contact(props: IContactProps) {
         </h1>
         <div id="table">
           {contactItems.map(item => (
-            <div key={item} className="flex justify-center border-b-2 py-4">
-              <h2 className="w-1/6 pl-4">
+            <div key={item} className="flex items-center justify-center border-b-2 py-4">
+              <h2 className="table">
                 {t(`contact_info.${item}.title`)}
               </h2>
-              <div className="m-0 w-5/6">
+              <p className="table">
                 {item === 'map'
                   ? (
-                      <a
+                      <Link
                         href={t(`contact_info.${item}.value`)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-blue-600 hover:underline"
                       >
                         Google Maps 🌎
-                      </a>
+                      </Link>
                     )
                   : item === 'email'
                     ? (
-                        <a
+                        <Link
                           href={`mailto:${t(`contact_info.${item}.value`)}`}
-                          className="text-blue-600 hover:underline"
                         >
                           {t(`contact_info.${item}.value`)}
-                        </a>
+                        </Link>
                       )
                     : item === 'line_id'
                       ? (
-                          <a
+                          <Link
                             href={`http://line.me/ti/p/~${t(`contact_info.${item}.value`)}`}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-blue-600 hover:underline"
                           >
                             {t(`contact_info.${item}.value`)}
-                          </a>
+                          </Link>
                         )
                       : (
                           t(`contact_info.${item}.value`)
                         )}
-              </div>
+              </p>
             </div>
           ))}
         </div>

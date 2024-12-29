@@ -14,6 +14,10 @@ p {
   @apply mb-3 text-sm;
 }
 
+p.table {
+  @apply mb-0 text-sm w-5/6 h-fit;
+}
+
 h1,
 h2 {
   @apply font-bold;
@@ -24,6 +28,10 @@ h1 {
 }
 h2 {
   @apply mb-1 text-lg;
+}
+
+h2.table {
+  @apply mb-0 text-lg w-1/6 pl-4;
 }
 
 a {
