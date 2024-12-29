@@ -1,3 +1,24 @@
+# [2.0.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v1.1.0...v2.0.0) (2024-12-29)
+
+
+### Bug Fixes
+
+* font consistency ([42f21f0](https://github.com/wutpppppppppppppppppp/tcm-web/commit/42f21f0f3ba8a2615c08824f20100fe202db1ba7))
+* font consistency ([d76768a](https://github.com/wutpppppppppppppppppp/tcm-web/commit/d76768a7a1f7b2f1a1a0ca22ac995088e0c123d4))
+* merge commit taohu ([cc49b47](https://github.com/wutpppppppppppppppppp/tcm-web/commit/cc49b47164ed2d183c9a359fe0084bac6aaf664e))
+
+
+### Features
+
+* contact page ([bb513f3](https://github.com/wutpppppppppppppppppp/tcm-web/commit/bb513f32e988865d08a1097d54162935088f7048))
+* google embed map ([13da139](https://github.com/wutpppppppppppppppppp/tcm-web/commit/13da139ff69e98a3bf73cdbce3c7fdb3131e4327))
+* new page (contact) ([3df2ed6](https://github.com/wutpppppppppppppppppp/tcm-web/commit/3df2ed6930006dbf34fd5f8fd95f592f093360b0))
+
+
+### BREAKING CHANGES
+
+* new dependencies
+
 # [1.1.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v1.0.0...v1.1.0) (2024-12-28)
 
 
