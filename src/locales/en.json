@@ -1,19 +1,23 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About Us",
-    "catalog_link": "Catalog",
-    "contact_link": "Contact Us",
-    "sign_in_link": "Sign In",
-    "sign_up_link": "Sign Up"
+    "home_link": "หน้าหลัก",
+    "about_link": "เกี่ยวกับเรา",
+    "catalog_link": "แคตตาล็อก",
+    "contact_link": "ติดต่อเรา",
+    "sign_in_link": "เข้าสู่ระบบ",
+    "sign_up_link": "ลงทะเบียน"
   },
   "BaseTemplate": {
-    "description": "Supplier of chemical products - Laemthong Marketing Chemicals",
-    "made_with": "Created by <author></author>."
+    "description": "จำหน่ายเคมีภัณฑ์ เคมีแหลมทองมาร์เกตติ้ง",
+    "made_with": "จัดทำโดย <author></author>."
   },
   "Index": {
-    "meta_title": "Laemthong Marketing Chemicals Co., Ltd - Industrial Chemical Supplier",
-    "meta_description": "We specialize in importing and distributing all kinds of chemical products for industrial use and other businesses that require chemicals. Fair pricing and friendly service."
+    "meta_title": "บริษัทเคมีแหลมทองมาร์เกตติ้งจำกัด ขายเคมีภัณฑ์สำหรับอุตสาหกรรม",
+    "meta_description": "ดำเนินธุรกิจนำเข้า และจัดจำหน่ายเคมีภัณฑ์ทุกชนิด เคมีภัณฑ์สำหรับอุตสาหกรรม และกิจการอื่นๆ ที่ใช้สารเคมี ด้วยราคายุติธรรม บริการเป็นกันเอง",
+    "section_two_title": "ขายเคมีภัณฑ์สำหรับอุตสาหกรรม",
+    "section_two_description_one": "ดำเนินธุรกิจนำเข้า และจัดจำหน่ายเคมีภัณฑ์ทุกชนิด เคมีภัณฑ์สำหรับอุตสาหกรรมเอง",
+    "section_two_description_two": "และกิจการอื่นๆที่ใช้สารเคมี ด้วยราคายุติธรรม บริการเป็นกัน",
+    "section_two_footer": "พร้อมให้คำปรึกษาจาก ผู้เชี่ยวชาญด้านเคมีภัณฑ์ฟรี!"
   },
   "About": {
     "meta_title": "เกี่ยวกับเรา",
@@ -61,26 +65,26 @@
     "footer": "จำหน่ายเคมีราคาส่ง –ปลีก, เทลคัม พาวเดอร์, เบนโทไนท์, กราไฟท์, แมกนีเซียมออกไซด์, เวอร์มิคูไลท์, ยิปซั่ม, แคลเซียม คาร์บอเนต, แมกนีเซียม คาร์บอเนต, ติเตเนียม ฯลฯ สั่งแบ่งแพคเล็กได้ "
   },
   "Catalog": {
-    "meta_title": "Industrial Product Catalog | Laemthong Marketing Chemicals Co., Ltd",
-    "meta_description": "High-quality industrial chemical products, including talcum powder and raw materials for ceramics, rubber, plastics, and paper industries.",
-    "title": "Product Catalog",
-    "description": "All products of Laemthong Marketing Chemicals Co., Ltd for industrial use."
+    "meta_title": "แคตตาล็อกสินค้าอุตสาหกรรม | บริษัท เคมีแหลมทองมาร์เกตติ้ง จำกัด",
+    "meta_description": "ผลิตภัณฑ์เคมีอุตสาหกรรมคุณภาพสูง จำหน่าทัลคัมและวัตถุดิบอุตสาหกรรม สำหรับอุตสาหกรรมเซรามิก ยาง พลาสติก และกระดาษ",
+    "title": "แคตตาล็อกสินค้า",
+    "description": "สินค้าทั้งหมดของบริษัทเคมีแหลมทองมาร์เกตติ้ง จำกัด สำหรับอุตสาหกรรม"
   },
   "CatalogSlug": {
-    "meta_title": "Product {slug} | Laemthong Marketing Chemicals Co., Ltd",
-    "meta_description": "{slug} by Laemthong Marketing Chemicals Co., Ltd for industrial use.",
-    "title": "{name}",
+    "meta_title": "สินค้า {slug} | บริษัท เคมีแหลมทองมาร์เกตติ้ง จำกัด",
+    "meta_description": "{slug} ของบริษัทเคมีแหลมทองมาร์เกตติ้ง จำกัด สำหรับอุตสาหกรรม",
+    "title": "{name} hello",
     "description": "{short_description}",
     "full_description": "{full_description}",
     "image": "{image}",
     "meta_keywords": "{meta_keywords}"
   },
   "SignIn": {
-    "meta_title": "Sign In",
+    "meta_title": "Sign in",
     "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
   },
   "SignUp": {
-    "meta_title": "Sign Up",
+    "meta_title": "Sign up",
     "meta_description": "Effortlessly create an account through our intuitive sign-up process."
   },
   "Dashboard": {
@@ -92,8 +96,8 @@
   },
   "DashboardLayout": {
     "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage Your Account",
-    "sign_out": "Sign Out"
+    "user_profile_link": "Manage your account",
+    "sign_out": "Sign out"
   },
   "Contact": {
     "meta_title": "ติดต่อเรา",

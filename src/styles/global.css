@@ -8,7 +8,7 @@ body {
 }
 
 section {
-  @apply mb-4;
+  @apply mb-6;
 }
 p {
   @apply mb-3 text-sm;

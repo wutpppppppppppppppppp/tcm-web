@@ -33,158 +33,160 @@ export default async function About(props: IAboutProps) {
 
   return (
     <>
-      <section>
-        <h1>
-          {t('meta_title')}
-          <hr className="w-10 border-t-2 border-black"></hr>
-        </h1>
-        <div className="flex flex-col items-center">
-          <h2>{t('meta_description')}</h2>
-          <p className="text-justify">{t('about_paragraph')}</p>
-          <Image src={tcm_bigbag} alt="สารเคมี" />
-          <Link href="/" className="about">{t('Index.meta_title')}</Link>
-          <Link href="/" className="about">{t('Index.meta_description')}</Link>
-        </div>
-        <div className="mt-2 flex flex-col">
-          <p>{t('about_footer_one')}</p>
-          <p>{t('about_footer_two')}</p>
-          <p className="font-bold">
-            {t('about_footer_three')}
+      <div className="max-w-screen-md">
+        <section>
+          <h1>
+            {t('meta_title')}
+            <hr className="w-10 border-t-2 border-black"></hr>
+          </h1>
+          <div className="flex flex-col items-center">
+            <h2>{t('meta_description')}</h2>
+            <p className="text-justify">{t('about_paragraph')}</p>
+            <Image src={tcm_bigbag} alt="สารเคมี" />
             <Link href="/" className="about">{t('Index.meta_title')}</Link>
-          </p>
-          <p className="font-bold">
-            {t('Location_title')}
-            {' '}
-            :
-            <span className="font-normal">
+            <Link href="/" className="about">{t('Index.meta_description')}</Link>
+          </div>
+          <div className="mt-2 flex flex-col">
+            <p>{t('about_footer_one')}</p>
+            <p>{t('about_footer_two')}</p>
+            <p className="font-bold">
+              {t('about_footer_three')}
+              <Link href="/" className="about">{t('Index.meta_title')}</Link>
+            </p>
+            <p className="font-bold">
+              {t('Location_title')}
               {' '}
-              {t('Location')}
-            </span>
-          </p>
-          <p className="font-bold">
-            {t('Tel_title')}
-            {' '}
-            :
-            <span className="font-normal">
+              :
+              <span className="font-normal">
+                {' '}
+                {t('Location')}
+              </span>
+            </p>
+            <p className="font-bold">
+              {t('Tel_title')}
               {' '}
-              {t('Tel')}
-            </span>
-          </p>
-          <p className="font-bold">
-            {t('Fax_title')}
-            {' '}
-            :
-            <span className="font-normal">
+              :
+              <span className="font-normal">
+                {' '}
+                {t('Tel')}
+              </span>
+            </p>
+            <p className="font-bold">
+              {t('Fax_title')}
               {' '}
-              {t('Fax')}
-            </span>
-          </p>
-          <p className="font-bold">
-            {t('Email_title')}
-            {' '}
-            :
-            <span className="font-normal">
+              :
+              <span className="font-normal">
+                {' '}
+                {t('Fax')}
+              </span>
+            </p>
+            <p className="font-bold">
+              {t('Email_title')}
               {' '}
-              {t('Email')}
-            </span>
-          </p>
-        </div>
-      </section>
+              :
+              <span className="font-normal">
+                {' '}
+                {t('Email')}
+              </span>
+            </p>
+          </div>
+        </section>
 
-      <section>
-        <h1>
-          {t('product.meta_title')}
-          <hr className="w-10 border-t-2 border-black"></hr>
-        </h1>
-        <div className="flex flex-col">
-          <h2>{t('product.meta_description')}</h2>
-          <ul>
-            <li>
-              {t('product.description_one')}
-            </li>
-            <li>
-              {t('product.description_two')}
-            </li>
-            <li>
-              {t('product.description_three')}
-            </li>
-          </ul>
-          <Image src={tcm_talcum} alt="Talcum" />
-          <ul>
-            <li>
-              {t('product.category_one')}
-            </li>
-            <li>
-              {t('product.category_two')}
-            </li>
-            <li>
-              {t('product.category_three')}
-            </li>
-            <li>
-              {t('product.category_four')}
-            </li>
-            <li>
-              {t('product.category_five')}
-            </li>
-            <li>
-              {t('product.category_six')}
-            </li>
-            <li>
-              {t('product.category_seven')}
-            </li>
-          </ul>
-          <Image src={tcm_graphite} alt="Graphite" />
-          <ul>
-            <li className="font-bold">
-              {t('product.product_one')}
-              <span className="font-normal">
-                {' '}
-                -
-                {t('product.product_one_description')}
-              </span>
-            </li>
-            <li className="font-bold">
-              {t('product.product_two')}
-              <span className="font-normal">
-                {' '}
-                -
-                {t('product.product_two_description')}
-              </span>
-            </li>
-            <li className="font-bold">
-              {t('product.product_three')}
-              <span className="font-normal">
-                {' '}
-                -
-                {t('product.product_three_description')}
-              </span>
-            </li>
-            <li className="font-bold">
-              {t('product.product_four')}
-              <span className="font-normal">
-                {' '}
-                -
-                {t('product.product_four_description')}
-              </span>
-            </li>
-          </ul>
-          <Image src={tcm_woodenpallet} alt="WoodenPallet" />
-          <p className="text-justify font-bold">
-            {t('about_service_title')}
-            <span className="font-normal">{t('about_service_description')}</span>
-          </p>
-          <Link href="/" className="about">{t('footer')}</Link>
-          <p className="font-bold">
-            {t('Tel_title')}
-            {' '}
-            :
-            <span className="font-normal">
+        <section>
+          <h1>
+            {t('product.meta_title')}
+            <hr className="w-10 border-t-2 border-black"></hr>
+          </h1>
+          <div className="flex flex-col">
+            <h2>{t('product.meta_description')}</h2>
+            <ul>
+              <li>
+                {t('product.description_one')}
+              </li>
+              <li>
+                {t('product.description_two')}
+              </li>
+              <li>
+                {t('product.description_three')}
+              </li>
+            </ul>
+            <Image src={tcm_talcum} alt="Talcum" />
+            <ul>
+              <li>
+                {t('product.category_one')}
+              </li>
+              <li>
+                {t('product.category_two')}
+              </li>
+              <li>
+                {t('product.category_three')}
+              </li>
+              <li>
+                {t('product.category_four')}
+              </li>
+              <li>
+                {t('product.category_five')}
+              </li>
+              <li>
+                {t('product.category_six')}
+              </li>
+              <li>
+                {t('product.category_seven')}
+              </li>
+            </ul>
+            <Image src={tcm_graphite} alt="Graphite" />
+            <ul>
+              <li className="font-bold">
+                {t('product.product_one')}
+                <span className="font-normal">
+                  {' '}
+                  -
+                  {t('product.product_one_description')}
+                </span>
+              </li>
+              <li className="font-bold">
+                {t('product.product_two')}
+                <span className="font-normal">
+                  {' '}
+                  -
+                  {t('product.product_two_description')}
+                </span>
+              </li>
+              <li className="font-bold">
+                {t('product.product_three')}
+                <span className="font-normal">
+                  {' '}
+                  -
+                  {t('product.product_three_description')}
+                </span>
+              </li>
+              <li className="font-bold">
+                {t('product.product_four')}
+                <span className="font-normal">
+                  {' '}
+                  -
+                  {t('product.product_four_description')}
+                </span>
+              </li>
+            </ul>
+            <Image src={tcm_woodenpallet} alt="WoodenPallet" />
+            <p className="text-justify font-bold">
+              {t('about_service_title')}
+              <span className="font-normal">{t('about_service_description')}</span>
+            </p>
+            <Link href="/" className="about">{t('footer')}</Link>
+            <p className="font-bold">
+              {t('Tel_title')}
               {' '}
-              {t('Tel')}
-            </span>
-          </p>
-        </div>
-      </section>
+              :
+              <span className="font-normal">
+                {' '}
+                {t('Tel')}
+              </span>
+            </p>
+          </div>
+        </section>
+      </div>
     </>
   );
 };
