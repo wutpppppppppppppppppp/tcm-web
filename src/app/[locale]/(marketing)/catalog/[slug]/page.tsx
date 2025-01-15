@@ -5,11 +5,15 @@ type ProductDetailProps = {
   params: Promise<{ slug: string; locale: string }>;
 };
 
+const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculte', 'Bentonite'];
+
+type SlugKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite';
+
 export async function generateStaticParams() {
   return routing.locales
     .map(locale =>
-      Array.from(Array.from({ length: 6 }).keys()).map(elt => ({
-        slug: `${elt}`,
+      catalogList.map(slug => ({
+        slug,
         locale,
       })),
     )
@@ -34,9 +38,18 @@ export default async function ProductDetail(props: ProductDetailProps) {
   setRequestLocale(locale);
   const t = await getTranslations({
     locale,
-    namespace: 'CatalogSlug',
+    namespace: 'Catalog',
   });
+  // const key = switch (locale) {
+  //   case "th":
+  //       return "product_th"
+  //     break;
 
+  //   default:
+  //     break;
+  // }
+
+  // product[key]
   return (
     <div className="container mx-auto px-4">
       <h1 className="mb-4 text-2xl font-bold">{t('title', { slug })}</h1>
@@ -53,7 +66,7 @@ export default async function ProductDetail(props: ProductDetailProps) {
         <div>
           <p className="mb-4 text-lg">{t('description')}</p>
           <div className="prose max-w-none">
-            {t('full_description')}
+            {t(`${slug}.name` as `${SlugKeys}.name`)}
           </div>
         </div>
       </div>

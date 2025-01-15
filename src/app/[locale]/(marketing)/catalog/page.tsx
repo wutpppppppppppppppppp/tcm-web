@@ -2,11 +2,13 @@ import { CatalogCard } from '@/components/CatalogCard';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 
-type IPortfolioProps = {
+type ICatalogProps = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(props: IPortfolioProps) {
+const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculte', 'Bentonite'];
+
+export async function generateMetadata(props: ICatalogProps) {
   const { locale } = await props.params;
   const t = await getTranslations({
     locale,
@@ -19,7 +21,7 @@ export async function generateMetadata(props: IPortfolioProps) {
   };
 }
 
-export default async function Portfolio(props: IPortfolioProps) {
+export default async function Portfolio(props: ICatalogProps) {
   const { locale } = await props.params;
   setRequestLocale(locale);
   const t = await getTranslations({
@@ -34,14 +36,13 @@ export default async function Portfolio(props: IPortfolioProps) {
           {t('title')}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <CatalogCard alt="งาน 1" title="เทลคัม เพาเดอร์, แป้งทัลคัม(talcum)" />
         <div className="grid grid-cols-1 justify-items-start gap-3 md:grid-cols-2 xl:grid-cols-3">
-          {Array.from(Array.from({ length: 6 }).keys()).map(elt => (
+          {catalogList.map(index => (
             <Link
-              key={elt}
-              href={`/portfolio/${elt}`}
+              key={index}
+              href={`/catalog/${index}`}
             >
-              {t('description', { name: elt })}
+              <CatalogCard title={index} />
             </Link>
           ))}
         </div>

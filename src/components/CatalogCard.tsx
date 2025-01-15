@@ -1,21 +1,21 @@
+import placeholder from '@/public/p300.png';
 import Image from 'next/image';
 import React from 'react';
 
 type CatalogCardProps = {
-  alt: string;
   title: string;
 };
 
-export const CatalogCard: React.FC<CatalogCardProps> = async ({ alt, title }) => {
+export const CatalogCard: React.FC<CatalogCardProps> = async ({ title }) => {
   return (
-    <div className="flex w-96 flex-col border-2">
-      <Image src="/images/catalog/1.jpg" alt={alt} width={300} height={300} />
-      <h2>{title}</h2>
+    <div className="flex flex-col items-center border-2">
+      <Image src={placeholder} width={300} height={300} className="m-4" alt={title} />
+      <h3 className="mb-2">{title}</h3>
       <button
         type="button"
-        className="bg-gradient-to-t from-teal-200 to-violet-500 text-white hover:bg-white hover:text-black"
+        className="h-10 place-self-stretch border border-[#42C5AB] bg-gradient-to-l from-[#1A1C57] to-[#42C5AB] text-white hover:from-white hover:to-white hover:text-[#42C5AB]"
       >
-        เพิ่มเข้าตะกร้า
+        ดูรายละเอียด
       </button>
     </div>
   );
