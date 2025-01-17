@@ -1,5 +1,7 @@
+import { SocialBtn } from '@/components/SocialBtn';
 import { routing } from '@/libs/i18nNavigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import Image from 'next/image';
 
 type ProductDetailProps = {
   params: Promise<{ slug: string; locale: string }>;
@@ -51,26 +53,32 @@ export default async function ProductDetail(props: ProductDetailProps) {
 
   // product[key]
   return (
-    <div className="container mx-auto px-4">
-      <h1 className="mb-4 text-2xl font-bold">{t('title', { slug })}</h1>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-        {/* <div>
+    <>
+      <section>
+        <h1>
+          {t('title')}
+          <hr className="w-10 border-t-2 border-black"></hr>
+        </h1>
+        <div className="container flex">
           <Image
-            src={image || '/placeholder.jpg'}
-            alt={t('description')}
+            src="/p300.png" // `${slug}_slug_pic.jpg` || `${slug}_slug_pic.jpg` ||
+            alt={t(`${slug}.metadata` as `${SlugKeys}.metadata`)}
             width={500}
             height={500}
             className="rounded-lg"
           />
-        </div> */}
-        <div>
-          <p className="mb-4 text-lg">{t('description')}</p>
-          <div className="prose max-w-none">
-            {t(`${slug}.name` as `${SlugKeys}.name`)}
+          <div className="flex flex-col items-center">
+            <h1 className="mb-4 text-2xl font-bold">{t(`${slug}.name` as `${SlugKeys}.name`)}</h1>
+            <h2 className="mb-4 text-lg">{t(`${slug}.h1` as `${SlugKeys}.h1`)}</h2>
+            <h3 className="prose max-w-none">
+              {t(`${slug}.h2` as `${SlugKeys}.h2`)}
+            </h3>
+            <p>{t(`${slug}.p` as `${SlugKeys}.p`)}</p>
+            <SocialBtn />
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 }
 
