@@ -7,9 +7,9 @@ type ProductDetailProps = {
   params: Promise<{ slug: string; locale: string }>;
 };
 
-const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculte', 'Bentonite'];
+const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculite', 'Bentonite', 'Ceramic', 'Food chemical', 'Swimming pool'];
 
-type SlugKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite';
+type SlugKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite' | 'Ceramic' | 'Food chemical' | 'Swimming pool';
 
 export async function generateStaticParams() {
   return routing.locales
@@ -59,7 +59,7 @@ export default async function ProductDetail(props: ProductDetailProps) {
           {t('title')}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <div className="container flex">
+        <div className="container flex gap-4">
           <Image
             src="/p300.png" // `${slug}_slug_pic.jpg` || `${slug}_slug_pic.jpg` ||
             alt={t(`${slug}.metadata` as `${SlugKeys}.metadata`)}
@@ -67,7 +67,7 @@ export default async function ProductDetail(props: ProductDetailProps) {
             height={500}
             className="rounded-lg"
           />
-          <div className="flex flex-col items-center">
+          <div className="text-center">
             <h1 className="mb-4 text-2xl font-bold">{t(`${slug}.name` as `${SlugKeys}.name`)}</h1>
             <h2 className="mb-4 text-lg">{t(`${slug}.h1` as `${SlugKeys}.h1`)}</h2>
             <h3 className="prose max-w-none">
@@ -78,6 +78,7 @@ export default async function ProductDetail(props: ProductDetailProps) {
           </div>
         </div>
       </section>
+      <section></section>
     </>
   );
 }

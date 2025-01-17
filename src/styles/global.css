@@ -70,7 +70,7 @@ img {
 }
 
 .text-share-btn {
-  @apply absolute top-0 left-0 w-full h-full bg-black text-white flex justify-center items-center rounded-[50px] text-2xl z-[99999];
+  @apply absolute top-0 left-0 w-full h-full bg-black text-white flex justify-center items-center rounded-[50px] text-xl z-[99999];
   transition: 1s 0.2s;
 }
 
@@ -82,8 +82,12 @@ img {
   @apply flex list-none m-0 p-0;
 }
 
+.share-items li {
+  @apply m-0;
+}
+
 .share-items li a {
-  @apply text-black inline-block h-full px-2;
+  @apply inline-block h-full px-2;
   transform: scale(0);
 }
 
