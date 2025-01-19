@@ -1,15 +1,21 @@
+import { SocialBtn } from '@/components/SocialBtn';
 import { routing } from '@/libs/i18nNavigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import Image from 'next/image';
 
 type ProductDetailProps = {
   params: Promise<{ slug: string; locale: string }>;
 };
 
+const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculite', 'Bentonite', 'Ceramic', 'Food_chemical', 'Swimming_pool'];
+
+type SlugKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite' | 'Ceramic' | 'Food_chemical' | 'Swimming_pool';
+
 export async function generateStaticParams() {
   return routing.locales
     .map(locale =>
-      Array.from(Array.from({ length: 6 }).keys()).map(elt => ({
-        slug: `${elt}`,
+      catalogList.map(slug => ({
+        slug,
         locale,
       })),
     )
@@ -34,30 +40,52 @@ export default async function ProductDetail(props: ProductDetailProps) {
   setRequestLocale(locale);
   const t = await getTranslations({
     locale,
-    namespace: 'CatalogSlug',
+    namespace: 'Catalog',
   });
+  // const key = switch (locale) {
+  //   case "th":
+  //       return "product_th"
+  //     break;
 
+  //   default:
+  //     break;
+  // }
+
+  // product[key]
   return (
-    <div className="container mx-auto px-4">
-      <h1 className="mb-4 text-2xl font-bold">{t('title', { slug })}</h1>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-        {/* <div>
+    <>
+      <section>
+        <h1>
+          {t('title')}
+          <hr className="w-10 border-t-2 border-black"></hr>
+        </h1>
+        <div className="container flex items-start justify-evenly">
           <Image
-            src={image || '/placeholder.jpg'}
-            alt={t('description')}
-            width={500}
-            height={500}
+            src="/p300.png" // `${slug}_slug_pic.jpg` || `${slug}_slug_pic.jpg` ||
+            alt={t(`${slug}.metadata` as `${SlugKeys}.metadata`)}
+            width={300}
+            height={300}
             className="rounded-lg"
           />
-        </div> */}
-        <div>
-          <p className="mb-4 text-lg">{t('description')}</p>
-          <div className="prose max-w-none">
-            {t('full_description')}
+          <div className="pl-5 text-left">
+            <h1 className="product">{t(`${slug}.name` as `${SlugKeys}.name`)}</h1>
+            <h2 className="product">{t(`${slug}.h1` as `${SlugKeys}.h1`)}</h2>
+            <h3 className="product prose">
+              {t(`${slug}.h2` as `${SlugKeys}.h2`)}
+            </h3>
+            <hr className="solid"></hr>
+            <p className="product">
+              "
+              {t(`${slug}.p` as `${SlugKeys}.p`)}
+              "
+            </p>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+      <section>
+        <SocialBtn />
+      </section>
+    </>
   );
 }
 
