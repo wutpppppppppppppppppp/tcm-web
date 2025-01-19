@@ -12,7 +12,7 @@ export const BaseTemplate = (props: {
 
   return (
     <div className="flex w-full flex-col items-center px-1 text-gray-700 antialiased">
-      <header className="border-b border-gray-300">
+      <header>
         <div className="flex-col justify-items-center pb-8 pt-16">
           <Image
             src="/tcm-icon.png"
@@ -26,15 +26,15 @@ export const BaseTemplate = (props: {
           <h2 className="text-xl">{t('description')}</h2>
         </div>
 
-        <div className="flex justify-center gap-x-5">
+        <div className="flex justify-center">
           <nav>
-            <ul className="flex list-none flex-wrap gap-x-5 text-xl">
+            <ul className="flex list-none flex-wrap gap-0 text-xl">
               {props.leftNav}
             </ul>
           </nav>
 
           <nav>
-            <ul className="flex list-none flex-wrap gap-x-5 text-xl">
+            <ul className="flex list-none flex-wrap gap-0 text-xl">
               {props.rightNav}
             </ul>
           </nav>

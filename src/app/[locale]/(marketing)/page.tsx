@@ -2,6 +2,8 @@ import tcm_warehouse from '@/public/assets/images/tcm-warehouse.jpg';
 import { Currency, Email, Events, PhoneFilled, Shuttle, Store } from '@carbon/icons-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
+import LandingSwiper from '../../../components/LandingSwiper';
+import LineIcon from '../../../components/LineIcon';
 
 type IIndexProps = {
   params: Promise<{ locale: string }>;
@@ -27,6 +29,21 @@ export default async function Index(props: IIndexProps) {
     locale,
     namespace: 'Index',
   });
+
+  const translations = {
+    Banner_one_topic: t('Banner_one_topic'),
+    Banner_one_description_one: t('Banner_one_description_one'),
+    Banner_one_description_two: t('Banner_one_description_two'),
+    Banner_one_description_three: t('Banner_one_description_three'),
+    Banner_one_description_four: t('Banner_one_description_four'),
+    Banner_one_description_five: t('Banner_one_description_five'),
+    Banner_two_topic: t('Banner_two_topic'),
+    Banner_two_description_one: t('Banner_two_description_one'),
+    Banner_two_description_two: t('Banner_two_description_two'),
+    Banner_two_description_three: t('Banner_two_description_three'),
+    Banner_two_description_four: t('Banner_two_description_four'),
+  };
+
   const articleItems = [
     'one',
     'two',
@@ -39,10 +56,10 @@ export default async function Index(props: IIndexProps) {
   return (
     <>
       <section>
-        <div className="flex h-[calc(0.4*100vw)] w-screen flex-col bg-blue-500"></div>
+        <LandingSwiper translations={translations} />
         <div className="grid min-h-20 w-full grid-cols-4 divide-x divide-[#CCCCCC] bg-[#F4F4F4] p-4">
           <div className="flex w-full flex-row items-center justify-center gap-8 px-8">
-            <div className="flex flex-col items-center justify-center gap-2">
+            <div className="flex flex-col items-center justify-center gap-1">
               <PhoneFilled size="32" />
               <h2 className="m-0">{t(`Tel_title`)}</h2>
             </div>
@@ -52,14 +69,14 @@ export default async function Index(props: IIndexProps) {
             </div>
           </div>
           <div className="flex w-full flex-row items-center justify-center gap-8 px-8">
-            <div className="flex flex-col items-center justify-center gap-2">
+            <div className="flex flex-col items-center justify-center gap-1">
               <Email size="32" />
               <h2 className="m-0">{t(`Email_title`)}</h2>
             </div>
             <p>{t(`Email`)}</p>
           </div>
           <div className="flex w-full flex-row items-center justify-center gap-8 px-8">
-            <div className="flex flex-col items-center justify-center gap-2">
+            <div className="flex flex-col items-center justify-center gap-1">
               <Store size="32" />
               <h2 className="m-0">{t(`Address_title`)}</h2>
             </div>
@@ -69,7 +86,7 @@ export default async function Index(props: IIndexProps) {
             </div>
           </div>
           <div className="flex w-full flex-row px-8">
-            a
+            <LineIcon width="40" height="40" className="text-green-400" />
           </div>
         </div>
       </section>
@@ -158,7 +175,13 @@ export default async function Index(props: IIndexProps) {
         <div className="flex flex-wrap justify-center gap-8">
           {articleItems.map(item => (
             <div key={item} className="flex h-[32rem] w-56 flex-col border">
-              <div className="h-40 w-full bg-blue-500"></div>
+              <Image
+                src={`/assets/images/Powder-${item}.jpg`}
+                alt={`section_six_${item}_title_en`}
+                className="h-40 w-full"
+                width={320}
+                height={320}
+              />
               <div className="grow p-3">
                 <h2>{t(`section_six_${item}_title_th` as `section_six_${ArticleKeys}_title_th`)}</h2>
                 <h2>{t(`section_six_${item}_title_en` as `section_six_${ArticleKeys}_title_en`)}</h2>

@@ -1,18 +1,29 @@
 {
   "RootLayout": {
-    "home_link": "หน้าหลัก",
-    "about_link": "เกี่ยวกับเรา",
-    "catalog_link": "แคตตาล็อก",
-    "contact_link": "ติดต่อเรา",
-    "sign_in_link": "เข้าสู่ระบบ",
-    "sign_up_link": "ลงทะเบียน"
+    "home_link": "Home",
+    "about_link": "About Us",
+    "catalog_link": "Catalog",
+    "contact_link": "Contact Us",
+    "sign_in_link": "Sign In",
+    "sign_up_link": "Sign Up"
   },
   "BaseTemplate": {
-    "description": "จำหน่ายเคมีภัณฑ์ เคมีแหลมทองมาร์เกตติ้ง",
-    "made_with": "จัดทำโดย <author></author>."
+    "description": "Supplier of chemical products - Laemthong Marketing Chemicals",
+    "made_with": "Created by <author></author>."
   },
   "Index": {
     "meta_title": "บริษัทเคมีแหลมทองมาร์เกตติ้งจำกัด ขายเคมีภัณฑ์สำหรับอุตสาหกรรม",
+    "Banner_one_topic": "บริษัท เคมีแหลมทอง มาร์เกตติ้ง จำกัด",
+    "Banner_one_description_one": "นำเข้าเเละจำหน่ายเคมีภัณฑ์",
+    "Banner_one_description_two": "อุตสาหกรรมการผลิตยา",
+    "Banner_one_description_three": "อุตสาหกรรมการผลิตกระดาษ",
+    "Banner_one_description_four": "อุตสาหกรรมการเกษตร",
+    "Banner_one_description_five": "อุตสาหกรรมกระดาษ",
+    "Banner_two_topic": "ศูนย์รวมเคมีภัณฑ์อุตสาหกรรม",
+    "Banner_two_description_one": "เคมีคุณภาพ จัดส่งรวดเร็ว ราคายุติธรรม",
+    "Banner_two_description_two": "จำหน่ายเคมี ราคาถูก",
+    "Banner_two_description_three": "จำหน่ายเคมี ราคาโรงงาน",
+    "Banner_two_description_four": "บริการจัดส่งทั่วกรุงเทพเเละปริมณฑล",
     "Tel_title": "เบอร์โทร",
     "Tel_one": "066-112-4917,",
     "Tel_two": "085-921-7197",
@@ -83,12 +94,12 @@
       "category_five": "เคมีอาหารสัตว์ เคมีสำหรับฟาร์มกุ้ง เคมีอาหาร",
       "category_six": "เคมีสระว่ายน้ำ เคมีบำบัดน้ำเสีย",
       "category_seven": "โรงงานผลิตอาหาร",
-      "product_one": "กราไฟท์ - ดำ , กราไฟท์ - เงา",
-      "product_one_description": "เป็นเคมีภัณฑ์ที่ใช้ในการผลิตน้ำมันหล่อลื่น เคมีที่ใช้ทำไส้ดินสอ",
-      "product_two": "เวอร์มิคูไลท์",
-      "product_two_description": "ใช้เป็นวัสดุปลูกในระบบปลูกพืชไร้ดิน ใช้เป็นฉนวนกันความร้อน",
-      "product_three": "ทัลคัม เพาเดอร์",
-      "product_three_description": "ใช้ในอุตสาหกรรมเซรามิก ยาง พลาสติก กระดาษ เคมีสำหรับผลิตแป้งทาตัว เคมีสำหรับอุตสาหกรรมหล่อเรซิ่น",
+      "product_one": "ทัลคัม เพาเดอร์",
+      "product_one_description": "ใช้ในอุตสาหกรรมเซรามิก ยาง พลาสติก กระดาษ เคมีสำหรับผลิตแป้งทาตัว เคมีสำหรับอุตสาหกรรมหล่อเรซิ่น",
+      "product_two": "กราไฟท์ - ดำ , กราไฟท์ - เงา",
+      "product_two_description": "เป็นเคมีภัณฑ์ที่ใช้ในการผลิตน้ำมันหล่อลื่น เคมีที่ใช้ทำไส้ดินสอ",
+      "product_three": "เวอร์มิคูไลท์",
+      "product_three_description": "ใช้เป็นวัสดุปลูกในระบบปลูกพืชไร้ดิน ใช้เป็นฉนวนกันความร้อน",
       "product_four": "เบนโทไนท์",
       "product_four_description": "เคมีสำหรับอุตสาหกรรมทำกระดาษ เคมีสำหรับอุตสาหกรรมเซรามิค เคมีที่ใช้ในโรงหล่อ เคมีสำหรับบำบัดน้ำเสีย"
     },
@@ -97,26 +108,85 @@
     "footer": "จำหน่ายเคมีราคาส่ง –ปลีก, เทลคัม พาวเดอร์, เบนโทไนท์, กราไฟท์, แมกนีเซียมออกไซด์, เวอร์มิคูไลท์, ยิปซั่ม, แคลเซียม คาร์บอเนต, แมกนีเซียม คาร์บอเนต, ติเตเนียม ฯลฯ สั่งแบ่งแพคเล็กได้ "
   },
   "Catalog": {
-    "meta_title": "แคตตาล็อกสินค้าอุตสาหกรรม | บริษัท เคมีแหลมทองมาร์เกตติ้ง จำกัด",
-    "meta_description": "ผลิตภัณฑ์เคมีอุตสาหกรรมคุณภาพสูง จำหน่าทัลคัมและวัตถุดิบอุตสาหกรรม สำหรับอุตสาหกรรมเซรามิก ยาง พลาสติก และกระดาษ",
-    "title": "แคตตาล็อกสินค้า",
-    "description": "สินค้าทั้งหมดของบริษัทเคมีแหลมทองมาร์เกตติ้ง จำกัด สำหรับอุตสาหกรรม"
+    "meta_title": "Industrial Product Catalog | Laemthong Marketing Chemicals Co., Ltd",
+    "meta_description": "High-quality industrial chemical products, including talcum powder and raw materials for ceramics, rubber, plastics, and paper industries.",
+    "title": "Product Catalog",
+    "description": "All products of Laemthong Marketing Chemicals Co., Ltd for industrial use.",
+    "keywords": "คำค้นสินค้า",
+    "Talcum": {
+      "name": "แป้งทัลคัม (Talcum Powder)",
+      "metadata": "แป้งเทลคัมพาวเดอร์ 1250 mesh",
+      "h1": "จำหน่าย Talcum Powder (แป้งทัลคัม)",
+      "h2": "ขายส่งแป้งทัลคัม พาวเดอร์ Talcum Powder",
+      "p": "ราคาส่ง มีสต็อกพร้อมส่งในพื้นที่กรุงเทพ นนทบุรี นครปฐม ปทุมธานี สมุทรปราการ สมุทรสาคร แป้งฝุ่นทัลคัมมีสารทัลค์ เป็นองค์ประกอบหลัก สำหรับใช้เป็นวัตถุดิบในการผลิตเครื่องสำอาง เช่น แป้งพัฟอัดแข็ง บลัชออน โคลนพอกผิว ใช้เป็นวัตถุดิบในการผลิตแป้งฝุ่นโรยตัว มีคุณสมบัติในการดูดซับความชื้น ป้องกันและลดความอับชื้น บรรเทาอาการคันจากความชื้นของผิวกาย"
+    },
+    "Graphite": {
+      "name": "ผงกราไฟท์, กราไฟท์ดำ",
+      "metadata": "ผงกราไฟต์ดำ",
+      "h1": "ผงกราไฟท์, กราไฟท์ดำ",
+      "h2": "",
+      "p": "นำเข้าเเละขายส่งผงกราไฟท์ ราคาส่ง มีสินค้ากราไฟท์ดำพร้อมจัดส่งทั่วประเทศ เป็นตัวนำความร้อนและตัวนำไฟฟ้าได้ดี มักใช้เป็นประโยขน์ในเรื่อง การผลิตเหล็กกล้า ผลิตสื่อนำความร้อน ประจุไฟฟ้า สำหรับการใช้ในอุตสาหกรรมเครื่องเขียน อุตสาหกรรมผลิตแบตเตอรี่ เป็นต้น"
+    },
+    "MgO": {
+      "name": "ผงแป้งแมกนีเซียมออกไซด์",
+      "metadata": "แมกนีเซียมออกไซด์",
+      "h1": "นำเข้า ผงแป้งแมกนีเซียม จำหน่าย แมกนีเซียมออกไซด์",
+      "h2": "",
+      "p": "ผงแป้งที่ใช้ในวงการวัสดุทนไฟ เช่นปูนทนไฟ, อิฐทนไฟ รวมทั้งเป็นส่วนผสมในเซรามิค"
+    },
+    "Vermiculite": {
+      "name": "เวอร์มิคูไลท์ Vermiculite",
+      "metadata": "เวอร์มิคูไลท์",
+      "h1": "นำเข้า และจำหน่าย เวอร์มิคูไลท์",
+      "h2": "ขายส่ง เวอร์มิคูไลท์ Vermiculite ราคาส่ง เวอร์มิคูไลท์เป็นแร่ในกลุ่ม alumino-silicate ใช้เป็นวัสดุปลูกในระบบปลูกพืชไร้ดิน ใช้เป็นฉนวนกันความร้อน",
+      "p": "มีคุณสมบัติดูดน้ำได้ดีไม่ละลายน้ำ มีค่า pH เป็นกลาง เวอร์มิคูไลท์มีธาตุอาหาร โพแทสเซียม แมกนีเซียม และแคลเซียม ที่พืชสามารถนำไปใช้ประโยชน์ได้ เนื่องจากมีการดูดน้ำ นิยมนำเอาเวอร์มิคูไลท์มาผสมกับเพอร์ไลท์ เพิ่มความโปร่งในกับวัสดุปลูกได้เป็นอย่างดี เพื่อใช้เป็นวัสดุในการปลูกการปลูกผักไฮโดรโปนิกส์   "
+    },
+    "Bentonite": {
+      "name": "เบนโทไนท์ Bentonite",
+      "metadata": "เบนโทไนท์",
+      "h1": "นำเข้า เบนโทไนท์ ชนิดผง (ฺBENTONITE POWDER)",
+      "h2": "",
+      "p": "เคมีสำหรับอุตสาหกรรมทำกระดาษ เคมีสำหรับอุตสาหกรรมเซรามิค เคมีที่ใช้ในโรงหล่อ เคมีสำหรับบำบัดน้ำเสีย"
+    },
+    "Ceramic": {
+      "name": "ผงเซรามิก",
+      "metadata": "เซรามิก",
+      "h1": "จำหน่าย ผงเซรามิก เคมีวัตถุดิบที่นำมาใช้ผลิตสีเซรามิก",
+      "h2": "",
+      "p": "จำหน่ายผงเซรามิกราคาส่ง สำหรับกระบวนการผลิตเซรามิก เช่น ผงเคลือบและผงสีเซรามิกที่ทนความร้อนสูง ที่เหมาะแก่การอบเครื่องเซรามิกในอุตสาหกรรม"
+    },
+    "Food_chemical": {
+      "name": "เคมีอาหาร",
+      "metadata": "เคมีอาหาร",
+      "h1": "เคมีสำหรับอุตสาหกรรมผลิตอาหาร",
+      "h2": "",
+      "p": "เคมีสำหรับอุตสาหกรรมผลิตอาหารสัตว์ เคมีอาหารสัตว์ เคมีสำหรับฟาร์มกุ้ง เคมีอาหาร"
+    },
+    "Swimming_pool": {
+      "name": "เคมีสระว่ายน้ำ",
+      "metadata": "เคมีสระว่ายน้ำ",
+      "h1": "เคมีสระว่ายน้ำ",
+      "h2": "",
+      "p": "การเลือกใช้เคมีสำหรับดูแลสระว่ายน้ำ ไม่ว่าจะเพื่อใช้ในการฆ่าเชื้อหรือการควบคุมคุณภาพน้ำในสระว่ายน้ำ รับปรึกษาการเลือกใช้เคมีภัณฑ์ประเภทต่างๆ พร้อมบริการส่งด่วนสำหรับโรงงานผู้ผลิต ย่านนิคมอุตสาหกรรม"
+    }
+
   },
   "CatalogSlug": {
-    "meta_title": "สินค้า {slug} | บริษัท เคมีแหลมทองมาร์เกตติ้ง จำกัด",
-    "meta_description": "{slug} ของบริษัทเคมีแหลมทองมาร์เกตติ้ง จำกัด สำหรับอุตสาหกรรม",
-    "title": "{name} hello",
+    "meta_title": "Product {slug} | Laemthong Marketing Chemicals Co., Ltd",
+    "meta_description": "{slug} by Laemthong Marketing Chemicals Co., Ltd for industrial use.",
+    "title": "{name}",
     "description": "{short_description}",
     "full_description": "{full_description}",
     "image": "{image}",
-    "meta_keywords": "{meta_keywords}"
+    "meta_keywords": "{meta_keywords}",
+    "share": "แชร์"
   },
   "SignIn": {
-    "meta_title": "Sign in",
+    "meta_title": "Sign In",
     "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
   },
   "SignUp": {
-    "meta_title": "Sign up",
+    "meta_title": "Sign Up",
     "meta_description": "Effortlessly create an account through our intuitive sign-up process."
   },
   "Dashboard": {
@@ -128,8 +198,8 @@
   },
   "DashboardLayout": {
     "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "user_profile_link": "Manage Your Account",
+    "sign_out": "Sign Out"
   },
   "Contact": {
     "meta_title": "ติดต่อเรา",
@@ -179,5 +249,8 @@
       "title2": "นำเข้าและจัดจำหน่ายเคมีภัณฑ์",
       "title3": "สำหรับอุตสาหกรรม"
     }
+  },
+  "CatalogCard": {
+    "view_details": "ดูรายละเอียด"
   }
 }

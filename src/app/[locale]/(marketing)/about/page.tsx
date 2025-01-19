@@ -42,7 +42,7 @@ export default async function About(props: IAboutProps) {
           <div className="flex flex-col items-center">
             <h2>{t('meta_description')}</h2>
             <p className="text-justify">{t('about_paragraph')}</p>
-            <Image src={tcm_bigbag} alt="สารเคมี" />
+            <Image className="mb-2" src={tcm_bigbag} alt="สารเคมี" />
             <Link href="/" className="about">{t('Index.meta_title')}</Link>
             <Link href="/" className="about">{t('Index.meta_description')}</Link>
           </div>
@@ -110,7 +110,7 @@ export default async function About(props: IAboutProps) {
                 {t('product.description_three')}
               </li>
             </ul>
-            <Image src={tcm_talcum} alt="Talcum" />
+            <Image className="mb-2" src={tcm_talcum} alt="Talcum" />
             <ul>
               <li>
                 {t('product.category_one')}
@@ -134,7 +134,7 @@ export default async function About(props: IAboutProps) {
                 {t('product.category_seven')}
               </li>
             </ul>
-            <Image src={tcm_graphite} alt="Graphite" />
+            <Image className="mb-2" src={tcm_graphite} alt="Graphite" />
             <ul>
               <li className="font-bold">
                 {t('product.product_one')}
@@ -169,7 +169,7 @@ export default async function About(props: IAboutProps) {
                 </span>
               </li>
             </ul>
-            <Image src={tcm_woodenpallet} alt="WoodenPallet" />
+            <Image className="mb-2" src={tcm_woodenpallet} alt="WoodenPallet" />
             <p className="text-justify font-bold">
               {t('about_service_title')}
               <span className="font-normal">{t('about_service_description')}</span>
