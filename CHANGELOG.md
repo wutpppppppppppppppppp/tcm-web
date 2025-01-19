@@ -1,3 +1,20 @@
+# [2.1.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.0.0...v2.1.0) (2025-01-19)
+
+
+### Bug Fixes
+
+* catalog slug dynamic display ([74edec2](https://github.com/wutpppppppppppppppppp/tcm-web/commit/74edec23819be5cd6e9aa51011317440fe50152f))
+* next-i18n words added ([f8eebe3](https://github.com/wutpppppppppppppppppp/tcm-web/commit/f8eebe3152c19e4b590ec27899bd8e56146f1900))
+
+
+### Features
+
+* all details and product added ([d376a02](https://github.com/wutpppppppppppppppppp/tcm-web/commit/d376a02f9a1ebdd096faf6cd676a2764fab158e0))
+* card style ([55bf9a0](https://github.com/wutpppppppppppppppppp/tcm-web/commit/55bf9a01328341389f66fe649d5564153e9f5442))
+* catalog card init ([7f93d46](https://github.com/wutpppppppppppppppppp/tcm-web/commit/7f93d46b0adbf0954575a051001ae99bac99123e))
+* product card slug ([8ea9d6b](https://github.com/wutpppppppppppppppppp/tcm-web/commit/8ea9d6b2cceabbcabfbca1fcac585f8c3ec05b9f))
+* product page ([5998fad](https://github.com/wutpppppppppppppppppp/tcm-web/commit/5998fad14da78ec03e09202d7c2baf28da2e729d))
+
 # [2.0.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v1.1.0...v2.0.0) (2024-12-29)
 
 
