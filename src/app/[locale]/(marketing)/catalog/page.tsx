@@ -50,7 +50,7 @@ export default async function Portfolio(props: ICatalogProps) {
       </section>
       <section>
         <h1>
-          คำค้นสินค้า
+          {t('keywords')}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
       </section>

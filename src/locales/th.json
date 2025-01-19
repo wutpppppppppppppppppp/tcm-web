@@ -65,6 +65,7 @@
     "meta_description": "High-quality industrial chemical products, including talcum powder and raw materials for ceramics, rubber, plastics, and paper industries.",
     "title": "Product Catalog",
     "description": "All products of Laemthong Marketing Chemicals Co., Ltd for industrial use.",
+    "keywords": "คำค้นสินค้า",
     "Talcum": {
       "name": "แป้งทัลคัม (Talcum Powder)",
       "metadata": "แป้งเทลคัมพาวเดอร์ 1250 mesh",
@@ -201,5 +202,8 @@
       "title2": "นำเข้าและจัดจำหน่ายเคมีภัณฑ์",
       "title3": "สำหรับอุตสาหกรรม"
     }
+  },
+  "CatalogCard": {
+    "view_details": "ดูรายละเอียด"
   }
 }
