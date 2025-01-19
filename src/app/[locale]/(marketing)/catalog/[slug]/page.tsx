@@ -7,9 +7,9 @@ type ProductDetailProps = {
   params: Promise<{ slug: string; locale: string }>;
 };
 
-const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculite', 'Bentonite', 'Ceramic', 'Food chemical', 'Swimming pool'];
+const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculite', 'Bentonite', 'Ceramic', 'Food_chemical', 'Swimming_pool'];
 
-type SlugKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite' | 'Ceramic' | 'Food chemical' | 'Swimming pool';
+type SlugKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite' | 'Ceramic' | 'Food_chemical' | 'Swimming_pool';
 
 export async function generateStaticParams() {
   return routing.locales
@@ -59,26 +59,32 @@ export default async function ProductDetail(props: ProductDetailProps) {
           {t('title')}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <div className="container flex gap-4">
+        <div className="container flex items-start justify-evenly">
           <Image
             src="/p300.png" // `${slug}_slug_pic.jpg` || `${slug}_slug_pic.jpg` ||
             alt={t(`${slug}.metadata` as `${SlugKeys}.metadata`)}
-            width={500}
-            height={500}
+            width={300}
+            height={300}
             className="rounded-lg"
           />
-          <div className="text-center">
-            <h1 className="mb-4 text-2xl font-bold">{t(`${slug}.name` as `${SlugKeys}.name`)}</h1>
-            <h2 className="mb-4 text-lg">{t(`${slug}.h1` as `${SlugKeys}.h1`)}</h2>
-            <h3 className="prose max-w-none">
+          <div className="pl-5 text-left">
+            <h1 className="product">{t(`${slug}.name` as `${SlugKeys}.name`)}</h1>
+            <h2 className="product">{t(`${slug}.h1` as `${SlugKeys}.h1`)}</h2>
+            <h3 className="product prose">
               {t(`${slug}.h2` as `${SlugKeys}.h2`)}
             </h3>
-            <p>{t(`${slug}.p` as `${SlugKeys}.p`)}</p>
-            <SocialBtn />
+            <hr className="solid"></hr>
+            <p className="product">
+              "
+              {t(`${slug}.p` as `${SlugKeys}.p`)}
+              "
+            </p>
           </div>
         </div>
       </section>
-      <section></section>
+      <section>
+        <SocialBtn />
+      </section>
     </>
   );
 }

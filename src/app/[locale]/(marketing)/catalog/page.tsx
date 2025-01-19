@@ -6,8 +6,8 @@ type ICatalogProps = {
   params: Promise<{ locale: string }>;
 };
 
-const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculite', 'Bentonite', 'Ceramic', 'Food chemical', 'Swimming pool'];
-type IndexKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite' | 'Ceramic' | 'Food chemical' | 'Swimming pool';
+const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculite', 'Bentonite', 'Ceramic', 'Food_chemical', 'Swimming_pool'];
+type IndexKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite' | 'Ceramic' | 'Food_chemical' | 'Swimming_pool';
 export async function generateMetadata(props: ICatalogProps) {
   const { locale } = await props.params;
   const t = await getTranslations({
@@ -41,6 +41,7 @@ export default async function Portfolio(props: ICatalogProps) {
             <Link
               key={index}
               href={`/catalog/${index}`}
+              className="product"
             >
               <CatalogCard title={t(`${index}.name` as `${IndexKeys}.name`)} />
             </Link>

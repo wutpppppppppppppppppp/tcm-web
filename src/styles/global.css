@@ -17,7 +17,9 @@ p {
 p.table {
   @apply mb-0 text-sm w-5/6 h-fit;
 }
-
+p.product {
+  @apply text-pretty text-base;
+}
 h1,
 h2 {
   @apply font-bold;
@@ -26,19 +28,30 @@ h2 {
 h1 {
   @apply text-xl mb-6;
 }
+
+h1.product {
+  @apply text-2xl mb-1;
+}
 h2 {
   @apply mb-1 text-lg;
 }
-
+h2.product {
+  @apply text-xl mb-1;
+}
 h2.table {
   @apply mb-0 text-lg w-1/6 pl-4;
 }
-
+h3.product {
+  @apply text-lg italic mb-1 max-w-none;
+}
 a {
   @apply text-[#42c5ab] hover:text-[#25A954] hover:cursor-pointer text-sm font-bold;
 }
 a.about {
   @apply mb-2;
+}
+a.product {
+  @apply text-[#42c5ab] hover:cursor-pointer text-base font-semibold;
 }
 ul {
   @apply gap-2 list-disc pl-6;
@@ -50,10 +63,6 @@ li {
 
 div #table :nth-of-type(even) {
   @apply bg-gray-50;
-}
-
-img {
-  @apply mb-3;
 }
 
 .bg-box {
@@ -113,4 +122,9 @@ img {
 
 .share-items li:nth-child(1) a {
   transition: 0.5s 0.9s;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+  @apply my-3;
 }
