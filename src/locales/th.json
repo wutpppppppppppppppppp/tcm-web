@@ -15,6 +15,23 @@
     "meta_title": "Laemthong Marketing Chemicals Co., Ltd - Industrial Chemical Supplier",
     "meta_description": "We specialize in importing and distributing all kinds of chemical products for industrial use and other businesses that require chemicals. Fair pricing and friendly service."
   },
+  "Footer": {
+    "description": {
+      "title": "บริษัท เคมีแหลมทองมาร์เกตติ้ง จำกัด",
+      "content": "บริษัทขายเคมีภัณฑ์สำหรับอุตสาหกรรม เคมีบำบัดน้ำเสีย เคมีทำความสะอาด \nดำเนินธุรกิจนำเข้า และจัดจำหน่ายจำหน่ายเคมีภัณฑ์ทุกชนิด เคมีภัณฑ์สำหรับอุตสาหกรรม และกิจการอื่นๆที่ใช้สารเคมี จันทร์ ศุกร์ 08.00-17.00"
+    },
+    "contact": {
+      "title": "ติดต่อเรา",
+      "address": "409 ถนนสมเด็จเจ้าพระยา แขวงคลองสาน เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย",
+      "phone": "066-112-4917, 085-921-7191, 081-481-4917, 02-439-0298",
+      "mail": "peangjanpiya@gmail.com",
+      "website": "รอนะจ๊ะ"
+    },
+    "line": {
+      "title": "Add our line account",
+      "content": "Line ID: <a></a>"
+    }
+  },
   "About": {
     "meta_title": "เกี่ยวกับเรา",
     "meta_description": "บริษัทขายเคมีภัณฑ์สำหรับอุตสาหกรรม เคมีบำบัดน้ำเสีย เคมีทำความสะอาด",

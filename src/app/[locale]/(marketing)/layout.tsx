@@ -1,3 +1,4 @@
+import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
@@ -57,6 +58,7 @@ export default async function Layout(props: {
         )}
       >
         <div className="py-5 text-xl">{props.children}</div>
+        <Footer />
       </BaseTemplate>
     </>
   );

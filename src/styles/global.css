@@ -128,3 +128,11 @@ hr.solid {
   border-top: 3px solid #bbb;
   @apply my-3;
 }
+
+.footer ul {
+  @apply m-0 list-none p-0;
+}
+
+.footer ul li i {
+  @apply text-amber-400;
+}
