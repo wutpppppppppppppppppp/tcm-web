@@ -3,24 +3,12 @@ import { Currency, Email, Events, PhoneFilled, Shuttle, Store } from '@carbon/ic
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import LandingSwiper from '../../../components/LandingSwiper';
+import ProductSwiper from '../../../components/ProductSwiper'
 import LineIcon from '../../../components/LineIcon';
 
 type IIndexProps = {
   params: Promise<{ locale: string }>;
 };
-
-export async function generateMetadata(props: IIndexProps) {
-  const { locale } = await props.params;
-  const t = await getTranslations({
-    locale,
-    namespace: 'Index',
-  });
-
-  return {
-    title: t('meta_title'),
-    description: t('meta_description'),
-  };
-}
 
 export default async function Index(props: IIndexProps) {
   const { locale } = await props.params;
@@ -30,6 +18,16 @@ export default async function Index(props: IIndexProps) {
     namespace: 'Index',
   });
 
+  const c = await getTranslations({
+    locale,
+    namespace: 'Catalog',
+  });
+
+  const cc = await getTranslations({
+    locale,
+    namespace: 'CatalogCard',
+  });
+  
   const translations = {
     Banner_one_topic: t('Banner_one_topic'),
     Banner_one_description_one: t('Banner_one_description_one'),
@@ -42,6 +40,18 @@ export default async function Index(props: IIndexProps) {
     Banner_two_description_two: t('Banner_two_description_two'),
     Banner_two_description_three: t('Banner_two_description_three'),
     Banner_two_description_four: t('Banner_two_description_four'),
+  };
+
+  const translations_c = {
+    Talcum: c('Talcum.name'),
+    Graphite: c('Graphite.name'),
+    MgO: c('MgO.name'),
+    Vermiculite: c('Vermiculite.name'),
+    Bentonite: c('Bentonite.name'),
+    Ceramic: c('Ceramic.name'),
+    Food_chemical: c('Food_chemical.name'),
+    Swimming_pool: c('Swimming_pool.name'),
+    view_details: cc('view_details')
   };
 
   const articleItems = [
@@ -139,11 +149,12 @@ export default async function Index(props: IIndexProps) {
         </svg>
       </section>
 
-      <section className="mx-20">
+      <section className="mx-20 h-fit">
         <h1>
           {t(`section_four_title`)}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
+        <ProductSwiper translations={translations_c}/>
       </section>
 
       <section>

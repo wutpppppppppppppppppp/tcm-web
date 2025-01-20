@@ -31,7 +31,6 @@ export default function LandingSwiper({ translations }: ClientComponentProps) {
         disableOnInteraction: false,
       }}
     >
-      {/* First Slide */}
       <SwiperSlide>
         <div className="relative flex items-center justify-center">
           <Image className="h-full" src={banner_1} alt="โกดัง" />
@@ -54,7 +53,6 @@ export default function LandingSwiper({ translations }: ClientComponentProps) {
         </div>
       </SwiperSlide>
 
-      {/* Second Slide */}
       <SwiperSlide>
         <div className="relative flex items-center justify-center">
           <Image className="h-full" src={banner_2} alt="โกดัง" />
