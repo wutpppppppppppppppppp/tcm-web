@@ -11,7 +11,7 @@ export const CatalogCard: React.FC<CatalogCardProps> = async ({ title }) => {
   const t = await getTranslations('CatalogCard');
   return (
     <div className="flex flex-col items-center border-2">
-      <Image src={placeholder} width={300} height={300} className="p-4" alt={title} />
+      <Image src={placeholder} width={250} height={250} className="p-4" alt={title} />
       <h3 className="mb-2 text-pretty text-center font-extrabold">{title}</h3>
       <button
         type="button"

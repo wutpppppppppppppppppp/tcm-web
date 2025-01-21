@@ -1,7 +1,7 @@
 import { Header } from '@/components/Header';
+import Navbar from '@/components/navbar';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import Link from 'next/link';
 
 export default async function Layout(props: {
   children: React.ReactNode;
@@ -15,45 +15,19 @@ export default async function Layout(props: {
     namespace: 'RootLayout',
   });
 
+  const translations = {
+    home_link: t('home_link'),
+    about_link: t('about_link'),
+    catalog_link: t('catalog_link'),
+    contact_link: t('contact_link'),
+  };
+
   return (
     <>
       <Header />
       <BaseTemplate
         leftNav={(
-          <>
-            <li>
-              <Link
-                href="/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                {t('home_link')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/about/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                {t('about_link')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/catalog/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                {t('catalog_link')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/contact/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                {t('contact_link')}
-              </Link>
-            </li>
-          </>
+          <Navbar translations={translations} />
         )}
       >
         <div className="py-5 text-xl">{props.children}</div>
