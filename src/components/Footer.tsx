@@ -35,8 +35,9 @@ export const Footer = async () => {
 
       </div>
       <div className="flex-1 p-4" id="line id">
-        <h1>{t('line.title')}</h1>
-        <Image src={LineQR} alt="QR Code" width={200} height={200} />
+        <h3>
+          {t('line.title')}
+        </h3>
         <p>
           {t.rich('line.content', {
             a: () => (
@@ -46,6 +47,7 @@ export const Footer = async () => {
             ),
           })}
         </p>
+        <Image src={LineQR} alt="QR Code" width={200} height={200} />
       </div>
     </div>
   );
