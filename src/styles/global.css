@@ -8,7 +8,7 @@ body {
 }
 
 section {
-  @apply mb-4;
+  @apply mb-6 max-w-screen-md;
 }
 p {
   @apply mb-3 text-sm;
@@ -127,6 +127,10 @@ div #table :nth-of-type(even) {
 hr.solid {
   border-top: 3px solid #bbb;
   @apply my-3;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 4px black;
 }
 
 .footer ul {

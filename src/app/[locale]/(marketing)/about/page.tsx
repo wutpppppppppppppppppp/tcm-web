@@ -41,51 +41,50 @@ export default async function About(props: IAboutProps) {
         <div className="flex flex-col items-center">
           <h2>{t('meta_description')}</h2>
           <p className="text-justify">{t('about_paragraph')}</p>
-          <Image src={tcm_bigbag} alt="สารเคมี" />
-          <Link href="/" className="about">{t('Index.meta_title')}</Link>
-          <Link href="/" className="about">{t('Index.meta_description')}</Link>
+          <Image className="mb-2" src={tcm_bigbag} alt="สารเคมี" />
+          <Link href="/" className="about">{t('index.meta_title')}</Link>
+          <Link href="/" className="about">{t('index.meta_description')}</Link>
         </div>
         <div className="mt-2 flex flex-col">
           <p>{t('about_footer_one')}</p>
           <p>{t('about_footer_two')}</p>
           <p className="font-bold">
             {t('about_footer_three')}
-            <Link href="/" className="about">{t('Index.meta_title')}</Link>
+            <Link href="/" className="about">{t('index.meta_title')}</Link>
           </p>
           <p className="font-bold">
-            {t('Location_title')}
-            {' '}
+            {t('location_title')}
             :
             <span className="font-normal">
-              {' '}
-              {t('Location')}
+                &nbsp;
+              {t('location')}
             </span>
           </p>
           <p className="font-bold">
-            {t('Tel_title')}
-            {' '}
+            {t('tel_title')}
+            &nbsp;
             :
             <span className="font-normal">
-              {' '}
-              {t('Tel')}
+                &nbsp;
+              {t('tel')}
             </span>
           </p>
           <p className="font-bold">
-            {t('Fax_title')}
-            {' '}
+            {t('fax_title')}
+            &nbsp;
             :
             <span className="font-normal">
-              {' '}
-              {t('Fax')}
+                &nbsp;
+              {t('fax')}
             </span>
           </p>
           <p className="font-bold">
-            {t('Email_title')}
-            {' '}
+            {t('email_title')}
+            &nbsp;
             :
             <span className="font-normal">
-              {' '}
-              {t('Email')}
+                &nbsp;
+              {t('email')}
             </span>
           </p>
         </div>
@@ -109,7 +108,7 @@ export default async function About(props: IAboutProps) {
               {t('product.description_three')}
             </li>
           </ul>
-          <Image src={tcm_talcum} alt="Talcum" />
+          <Image className="mb-2" src={tcm_talcum} alt="Talcum" />
           <ul>
             <li>
               {t('product.category_one')}
@@ -133,12 +132,12 @@ export default async function About(props: IAboutProps) {
               {t('product.category_seven')}
             </li>
           </ul>
-          <Image src={tcm_graphite} alt="Graphite" />
+          <Image className="mb-2" src={tcm_graphite} alt="Graphite" />
           <ul>
             <li className="font-bold">
               {t('product.product_one')}
               <span className="font-normal">
-                {' '}
+                &nbsp;
                 -
                 {t('product.product_one_description')}
               </span>
@@ -146,7 +145,7 @@ export default async function About(props: IAboutProps) {
             <li className="font-bold">
               {t('product.product_two')}
               <span className="font-normal">
-                {' '}
+                &nbsp;
                 -
                 {t('product.product_two_description')}
               </span>
@@ -154,7 +153,7 @@ export default async function About(props: IAboutProps) {
             <li className="font-bold">
               {t('product.product_three')}
               <span className="font-normal">
-                {' '}
+                &nbsp;
                 -
                 {t('product.product_three_description')}
               </span>
@@ -162,25 +161,25 @@ export default async function About(props: IAboutProps) {
             <li className="font-bold">
               {t('product.product_four')}
               <span className="font-normal">
-                {' '}
+                &nbsp;
                 -
                 {t('product.product_four_description')}
               </span>
             </li>
           </ul>
-          <Image src={tcm_woodenpallet} alt="WoodenPallet" />
+          <Image className="mb-2" src={tcm_woodenpallet} alt="WoodenPallet" />
           <p className="text-justify font-bold">
             {t('about_service_title')}
             <span className="font-normal">{t('about_service_description')}</span>
           </p>
           <Link href="/" className="about">{t('footer')}</Link>
           <p className="font-bold">
-            {t('Tel_title')}
-            {' '}
+            {t('tel_title')}
+            &nbsp;
             :
             <span className="font-normal">
-              {' '}
-              {t('Tel')}
+                &nbsp;
+              {t('tel')}
             </span>
           </p>
         </div>
