@@ -1,3 +1,22 @@
+# [2.2.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.1.0...v2.2.0) (2025-01-21)
+
+
+### Bug Fixes
+
+* eslint and typo ([b69cda9](https://github.com/wutpppppppppppppppppp/tcm-web/commit/b69cda9e41601cea5aef663cad1b5011544e6876))
+* next i18 n ([193812f](https://github.com/wutpppppppppppppppppp/tcm-web/commit/193812ff743f6d81a905ec10b12f13c77147c4d7))
+
+
+### Features
+
+* **change white space:** white space ([c75476a](https://github.com/wutpppppppppppppppppp/tcm-web/commit/c75476a413a4e8ca6ad7382de14067b9c38604eb))
+* **fix css:** fix css ([dfe5673](https://github.com/wutpppppppppppppppppp/tcm-web/commit/dfe567368d66f9460a07dcb3df04b56409dad9b4))
+* **landing progress:** landing ([e993106](https://github.com/wutpppppppppppppppppp/tcm-web/commit/e993106ddca96dbc5fd9ebfaab913bf511d43d4e))
+* **landing:** landing ([9e3ed74](https://github.com/wutpppppppppppppppppp/tcm-web/commit/9e3ed74d3441cc86337dd09b0e9e6e2e0a47292f))
+* **landing:** landing ([a9b8904](https://github.com/wutpppppppppppppppppp/tcm-web/commit/a9b890456f10d82e8e5161a2df20b7e84dd04a44))
+* **swiper added:** swiper ([ae94f93](https://github.com/wutpppppppppppppppppp/tcm-web/commit/ae94f9354ff6abab2f7d456877818bc47b4e4d1a))
+* **swiper and header:** landing progress ([d6a1d78](https://github.com/wutpppppppppppppppppp/tcm-web/commit/d6a1d78477f5ee2aa064cedafb9f2d6357f9a68f))
+
 # [2.1.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.0.0...v2.1.0) (2025-01-19)
 
 
