@@ -1,7 +1,7 @@
 import { Header } from '@/components/Header';
+import Navbar from '@/components/navbar';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import Navbar from '../../../components/navbar';
 
 export default async function Layout(props: {
   children: React.ReactNode;

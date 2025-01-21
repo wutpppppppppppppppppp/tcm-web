@@ -31,31 +31,29 @@ export default async function Portfolio(props: ICatalogProps) {
 
   return (
     <>
-      <div className="max-w-screen-md">
-        <section>
-          <h1>
-            {t('title')}
-            <hr className="w-10 border-t-2 border-black"></hr>
-          </h1>
-          <div className="grid grid-cols-1 justify-items-start gap-3 md:grid-cols-2 xl:grid-cols-3">
-            {catalogList.map(index => (
-              <Link
-                key={index}
-                href={`/catalog/${index}`}
-                className="product"
-              >
-                <CatalogCard title={t(`${index}.name` as `${IndexKeys}.name`)} />
-              </Link>
-            ))}
-          </div>
-        </section>
-        <section>
-          <h1>
-            {t('keywords')}
-            <hr className="w-10 border-t-2 border-black"></hr>
-          </h1>
-        </section>
-      </div>
+      <section>
+        <h1>
+          {t('title')}
+          <hr className="w-10 border-t-2 border-black"></hr>
+        </h1>
+        <div className="grid grid-cols-1 justify-items-start gap-3 md:grid-cols-2 xl:grid-cols-3">
+          {catalogList.map(index => (
+            <Link
+              key={index}
+              href={`/catalog/${index}`}
+              className="product"
+            >
+              <CatalogCard title={t(`${index}.name` as `${IndexKeys}.name`)} />
+            </Link>
+          ))}
+        </div>
+      </section>
+      <section>
+        <h1>
+          {t('keywords')}
+          <hr className="w-10 border-t-2 border-black"></hr>
+        </h1>
+      </section>
     </>
   );
 };

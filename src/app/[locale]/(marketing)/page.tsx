@@ -65,7 +65,7 @@ export default async function Index(props: IIndexProps) {
 
   return (
     <>
-      <section>
+      <section className="max-w-none">
         <LandingSwiper translations={translations} />
         <div className="grid min-h-20 w-full grid-cols-4 divide-x divide-[#CCCCCC] bg-[#F4F4F4] p-4">
           <div className="flex w-full flex-row items-center justify-center gap-8 px-8">
@@ -101,7 +101,7 @@ export default async function Index(props: IIndexProps) {
         </div>
       </section>
 
-      <section className="mb-0 flex flex-col items-center justify-center">
+      <section className="mb-0 flex max-w-none flex-col items-center justify-center">
         <h1 className="flex flex-col items-center gap-2">
           {t(`section_two_title`)}
           <hr className="w-12 border-t-2 border-black"></hr>
@@ -111,7 +111,7 @@ export default async function Index(props: IIndexProps) {
         <p className="text-base font-bold">{t(`section_two_footer`)}</p>
       </section>
 
-      <section>
+      <section className="max-w-none">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 180">
           <defs>
             <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -149,7 +149,7 @@ export default async function Index(props: IIndexProps) {
         </svg>
       </section>
 
-      <section className="mx-20 h-fit">
+      <section className="mx-20 h-fit max-w-none">
         <h1>
           {t(`section_four_title`)}
           <hr className="w-10 border-t-2 border-black"></hr>
@@ -157,7 +157,7 @@ export default async function Index(props: IIndexProps) {
         <ProductSwiper translations={translations_c} />
       </section>
 
-      <section>
+      <section className="max-w-none">
         <div className="flex h-fit w-full flex-row flex-wrap justify-center gap-10 bg-gradient-to-r from-[#1797C7] to-[#1D265C] px-20 py-16 text-white lg:gap-20">
           <div className="flex flex-col justify-center text-center lg:w-2/5">
             <h2 className="mb-4">{t(`section_five_title`)}</h2>
@@ -178,7 +178,7 @@ export default async function Index(props: IIndexProps) {
         </svg>
       </section>
 
-      <section className="mx-20">
+      <section className="mx-20 max-w-none">
         <h1>
           {t(`section_six_title`)}
           <hr className="w-10 border-t-2 border-black"></hr>
