@@ -55,37 +55,36 @@ export default async function About(props: IAboutProps) {
             </p>
             <p className="font-bold">
               {t('location_title')}
-              {' '}
               :
               <span className="font-normal">
-                {' '}
+                &nbsp;
                 {t('location')}
               </span>
             </p>
             <p className="font-bold">
               {t('tel_title')}
-              {' '}
+              &nbsp;
               :
               <span className="font-normal">
-                {' '}
+                &nbsp;
                 {t('tel')}
               </span>
             </p>
             <p className="font-bold">
               {t('fax_title')}
-              {' '}
+              &nbsp;
               :
               <span className="font-normal">
-                {' '}
+                &nbsp;
                 {t('fax')}
               </span>
             </p>
             <p className="font-bold">
               {t('email_title')}
-              {' '}
+              &nbsp;
               :
               <span className="font-normal">
-                {' '}
+                &nbsp;
                 {t('email')}
               </span>
             </p>
@@ -139,7 +138,7 @@ export default async function About(props: IAboutProps) {
               <li className="font-bold">
                 {t('product.product_one')}
                 <span className="font-normal">
-                  {' '}
+                  &nbsp;
                   -
                   {t('product.product_one_description')}
                 </span>
@@ -147,7 +146,7 @@ export default async function About(props: IAboutProps) {
               <li className="font-bold">
                 {t('product.product_two')}
                 <span className="font-normal">
-                  {' '}
+                  &nbsp;
                   -
                   {t('product.product_two_description')}
                 </span>
@@ -155,7 +154,7 @@ export default async function About(props: IAboutProps) {
               <li className="font-bold">
                 {t('product.product_three')}
                 <span className="font-normal">
-                  {' '}
+                  &nbsp;
                   -
                   {t('product.product_three_description')}
                 </span>
@@ -163,7 +162,7 @@ export default async function About(props: IAboutProps) {
               <li className="font-bold">
                 {t('product.product_four')}
                 <span className="font-normal">
-                  {' '}
+                  &nbsp;
                   -
                   {t('product.product_four_description')}
                 </span>
@@ -177,10 +176,10 @@ export default async function About(props: IAboutProps) {
             <Link href="/" className="about">{t('footer')}</Link>
             <p className="font-bold">
               {t('tel_title')}
-              {' '}
+              &nbsp;
               :
               <span className="font-normal">
-                {' '}
+                &nbsp;
                 {t('tel')}
               </span>
             </p>
