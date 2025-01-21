@@ -250,6 +250,7 @@
     }
   },
   "CatalogCard": {
-    "view_details": "ดูรายละเอียด"
+    "view_details": "ดูรายละเอียด",
+    "banner_one_topic": ""
   }
 }

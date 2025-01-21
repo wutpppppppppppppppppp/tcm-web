@@ -18,6 +18,20 @@ export default async function Index(props: IIndexProps) {
     namespace: 'Index',
   });
 
+  const translations = {
+    Banner_one_topic: t('banner_one_topic'),
+    Banner_one_description_one: t('banner_one_description_one'),
+    Banner_one_description_two: t('banner_one_description_two'),
+    Banner_one_description_three: t('banner_one_description_three'),
+    Banner_one_description_four: t('banner_one_description_four'),
+    Banner_one_description_five: t('banner_one_description_five'),
+    Banner_two_topic: t('banner_two_topic'),
+    Banner_two_description_one: t('banner_two_description_one'),
+    Banner_two_description_two: t('banner_two_description_two'),
+    Banner_two_description_three: t('banner_two_description_three'),
+    Banner_two_description_four: t('banner_two_description_four'),
+  };
+
   const c = await getTranslations({
     locale,
     namespace: 'Catalog',
@@ -27,20 +41,6 @@ export default async function Index(props: IIndexProps) {
     locale,
     namespace: 'CatalogCard',
   });
-
-  const translations = {
-    Banner_one_topic: t('Banner_one_topic'),
-    Banner_one_description_one: t('Banner_one_description_one'),
-    Banner_one_description_two: t('Banner_one_description_two'),
-    Banner_one_description_three: t('Banner_one_description_three'),
-    Banner_one_description_four: t('Banner_one_description_four'),
-    Banner_one_description_five: t('Banner_one_description_five'),
-    Banner_two_topic: t('Banner_two_topic'),
-    Banner_two_description_one: t('Banner_two_description_one'),
-    Banner_two_description_two: t('Banner_two_description_two'),
-    Banner_two_description_three: t('Banner_two_description_three'),
-    Banner_two_description_four: t('Banner_two_description_four'),
-  };
 
   const translations_c = {
     Talcum: c('Talcum.name'),
@@ -71,28 +71,28 @@ export default async function Index(props: IIndexProps) {
           <div className="flex w-full flex-row items-center justify-center gap-8 px-8">
             <div className="flex flex-col items-center justify-center gap-1">
               <PhoneFilled size="32" />
-              <h2 className="m-0">{t(`Tel_title`)}</h2>
+              <h2 className="m-0">{t('tel_title')}</h2>
             </div>
             <div className="flex flex-col">
-              <p className="m-0">{t(`Tel_one`)}</p>
-              <p className="m-0">{t(`Tel_two`)}</p>
+              <p className="m-0">{t('tel_one')}</p>
+              <p className="m-0">{t('tel_two')}</p>
             </div>
           </div>
           <div className="flex w-full flex-row items-center justify-center gap-8 px-8">
             <div className="flex flex-col items-center justify-center gap-1">
               <Email size="32" />
-              <h2 className="m-0">{t(`Email_title`)}</h2>
+              <h2 className="m-0">{t('email_title')}</h2>
             </div>
-            <p>{t(`Email`)}</p>
+            <p>{t('email')}</p>
           </div>
           <div className="flex w-full flex-row items-center justify-center gap-8 px-8">
             <div className="flex flex-col items-center justify-center gap-1">
               <Store size="32" />
-              <h2 className="m-0">{t(`Address_title`)}</h2>
+              <h2 className="m-0">{t('address_title')}</h2>
             </div>
             <div className="flex flex-col">
-              <p className="m-0">{t(`Address_one`)}</p>
-              <p className="m-0">{t(`Address_two`)}</p>
+              <p className="m-0">{t('address_one')}</p>
+              <p className="m-0">{t('address_two')}</p>
             </div>
           </div>
           <div className="flex w-full flex-row px-8">
