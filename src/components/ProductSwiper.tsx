@@ -1,11 +1,11 @@
 'use client';
 
+import placeholder from '@/public/p300.png';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import placeholder from '@/public/p300.png';
-import Link from 'next/link';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -24,9 +24,9 @@ export default function ProductSwiper({ translations }: ClientComponentProps) {
     <Swiper
       navigation
       modules={[Navigation]}
-      className="swiper-container max-w-5xl"
+      className="max-w-5xl"
       spaceBetween={30}
-      freeMode={true}
+      freeMode
       direction="horizontal"
       breakpoints={{
         0: {

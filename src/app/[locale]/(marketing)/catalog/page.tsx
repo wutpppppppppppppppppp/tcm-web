@@ -31,7 +31,7 @@ export default async function Portfolio(props: ICatalogProps) {
 
   return (
     <>
-      <div className='max-w-screen-md'>
+      <div className="max-w-screen-md">
         <section>
           <h1>
             {t('title')}

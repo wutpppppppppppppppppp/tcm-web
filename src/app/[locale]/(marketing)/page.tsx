@@ -1,10 +1,10 @@
+import LandingSwiper from '@/components/LandingSwiper';
+import LineIcon from '@/components/LineIcon';
+import ProductSwiper from '@/components/ProductSwiper';
 import tcm_warehouse from '@/public/assets/images/tcm-warehouse.jpg';
 import { Currency, Email, Events, PhoneFilled, Shuttle, Store } from '@carbon/icons-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
-import LandingSwiper from '../../../components/LandingSwiper';
-import ProductSwiper from '../../../components/ProductSwiper'
-import LineIcon from '../../../components/LineIcon';
 
 type IIndexProps = {
   params: Promise<{ locale: string }>;
@@ -27,7 +27,7 @@ export default async function Index(props: IIndexProps) {
     locale,
     namespace: 'CatalogCard',
   });
-  
+
   const translations = {
     Banner_one_topic: t('Banner_one_topic'),
     Banner_one_description_one: t('Banner_one_description_one'),
@@ -51,7 +51,7 @@ export default async function Index(props: IIndexProps) {
     Ceramic: c('Ceramic.name'),
     Food_chemical: c('Food_chemical.name'),
     Swimming_pool: c('Swimming_pool.name'),
-    view_details: cc('view_details')
+    view_details: cc('view_details'),
   };
 
   const articleItems = [
@@ -154,7 +154,7 @@ export default async function Index(props: IIndexProps) {
           {t(`section_four_title`)}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <ProductSwiper translations={translations_c}/>
+        <ProductSwiper translations={translations_c} />
       </section>
 
       <section>
