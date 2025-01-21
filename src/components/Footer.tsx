@@ -7,7 +7,7 @@ export const Footer = async () => {
   const t = await getTranslations('Footer');
 
   return (
-    <div className="footer flex h-80 flex-col bg-[#263248] py-4 text-white md:flex-row">
+    <div className="footer flex min-h-80 flex-col bg-[#263248] py-4 text-white md:flex-row">
       <div className="flex-1 p-4" id="description">
         <h1>{t('description.title')}</h1>
         <p>{t('description.content')}</p>
@@ -37,6 +37,15 @@ export const Footer = async () => {
       <div className="flex-1 p-4" id="line id">
         <h1>{t('line.title')}</h1>
         <Image src={LineQR} alt="QR Code" width={200} height={200} />
+        <p>
+          {t.rich('line.content', {
+            a: () => (
+              <a title="Line ID" href="https://line.me/ti/p/~thai_chemical">
+                thai_chemical
+              </a>
+            ),
+          })}
+        </p>
       </div>
     </div>
   );

@@ -29,7 +29,7 @@
     },
     "line": {
       "title": "Add our line account",
-      "content": "Line ID: <a></a>"
+      "content": "Line ID: <line></line>"
     }
   },
   "About": {
