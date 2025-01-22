@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.2.0...v2.3.0) (2025-01-21)
+
+
+### Features
+
+* **i18n:** i18n ([e4ba361](https://github.com/wutpppppppppppppppppp/tcm-web/commit/e4ba3612ab3d2eb409842dd08841b0eaf1da5d6e))
+
 # [2.2.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.1.0...v2.2.0) (2025-01-21)
 
 
