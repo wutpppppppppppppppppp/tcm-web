@@ -50,13 +50,15 @@ export default async function About(props: IAboutProps) {
           <p>{t('about_footer_two')}</p>
           <p className="font-bold">
             {t('about_footer_three')}
+            {' '}
+&nbsp;
             <Link href="/" className="about">{t('index.meta_title')}</Link>
           </p>
           <p className="font-bold">
             {t('location_title')}
             :
             <span className="font-normal">
-                &nbsp;
+              &nbsp;
               {t('location')}
             </span>
           </p>
@@ -65,7 +67,7 @@ export default async function About(props: IAboutProps) {
             &nbsp;
             :
             <span className="font-normal">
-                &nbsp;
+              &nbsp;
               {t('tel')}
             </span>
           </p>
@@ -74,7 +76,7 @@ export default async function About(props: IAboutProps) {
             &nbsp;
             :
             <span className="font-normal">
-                &nbsp;
+              &nbsp;
               {t('fax')}
             </span>
           </p>
@@ -83,7 +85,7 @@ export default async function About(props: IAboutProps) {
             &nbsp;
             :
             <span className="font-normal">
-                &nbsp;
+              &nbsp;
               {t('email')}
             </span>
           </p>
@@ -178,7 +180,7 @@ export default async function About(props: IAboutProps) {
             &nbsp;
             :
             <span className="font-normal">
-                &nbsp;
+              &nbsp;
               {t('tel')}
             </span>
           </p>

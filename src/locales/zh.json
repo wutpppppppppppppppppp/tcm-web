@@ -1,19 +1,19 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About Us",
-    "catalog_link": "Catalog",
-    "contact_link": "Contact Us",
+    "home_link": "หน้าเเรก",
+    "about_link": "เกี่ยวกับเรา",
+    "catalog_link": "เเคตตาล็อก",
+    "contact_link": "ติดต่อเรา",
     "sign_in_link": "Sign In",
     "sign_up_link": "Sign Up"
   },
   "BaseTemplate": {
-    "description": "Supplier of chemical products - Laemthong Marketing Chemicals",
-    "made_with": "Created by <author></author>."
+    "description": "จำหน่ายเคมีภัณฑ์ ไทย เคมิคอลส์ มาร์เก็ตติ้ง",
+    "made_with": "จัดทำโดย <author></author>."
   },
   "Index": {
-    "meta_title": "บริษัทเคมีแหลมทองมาร์เกตติ้งจำกัด ขายเคมีภัณฑ์สำหรับอุตสาหกรรม",
-    "banner_one_topic": "บริษัท เคมีแหลมทอง มาร์เกตติ้ง จำกัด",
+    "meta_title": "บริษัทเคมี ไทย เคมิคอลส์ มาร์เก็ตติ้ง จำกัด ขายเคมีภัณฑ์สำหรับอุตสาหกรรม",
+    "banner_one_topic": "บริษัท ไทย เคมิคอลส์ มาร์เก็ตติ้ง จำกัด",
     "banner_one_description_one": "นำเข้าเเละจำหน่ายเคมีภัณฑ์",
     "banner_one_description_two": "อุตสาหกรรมการผลิตยา",
     "banner_one_description_three": "อุตสาหกรรมการผลิตกระดาษ",
@@ -44,7 +44,7 @@
     "section_three_three_title": "บริการจัดส่งรวดเร็ว",
     "section_three_three_description": "เรามีบริการจัดส่งเคมีภัณฑ์ที่เหมาะสมเพื่อตอบสนองความต้องการของลูกค้าให้หลากหลายมากขึ้น ไม่ว่าลูกค้าจะอยู่พื้นที่ไหน เราพร้อมบริการส่งด่วนสำหรับโรงงานผู้ผลิต",
     "section_four_title": "สินค้าเเนะนำ",
-    "section_five_title": "บริษัท เคมีแหลมทองมาร์เกตติ้ง จำกัด สำนักงานใหญ่",
+    "section_five_title": "บริษัท ไทย เคมิคอลส์ มาร์เก็ตติ้ง จำกัด สำนักงานใหญ่",
     "section_five_description_one": "แนะนำขายเคมีภัณฑ์สำหรับอุตสาหกรรมและกิจการที่ใช้สารเคมี",
     "section_five_description_two": "เช่น โรงแรม, ฟาร์ม, สระว่ายน้ำ, โรงหล่อ, ขุดเจาะ, เคมีช่วยดูดซับเสียง, ช่วยป้องกันไฟ, ตกแต่งบ้าน, เคมีบำบัดน้ำเสีย ฯลฯ เราใส่ใจถึงคุณภาพและจัดจำหน่ายสินค้าเคมีภัณฑ์ที่มีมาตรฐานคุณภาพเดียวกับระดับสากล",
     "section_five_description_three": "รับปรึกษาการเลือกใช้เคมีภัณฑ์ประเภทต่างๆ บริการส่งด่วนสำหรับโรงงานผู้ผลิต พร้อมจัดส่งทั่วประเทศไทย",
@@ -62,6 +62,23 @@
     "section_six_four_title_en": "Magnesium oxide",
     "section_six_four_description": "เป็นแร่ของแข็งสีขาว เป็นสารประกอบโลหะออกไซด์ของแมกนีเซียม เมื่อละลายน้ำแล้วจะทำให้น้ำเป็นด่าง นำมาใช้ประโยชน์หลายด้าน ทั้งในด้านอุตสาหกรรม การแพทย์ อาหาร และการเกษตร เช่น ใช้ผลิตเป็นวัสดุหรือฉนวนกันความร้อน ส่วนผสมของซีเมนต์ก่ออิฐทนไฟ อุตสาหกรรมผลิตยาง ปิโตรเคมี และสารทำความสะอาด"
   },
+  "Footer": {
+    "description": {
+      "title": "Thai Chemical Marketing Co.,Ltd.",
+      "content": "The company sells chemicals for industry, wastewater treatment chemicals, cleaning chemicals. It operates a business importing and distributing all types of chemicals, chemicals for industry, and other activities that use chemicals. Monday to Friday 08:00 - 17:00"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address": "409 Somdet Chao Phraya Road, Khlong San Subdistrict, Khlong San District, Bangkok 10600, Thailand",
+      "phone": "066-112-4917, 085-921-7191, 081-481-4917, 02-439-0298",
+      "mail": "peangjanpiya@gmail.com",
+      "website": "Coming soon"
+    },
+    "line": {
+      "title": "Add our Line account",
+      "content": "Line ID: <a></a>"
+    }
+  },
   "About": {
     "meta_title": "เกี่ยวกับเรา",
     "meta_description": "บริษัทขายเคมีภัณฑ์สำหรับอุตสาหกรรม เคมีบำบัดน้ำเสีย เคมีทำความสะอาด",
@@ -78,7 +95,7 @@
     "email_title": "E-mail",
     "email": "Pengchain@hotmail.com",
     "index": {
-      "meta_title": "บริษัท เคมีเเหลมทองมาร์เกตติ้ง จำกัด",
+      "meta_title": "บริษัท ไทย เคมิคอลส์ มาร์เก็ตติ้ง จำกัด",
       "meta_description": "มีประสบการณ์ด้านเคมีภัณฑ์มากว่า 30 ปี"
     },
     "product": {
@@ -94,12 +111,12 @@
       "category_five": "เคมีอาหารสัตว์ เคมีสำหรับฟาร์มกุ้ง เคมีอาหาร",
       "category_six": "เคมีสระว่ายน้ำ เคมีบำบัดน้ำเสีย",
       "category_seven": "โรงงานผลิตอาหาร",
-      "product_one": "กราไฟท์ - ดำ , กราไฟท์ - เงา",
-      "product_one_description": "เป็นเคมีภัณฑ์ที่ใช้ในการผลิตน้ำมันหล่อลื่น เคมีที่ใช้ทำไส้ดินสอ",
-      "product_two": "เวอร์มิคูไลท์",
-      "product_two_description": "ใช้เป็นวัสดุปลูกในระบบปลูกพืชไร้ดิน ใช้เป็นฉนวนกันความร้อน",
-      "product_three": "ทัลคัม เพาเดอร์",
-      "product_three_description": "ใช้ในอุตสาหกรรมเซรามิก ยาง พลาสติก กระดาษ เคมีสำหรับผลิตแป้งทาตัว เคมีสำหรับอุตสาหกรรมหล่อเรซิ่น",
+      "product_one": "ทัลคัม เพาเดอร์",
+      "product_one_description": "ใช้ในอุตสาหกรรมเซรามิก ยาง พลาสติก กระดาษ เคมีสำหรับผลิตแป้งทาตัว เคมีสำหรับอุตสาหกรรมหล่อเรซิ่น",
+      "product_two": "กราไฟท์ - ดำ , กราไฟท์ - เงา",
+      "product_two_description": "เป็นเคมีภัณฑ์ที่ใช้ในการผลิตน้ำมันหล่อลื่น เคมีที่ใช้ทำไส้ดินสอ",
+      "product_three": "เวอร์มิคูไลท์",
+      "product_three_description": "ใช้เป็นวัสดุปลูกในระบบปลูกพืชไร้ดิน ใช้เป็นฉนวนกันความร้อน",
       "product_four": "เบนโทไนท์",
       "product_four_description": "เคมีสำหรับอุตสาหกรรมทำกระดาษ เคมีสำหรับอุตสาหกรรมเซรามิค เคมีที่ใช้ในโรงหล่อ เคมีสำหรับบำบัดน้ำเสีย"
     },
@@ -108,10 +125,10 @@
     "footer": "จำหน่ายเคมีราคาส่ง –ปลีก, เทลคัม พาวเดอร์, เบนโทไนท์, กราไฟท์, แมกนีเซียมออกไซด์, เวอร์มิคูไลท์, ยิปซั่ม, แคลเซียม คาร์บอเนต, แมกนีเซียม คาร์บอเนต, ติเตเนียม ฯลฯ สั่งแบ่งแพคเล็กได้ "
   },
   "Catalog": {
-    "meta_title": "Industrial Product Catalog | Laemthong Marketing Chemicals Co., Ltd",
-    "meta_description": "High-quality industrial chemical products, including talcum powder and raw materials for ceramics, rubber, plastics, and paper industries.",
-    "title": "Product Catalog",
-    "description": "All products of Laemthong Marketing Chemicals Co., Ltd for industrial use.",
+    "meta_title": "แคตตาล็อกผลิตภัณฑ์อุตสาหกรรม | บริษัท ไทย เคมิคอลส์ มาร์เก็ตติ้ง จำกัด",
+    "meta_description": "ผลิตภัณฑ์เคมีอุตสาหกรรมคุณภาพสูง ได้แก่ แป้งฝุ่น และวัตถุดิบสำหรับอุตสาหกรรมเซรามิก ยาง พลาสติก และกระดาษ",
+    "title": "แคตตาล็อกสินค้า",
+    "description": "สินค้าทั้งหมดของบริษัท ไทย เคมิคอลส์ มาร์เก็ตติ้ง จำกัด สำหรับใช้ในอุตสาหกรรม",
     "keywords": "คำค้นสินค้า",
     "Talcum": {
       "name": "แป้งทัลคัม (Talcum Powder)",
@@ -171,8 +188,8 @@
     }
   },
   "CatalogSlug": {
-    "meta_title": "Product {slug} | Laemthong Marketing Chemicals Co., Ltd",
-    "meta_description": "{slug} by Laemthong Marketing Chemicals Co., Ltd for industrial use.",
+    "meta_title": "สินค้า {slug} | บริษัทเคมี ไทย เคมิคอลส์ มาร์เก็ตติ้ง จำกัด",
+    "meta_description": "{slug} โดย บริษัทเคมี ไทย เคมิคอลส์ มาร์เก็ตติ้ง จำกัด สำหรับใช้ในอุตสาหกรรม",
     "title": "{name}",
     "description": "{short_description}",
     "full_description": "{full_description}",
