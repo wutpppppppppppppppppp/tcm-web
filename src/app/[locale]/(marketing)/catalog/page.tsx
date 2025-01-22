@@ -21,7 +21,7 @@ export async function generateMetadata(props: ICatalogProps) {
   };
 }
 
-export default async function Catalog(props: ICatalogProps) {
+export default async function Portfolio(props: ICatalogProps) {
   const { locale } = await props.params;
   setRequestLocale(locale);
   const t = await getTranslations({

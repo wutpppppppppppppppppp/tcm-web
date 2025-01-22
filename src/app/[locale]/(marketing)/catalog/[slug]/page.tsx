@@ -58,26 +58,26 @@ export default async function ProductDetail(props: ProductDetailProps) {
           {t('title')}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <div className="container flex items-start justify-evenly">
-          {/* <Image
-            src={`/assets/images/${slug}_Slug.png`}
-            alt={t(`${slug}.metadata` as `${SlugKeys}.metadata`)}
-            width={300}
-            height={300}
-            className="rounded-lg"
-          /> */}
-          <ImageSlider images={validImages} />
-          <div className="pl-5 text-left">
-            <h1 className="product">{t(`${slug}.name` as `${SlugKeys}.name`)}</h1>
-            <h2 className="product">{t(`${slug}.h1` as `${SlugKeys}.h1`)}</h2>
-            <h3 className="product prose">
+        <div className="container flex flex-col items-start justify-between gap-6 md:flex-row">
+          {/* Image Slider */}
+          <div className="w-full md:w-1/2">
+            <ImageSlider images={validImages} />
+          </div>
+
+          {/* Text Box */}
+          <div className="w-full space-y-4 text-left md:w-1/2">
+            <h1 className="product text-2xl font-semibold">
+              {t(`${slug}.name` as `${SlugKeys}.name`)}
+            </h1>
+            <h2 className="product text-xl font-medium text-gray-700">
+              {t(`${slug}.h1` as `${SlugKeys}.h1`)}
+            </h2>
+            <h3 className="product text-lg font-normal text-gray-600">
               {t(`${slug}.h2` as `${SlugKeys}.h2`)}
             </h3>
-            <hr className="solid"></hr>
-            <p className="product">
-              "
+            <hr className="border-gray-300" />
+            <p className="product text-base leading-relaxed text-gray-800">
               {t(`${slug}.p` as `${SlugKeys}.p`)}
-              "
             </p>
           </div>
         </div>

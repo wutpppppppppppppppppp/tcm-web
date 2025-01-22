@@ -30,7 +30,7 @@ export default function ImageSlider({ images }: ImageSliderProps) {
       className="mySwiper"
     >
       {images.map((image, index) => (
-        <SwiperSlide key={image} className="swiper-slide">
+        <SwiperSlide key={index} className="swiper-slide">
           <Image
             src={image}
             alt={`Slide ${index + 1}`}
