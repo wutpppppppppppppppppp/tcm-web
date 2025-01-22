@@ -123,7 +123,14 @@ export default async function Contact(props: IContactProps) {
           </div>
         </div>
       </section>
-      <iframe title="tcm-warehouse" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.78150431927!2d100.50266301178024!3d13.73167419770131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e298e0c16327ff%3A0x5fa7ae36fc3737d3!2z4Lia4Lij4Li04Lip4Lix4LiXIOC5gOC4hOC4oeC4teC5geC4q-C4peC4oeC4l-C4reC4h-C4oeC4suC4o-C5jOC5gOC4geC4leC4leC4tOC5ieC4hyDguIjguLPguIHguLHguJQgKOC4quC4s-C4meC4seC4geC4h-C4suC4meC5g-C4q-C4jeC5iCk!5e0!3m2!1sen!2sth!4v1735223999027!5m2!1sen!2sth" className="h-[30rem] w-full border-0" allowFullScreen referrerPolicy="no-referrer-when-downgrade" />
+      <iframe
+        title="tcm-warehouse"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.78150431927!2d100.50266301178024!3d13.73167419770131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e298e0c16327ff%3A0x5fa7ae36fc3737d3!2z4Lia4Lij4Li04Lip4Lix4LiXIOC5gOC4hOC4oeC4teC5geC4q-C4peC4oeC4l-C4reC4h-C4oeC4suC4o-C5jOC5gOC4geC4leC4leC4tOC5ieC4hyDguIjguLPguIHguLHguJQgKOC4quC4s-C4meC4seC4geC4h-C4suC4meC5g-C4q-C4jeC5iCk!5e0!3m2!1sen!2sth!4v1735223999027!5m2!1sen!2sth"
+        className="h-[30rem] w-full border-0"
+        allowFullScreen
+        referrerPolicy="no-referrer-when-downgrade"
+      >
+      </iframe>
     </>
   );
 };
