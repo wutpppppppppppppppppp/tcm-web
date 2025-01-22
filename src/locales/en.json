@@ -1,272 +1,272 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About Us",
-    "catalog_link": "Catalog",
-    "contact_link": "Contact",
-    "sign_in_link": "Sign In",
-    "sign_up_link": "Sign Up"
+    "home_link": "crwdns1640:0crwdne1640:0",
+    "about_link": "crwdns1642:0crwdne1642:0",
+    "catalog_link": "crwdns1644:0crwdne1644:0",
+    "contact_link": "crwdns1646:0crwdne1646:0",
+    "sign_in_link": "crwdns1648:0crwdne1648:0",
+    "sign_up_link": "crwdns1650:0crwdne1650:0"
   },
   "BaseTemplate": {
-    "description": "Chemical Products Distribution - Thai Chemical Marketing",
-    "made_with": "Created by <author></author>."
+    "description": "crwdns1652:0crwdne1652:0",
+    "made_with": "crwdns1654:0crwdne1654:0"
   },
   "Index": {
-    "meta_title": "Thai Chemical Marketing Co., Ltd. - Industrial Chemical Products Distribution",
-    "banner_one_topic": "Thai Chemical Marketing Co., Ltd.",
-    "banner_one_description_one": "Import and Distribution of Chemical Products",
-    "banner_one_description_two": "Pharmaceutical Manufacturing Industry",
-    "banner_one_description_three": "Paper Manufacturing Industry",
-    "banner_one_description_four": "Agricultural Industry",
-    "banner_one_description_five": "Paper Industry",
-    "banner_two_topic": "Industrial Chemical Center",
-    "banner_two_description_one": "Quality Chemicals, Fast Delivery, Fair Prices",
-    "banner_two_description_two": "Chemical Sales at Low Prices",
-    "banner_two_description_three": "Factory-Direct Chemical Prices",
-    "banner_two_description_four": "Delivery Service throughout Bangkok and Metropolitan Area",
-    "tel_title": "Phone",
-    "tel_one": "066-112-4917,",
-    "tel_two": "085-921-7197",
-    "email_title": "Email",
-    "email": "peangjanpiya@gmail.com",
-    "address_title": "Address",
-    "address_one": "Khlong San District, Khlong San",
-    "address_two": "Bangkok",
-    "meta_description": "Operating in import and distribution of all types of chemicals, industrial chemicals, and other chemical-using businesses. Fair prices with friendly service.",
-    "section_two_title": "Industrial Chemical Sales",
-    "section_two_description_one": "Operating in import and distribution of all types of chemicals, industrial chemicals",
-    "section_two_description_two": "and other chemical-using businesses with fair prices and friendly service",
-    "section_two_footer": "Free consultation from chemical experts!",
-    "section_three_one_title": "Over 30 Years of Chemical Industry Experience",
-    "section_three_one_description": "We have expertise and experience in industrial chemicals, ready to provide sincere consultation for sustainable business results and customer confidence in our products",
-    "section_three_two_title": "Fair Prices",
-    "section_three_two_description": "Wholesale and retail chemical sales with friendly prices regardless of order size, providing quality chemicals and friendly service because we prioritize equal customer rights",
-    "section_three_three_title": "Fast Delivery Service",
-    "section_three_three_description": "We offer appropriate chemical delivery services to meet diverse customer needs, regardless of location, with express delivery available for manufacturers",
-    "section_four_title": "Recommended Products",
-    "section_five_title": "Thai Chemical Marketing Co., Ltd. Head Office",
-    "section_five_description_one": "Recommending industrial chemicals and chemicals for businesses",
-    "section_five_description_two": "Such as hotels, farms, swimming pools, foundries, drilling, sound absorption chemicals, fire prevention, home decoration, wastewater treatment chemicals, etc. We care about quality and distribute chemical products meeting international standards",
-    "section_five_description_three": "Consultation on various chemical uses, express delivery for manufacturers, nationwide delivery available",
-    "section_six_title": "Articles",
-    "section_six_one_title_th": "ผงแป้งทัลคัม",
-    "section_six_one_title_en": "Talcum Powder",
-    "section_six_one_description": "Powder derived from ground talc rock (Talc), which is a hydrated magnesium silicate mineral found naturally. Talc rock can form from hydrothermal reactions of dolomite and igneous rocks containing magnesium and silica. It is commonly used as a component in the cosmetics industry and can also be used as a filler in paper and plastic industries.",
-    "section_six_two_title_th": "ผงกราไฟท์",
-    "section_six_two_title_en": "Graphite Powder",
-    "section_six_two_description": "An allotrope of carbon, commonly known as plumbago or black lead. It is a solid with crystalline sheets, opaque, soft, dark gray to black in color, soft texture, good conductor of heat and electricity. Commonly used in steel production, writing implements, heat loss reduction equipment, automotive brake components, and battery manufacturing.",
-    "section_six_three_title_th": "เวอร์มิคูไลท์",
-    "section_six_three_title_en": "Vermiculite",
-    "section_six_three_description": "A mineral containing various nutrients such as potassium, phosphorus, magnesium, and calcium. Lightweight, water-insoluble, good water retention and absorption, excellent root insulation. Can absorb nutrients and release them gradually, compatible with other growing media. Often used in soil preparation for plants, flowers, ornamentals, cacti, or hydroponic vegetables.",
-    "section_six_four_title_th": "แมกนีเซียมออกไซด์",
-    "section_six_four_title_en": "Magnesium oxide",
-    "section_six_four_description": "A white solid mineral, a metal oxide compound of magnesium. When dissolved in water, it creates an alkaline solution. Has many applications in industry, medicine, food, and agriculture, such as heat insulation materials, cement components for fire-resistant bricks, rubber manufacturing, petrochemicals, and cleaning agents."
+    "meta_title": "crwdns1656:0crwdne1656:0",
+    "banner_one_topic": "crwdns1658:0crwdne1658:0",
+    "banner_one_description_one": "crwdns1660:0crwdne1660:0",
+    "banner_one_description_two": "crwdns1662:0crwdne1662:0",
+    "banner_one_description_three": "crwdns1664:0crwdne1664:0",
+    "banner_one_description_four": "crwdns1666:0crwdne1666:0",
+    "banner_one_description_five": "crwdns1668:0crwdne1668:0",
+    "banner_two_topic": "crwdns1670:0crwdne1670:0",
+    "banner_two_description_one": "crwdns1672:0crwdne1672:0",
+    "banner_two_description_two": "crwdns1674:0crwdne1674:0",
+    "banner_two_description_three": "crwdns1676:0crwdne1676:0",
+    "banner_two_description_four": "crwdns1678:0crwdne1678:0",
+    "tel_title": "crwdns1680:0crwdne1680:0",
+    "tel_one": "crwdns1682:0crwdne1682:0",
+    "tel_two": "crwdns1684:0crwdne1684:0",
+    "email_title": "crwdns1686:0crwdne1686:0",
+    "email": "crwdns1688:0crwdne1688:0",
+    "address_title": "crwdns1690:0crwdne1690:0",
+    "address_one": "crwdns1692:0crwdne1692:0",
+    "address_two": "crwdns1694:0crwdne1694:0",
+    "meta_description": "crwdns1696:0crwdne1696:0",
+    "section_two_title": "crwdns1698:0crwdne1698:0",
+    "section_two_description_one": "crwdns1700:0crwdne1700:0",
+    "section_two_description_two": "crwdns1702:0crwdne1702:0",
+    "section_two_footer": "crwdns1704:0crwdne1704:0",
+    "section_three_one_title": "crwdns1706:0crwdne1706:0",
+    "section_three_one_description": "crwdns1708:0crwdne1708:0",
+    "section_three_two_title": "crwdns1710:0crwdne1710:0",
+    "section_three_two_description": "crwdns1712:0crwdne1712:0",
+    "section_three_three_title": "crwdns1714:0crwdne1714:0",
+    "section_three_three_description": "crwdns1716:0crwdne1716:0",
+    "section_four_title": "crwdns1718:0crwdne1718:0",
+    "section_five_title": "crwdns1720:0crwdne1720:0",
+    "section_five_description_one": "crwdns1722:0crwdne1722:0",
+    "section_five_description_two": "crwdns1724:0crwdne1724:0",
+    "section_five_description_three": "crwdns1726:0crwdne1726:0",
+    "section_six_title": "crwdns1728:0crwdne1728:0",
+    "section_six_one_title_th": "crwdns1730:0crwdne1730:0",
+    "section_six_one_title_en": "crwdns1732:0crwdne1732:0",
+    "section_six_one_description": "crwdns1734:0crwdne1734:0",
+    "section_six_two_title_th": "crwdns1736:0crwdne1736:0",
+    "section_six_two_title_en": "crwdns1738:0crwdne1738:0",
+    "section_six_two_description": "crwdns1740:0crwdne1740:0",
+    "section_six_three_title_th": "crwdns1742:0crwdne1742:0",
+    "section_six_three_title_en": "crwdns1744:0crwdne1744:0",
+    "section_six_three_description": "crwdns1746:0crwdne1746:0",
+    "section_six_four_title_th": "crwdns1748:0crwdne1748:0",
+    "section_six_four_title_en": "crwdns1750:0crwdne1750:0",
+    "section_six_four_description": "crwdns1752:0crwdne1752:0"
   },
   "Footer": {
     "description": {
-      "title": "Thai Chemical Marketing Co.,Ltd.",
-      "content": "The company sells chemicals for industry, wastewater treatment chemicals, cleaning chemicals. It operates a business importing and distributing all types of chemicals, chemicals for industry, and other activities that use chemicals. Monday to Friday 08:00 - 17:00"
+      "title": "crwdns1754:0crwdne1754:0",
+      "content": "crwdns1756:0crwdne1756:0"
     },
     "contact": {
-      "title": "Contact Us",
-      "address": "409 Somdet Chao Phraya Road, Khlong San Subdistrict, Khlong San District, Bangkok 10600, Thailand",
-      "phone": "066-112-4917, 085-921-7191, 081-481-4917, 02-439-0298",
-      "mail": "peangjanpiya@gmail.com",
-      "website": "Coming soon"
+      "title": "crwdns1758:0crwdne1758:0",
+      "address": "crwdns1760:0crwdne1760:0",
+      "phone": "crwdns1762:0crwdne1762:0",
+      "mail": "crwdns1764:0crwdne1764:0",
+      "website": "crwdns1766:0crwdne1766:0"
     },
     "line": {
-      "title": "Add our Line account",
-      "content": "Line ID: <a></a>"
+      "title": "crwdns1768:0crwdne1768:0",
+      "content": "crwdns1770:0crwdne1770:0"
     }
   },
   "About": {
-    "meta_title": "About Us",
-    "meta_description": "Company selling industrial chemicals, wastewater treatment chemicals, cleaning chemicals",
-    "about_paragraph": "Operating in import and distribution of all types of chemicals, industrial chemicals, and other chemical-using businesses such as hotels, farms, swimming pools, foundries, drilling, sound absorption chemicals, fire prevention, home decoration, wastewater treatment chemicals, etc. Suitable for all types of industries. We have customers both inside and outside industrial estates and general customers.",
-    "about_footer_one": "With fair prices and friendly service, customers have long trusted in our products",
-    "about_footer_two": "With fast delivery service to meet diverse customer needs",
-    "about_footer_three": "Recommended company for industrial chemicals, lubricant chemicals, animal feed chemicals, water treatment chemicals at",
-    "location_title": "Company Location",
-    "location": "409 Somdet Chao Phraya, Khlong San, Khlong San, Bangkok 10600",
-    "tel_title": "Tel",
-    "tel": "085-921-7197, 081-481-4917, 02-439-0298, 02-438-3412",
-    "fax_title": "FAX",
-    "fax": "02-438-3412",
-    "email_title": "E-mail",
-    "email": "Pengchain@hotmail.com",
+    "meta_title": "crwdns1772:0crwdne1772:0",
+    "meta_description": "crwdns1774:0crwdne1774:0",
+    "about_paragraph": "crwdns1776:0crwdne1776:0",
+    "about_footer_one": "crwdns1778:0crwdne1778:0",
+    "about_footer_two": "crwdns1780:0crwdne1780:0",
+    "about_footer_three": "crwdns1782:0crwdne1782:0",
+    "location_title": "crwdns1784:0crwdne1784:0",
+    "location": "crwdns1786:0crwdne1786:0",
+    "tel_title": "crwdns1788:0crwdne1788:0",
+    "tel": "crwdns1790:0crwdne1790:0",
+    "fax_title": "crwdns1792:0crwdne1792:0",
+    "fax": "crwdns1794:0crwdne1794:0",
+    "email_title": "crwdns1796:0crwdne1796:0",
+    "email": "crwdns1798:0crwdne1798:0",
     "index": {
-      "meta_title": "Thai Chemical Marketing Co., Ltd.",
-      "meta_description": "Over 30 years of experience in chemicals."
+      "meta_title": "crwdns1800:0crwdne1800:0",
+      "meta_description": "crwdns1802:0crwdne1802:0"
     },
     "product": {
-      "meta_title": "Products and Services",
-      "meta_description": "Sales and import of high-quality chemical products.",
-      "description_one": "Selling chemicals for industrial factories, industrial chemicals.",
-      "description_two": "Selling agricultural chemicals, herbicides, insecticides, fungicides, and food supplements.",
-      "description_three": "Selling various types of rubber chemicals, chemicals for pharmaceuticals.",
-      "category_one": "Ceramic chemicals, cosmetics chemicals, plastic chemicals.",
-      "category_two": "Chemicals for foundries, drilling.",
-      "category_three": "Lubricants (mold release, form release).",
-      "category_four": "Ceramic chemicals, cosmetics chemicals, plastic chemicals.",
-      "category_five": "Animal feed chemicals, chemicals for shrimp farms, food chemicals.",
-      "category_six": "Swimming pool chemicals, wastewater treatment chemicals.",
-      "category_seven": "Food manufacturing plants.",
-      "product_one": "Talcum Powder",
-      "product_one_description": "Used in ceramics, rubber, plastics, paper industries, and resin mold production.",
-      "product_two": "Graphite - Black, Graphite - Shiny",
-      "product_two_description": "Used in lubricant production, pencil lead manufacturing.",
-      "product_three": "Vermiculite",
-      "product_three_description": "Used as growing medium in hydroponics and as thermal insulation material.",
-      "product_four": "Bentonite",
-      "product_four_description": "Used in paper industry, ceramics industry, foundries, and wastewater treatment."
+      "meta_title": "crwdns1804:0crwdne1804:0",
+      "meta_description": "crwdns1806:0crwdne1806:0",
+      "description_one": "crwdns1808:0crwdne1808:0",
+      "description_two": "crwdns1810:0crwdne1810:0",
+      "description_three": "crwdns1812:0crwdne1812:0",
+      "category_one": "crwdns1814:0crwdne1814:0",
+      "category_two": "crwdns1816:0crwdne1816:0",
+      "category_three": "crwdns1818:0crwdne1818:0",
+      "category_four": "crwdns1820:0crwdne1820:0",
+      "category_five": "crwdns1822:0crwdne1822:0",
+      "category_six": "crwdns1824:0crwdne1824:0",
+      "category_seven": "crwdns1826:0crwdne1826:0",
+      "product_one": "crwdns1828:0crwdne1828:0",
+      "product_one_description": "crwdns1830:0crwdne1830:0",
+      "product_two": "crwdns1832:0crwdne1832:0",
+      "product_two_description": "crwdns1834:0crwdne1834:0",
+      "product_three": "crwdns1836:0crwdne1836:0",
+      "product_three_description": "crwdns1838:0crwdne1838:0",
+      "product_four": "crwdns1840:0crwdne1840:0",
+      "product_four_description": "crwdns1842:0crwdne1842:0"
     },
-    "about_service_title": "Consultation for selecting chemical products with express delivery service for manufacturing plants.",
-    "about_service_description": "Serving industrial areas such as Samut Prakan, Samut Sakhon, Nakhon Pathom, Pathum Thani, and many others across Bangkok, Nonthaburi, and other provinces.",
-    "footer": "Wholesale and retail chemical products: Talcum powder, Bentonite, Graphite, Magnesium Oxide, Vermiculite, Gypsum, Calcium Carbonate, Magnesium Carbonate, Titanium, etc. Available in small pack sizes."
+    "about_service_title": "crwdns1844:0crwdne1844:0",
+    "about_service_description": "crwdns1846:0crwdne1846:0",
+    "footer": "crwdns1848:0crwdne1848:0"
   },
   "Catalog": {
-    "meta_title": "Industrial Product Catalog | Thai Chemical Marketing Co., Ltd.",
-    "meta_description": "High-quality industrial chemical products, including talcum powder and raw materials for ceramics, rubber, plastics, and paper industries.",
-    "title": "Product Catalog",
-    "description": "All products of Thai Chemical Marketing Co., Ltd. for industrial use.",
-    "keywords": "Product Keywords",
+    "meta_title": "crwdns1850:0crwdne1850:0",
+    "meta_description": "crwdns1852:0crwdne1852:0",
+    "title": "crwdns1854:0crwdne1854:0",
+    "description": "crwdns1856:0crwdne1856:0",
+    "keywords": "crwdns1858:0crwdne1858:0",
     "Talcum": {
-      "name": "Talcum Powder",
-      "metadata": "1250 mesh Talcum Powder",
-      "h1": "Talcum Powder for Sale",
-      "h2": "Wholesale Talcum Powder",
-      "p": "Available at wholesale prices with stock ready to ship in Bangkok, Nonthaburi, Nakhon Pathom, Pathum Thani, Samut Prakan, and Samut Sakhon. Talcum powder contains talc, which is primarily used in the production of cosmetics such as pressed powder, blush, facial masks, and body powder. It absorbs moisture and prevents skin discomfort from dampness."
+      "name": "crwdns1860:0crwdne1860:0",
+      "metadata": "crwdns1862:0crwdne1862:0",
+      "h1": "crwdns1864:0crwdne1864:0",
+      "h2": "crwdns1866:0crwdne1866:0",
+      "p": "crwdns1868:0crwdne1868:0"
     },
     "Graphite": {
-      "name": "Graphite Powder",
-      "metadata": "Black Graphite Powder",
-      "h1": "Graphite Powder, Black Graphite",
-      "h2": "",
-      "p": "Imported and wholesale black graphite powder, a great conductor of heat and electricity, used in steel production, heat transfer materials, and for making pencil leads and batteries."
+      "name": "crwdns1870:0crwdne1870:0",
+      "metadata": "crwdns1872:0crwdne1872:0",
+      "h1": "crwdns1874:0crwdne1874:0",
+      "h2": "crwdns1876:0crwdne1876:0",
+      "p": "crwdns1878:0crwdne1878:0"
     },
     "MgO": {
-      "name": "Magnesium Oxide Powder",
-      "metadata": "Magnesium Oxide",
-      "h1": "Import and Sale of Magnesium Oxide Powder",
-      "h2": "",
-      "p": "Magnesium oxide powder is used in refractory materials, such as fireproof cement and bricks, and is also a component in ceramics."
+      "name": "crwdns1880:0crwdne1880:0",
+      "metadata": "crwdns1882:0crwdne1882:0",
+      "h1": "crwdns1884:0crwdne1884:0",
+      "h2": "crwdns1886:0crwdne1886:0",
+      "p": "crwdns1888:0crwdne1888:0"
     },
     "Vermiculite": {
-      "name": "Vermiculite",
-      "metadata": "Vermiculite",
-      "h1": "Import and Sale of Vermiculite",
-      "h2": "Wholesale Vermiculite at Competitive Prices",
-      "p": "Vermiculite is an alumino-silicate mineral that is used as a growing medium in hydroponics and as thermal insulation. It is water-absorbent, pH neutral, and provides essential nutrients like potassium, magnesium, and calcium to plants."
+      "name": "crwdns1890:0crwdne1890:0",
+      "metadata": "crwdns1892:0crwdne1892:0",
+      "h1": "crwdns1894:0crwdne1894:0",
+      "h2": "crwdns1896:0crwdne1896:0",
+      "p": "crwdns1898:0crwdne1898:0"
     },
     "Bentonite": {
-      "name": "Bentonite",
-      "metadata": "Bentonite Powder",
-      "h1": "Import and Sale of Bentonite Powder",
-      "h2": "",
-      "p": "Used in the paper industry, ceramics industry, foundries, and wastewater treatment."
+      "name": "crwdns1900:0crwdne1900:0",
+      "metadata": "crwdns1902:0crwdne1902:0",
+      "h1": "crwdns1904:0crwdne1904:0",
+      "h2": "crwdns1906:0crwdne1906:0",
+      "p": "crwdns1908:0crwdne1908:0"
     },
     "Ceramic": {
-      "name": "Ceramic Powder",
-      "metadata": "Ceramic",
-      "h1": "Sale of Ceramic Powder",
-      "h2": "",
-      "p": "Wholesale ceramic powder used in the production of ceramic coatings and high-temperature paints for firing ceramics in industrial processes."
+      "name": "crwdns1910:0crwdne1910:0",
+      "metadata": "crwdns1912:0crwdne1912:0",
+      "h1": "crwdns1914:0crwdne1914:0",
+      "h2": "crwdns1916:0crwdne1916:0",
+      "p": "crwdns1918:0crwdne1918:0"
     },
     "Food_chemical": {
-      "name": "Food Chemicals",
-      "metadata": "Food Chemicals",
-      "h1": "Chemicals for the Food Industry",
-      "h2": "",
-      "p": "Chemicals for animal feed, shrimp farms, and other food-related industries."
+      "name": "crwdns1920:0crwdne1920:0",
+      "metadata": "crwdns1922:0crwdne1922:0",
+      "h1": "crwdns1924:0crwdne1924:0",
+      "h2": "crwdns1926:0crwdne1926:0",
+      "p": "crwdns1928:0crwdne1928:0"
     },
     "Swimming_pool": {
-      "name": "Swimming Pool Chemicals",
-      "metadata": "Swimming Pool Chemicals",
-      "h1": "Swimming Pool Chemicals",
-      "h2": "",
-      "p": "Consultation on the selection of chemicals for maintaining swimming pools, including disinfectants and water quality control. With express delivery service for manufacturing plants."
+      "name": "crwdns1930:0crwdne1930:0",
+      "metadata": "crwdns1932:0crwdne1932:0",
+      "h1": "crwdns1934:0crwdne1934:0",
+      "h2": "crwdns1936:0crwdne1936:0",
+      "p": "crwdns1938:0crwdne1938:0"
     }
   },
   "CatalogSlug": {
-    "meta_title": "Product {slug} | Thai Chemical Marketing Co., Ltd",
-    "meta_description": "{slug} by Thai Chemical Marketing Co., Ltd for industrial use.",
-    "title": "{name}",
-    "description": "{short_description}",
-    "full_description": "{full_description}",
-    "image": "{image}",
-    "meta_keywords": "{meta_keywords}",
-    "share": "Share"
+    "meta_title": "crwdns1940:0{slug}crwdne1940:0",
+    "meta_description": "crwdns1942:0{slug}crwdne1942:0",
+    "title": "crwdns1944:0{name}crwdne1944:0",
+    "description": "crwdns1946:0{short_description}crwdne1946:0",
+    "full_description": "crwdns1948:0{full_description}crwdne1948:0",
+    "image": "crwdns1950:0{image}crwdne1950:0",
+    "meta_keywords": "crwdns1952:0{meta_keywords}crwdne1952:0",
+    "share": "crwdns1954:0crwdne1954:0"
   },
   "SignIn": {
-    "meta_title": "Sign In",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "crwdns1956:0crwdne1956:0",
+    "meta_description": "crwdns1958:0crwdne1958:0"
   },
   "SignUp": {
-    "meta_title": "Sign Up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "crwdns1960:0crwdne1960:0",
+    "meta_description": "crwdns1962:0crwdne1962:0"
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "meta_title": "crwdns1964:0crwdne1964:0",
+    "hello_message": "crwdns1966:0{email}crwdne1966:0"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "crwdns1968:0crwdne1968:0"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage Your Account",
-    "sign_out": "Sign Out"
+    "dashboard_link": "crwdns1970:0crwdne1970:0",
+    "user_profile_link": "crwdns1972:0crwdne1972:0",
+    "sign_out": "crwdns1974:0crwdne1974:0"
   },
   "Contact": {
-    "meta_title": "Contact Us",
-    "meta_description": "Contact details for Thai Chemical Marketing Co., Ltd",
+    "meta_title": "crwdns1976:0crwdne1976:0",
+    "meta_description": "crwdns1978:0crwdne1978:0",
     "contact_info": {
-      "title": "Contact Us",
+      "title": "crwdns1980:0crwdne1980:0",
       "name": {
-        "title": "Business Name",
-        "value": "Thai Chemical Marketing Co., Ltd"
+        "title": "crwdns1982:0crwdne1982:0",
+        "value": "crwdns1984:0crwdne1984:0"
       },
       "address": {
-        "title": "Address",
-        "value": "409 Somdet Chao Phraya Road, Khlong San, Bangkok 10600, Thailand"
+        "title": "crwdns1986:0crwdne1986:0",
+        "value": "crwdns1988:0crwdne1988:0"
       },
       "phone": {
-        "title": "Phone",
-        "value": "06-6112-4917, 08-5921-7191, 08-1481-4917, 0-2439-0298"
+        "title": "crwdns1990:0crwdne1990:0",
+        "value": "crwdns1992:0crwdne1992:0"
       },
       "fax": {
-        "title": "Fax",
-        "value": "0-2438-3412"
+        "title": "crwdns1994:0crwdne1994:0",
+        "value": "crwdns1996:0crwdne1996:0"
       },
       "line_id": {
-        "title": "Line ID",
-        "value": "thai_chemical"
+        "title": "crwdns1998:0crwdne1998:0",
+        "value": "crwdns2000:0crwdne2000:0"
       },
       "email": {
-        "title": "Email",
-        "value": "peangjanpiya@gmail.com"
+        "title": "crwdns2002:0crwdne2002:0",
+        "value": "crwdns2004:0crwdne2004:0"
       },
       "website": {
-        "title": "Website",
-        "value": "Coming soon"
+        "title": "crwdns2006:0crwdne2006:0",
+        "value": "crwdns2008:0crwdne2008:0"
       },
       "office_hours": {
-        "title": "Office Hours",
-        "value": "Monday-Friday 08:00-17:00"
+        "title": "crwdns2010:0crwdne2010:0",
+        "value": "crwdns2012:0crwdne2012:0"
       },
       "map": {
-        "title": "Map",
-        "value": "https://maps.app.goo.gl/5WgaqWyCeFpC2s2X6"
+        "title": "crwdns2014:0crwdne2014:0",
+        "value": "crwdns2016:0crwdne2016:0"
       }
     },
     "image": {
-      "title": "Business Image",
-      "title1": "Thai Chemical Marketing Co., Ltd.",
-      "title2": "Importer and Distributor of Chemicals",
-      "title3": "For Industrial Use"
+      "title": "crwdns2018:0crwdne2018:0",
+      "title1": "crwdns2020:0crwdne2020:0",
+      "title2": "crwdns2022:0crwdne2022:0",
+      "title3": "crwdns2024:0crwdne2024:0"
     }
   },
   "CatalogCard": {
-    "view_details": "View Details"
+    "view_details": "crwdns2026:0crwdne2026:0"
   }
 }
