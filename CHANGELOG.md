@@ -1,3 +1,16 @@
+# [2.5.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.4.2...v2.5.0) (2025-01-22)
+
+
+### Bug Fixes
+
+* **key change:** key change ([22e2b62](https://github.com/wutpppppppppppppppppp/tcm-web/commit/22e2b62de5e26118e5c3bd8409782581ee1d5577))
+
+
+### Features
+
+* **blur and css fix:** add blur and css fix ([fd65d6a](https://github.com/wutpppppppppppppppppp/tcm-web/commit/fd65d6a3d2484dd4a4192d78102af35ed10e8a7d))
+* **placeholder add:** placeholder add ([fe6ef5f](https://github.com/wutpppppppppppppppppp/tcm-web/commit/fe6ef5fd699c3e339be245eb2d1342d8c8db1b95))
+
 ## [2.4.2](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.4.1...v2.4.2) (2025-01-22)
 
 
