@@ -159,7 +159,7 @@ export default async function Index(props: IIndexProps) {
             <p>{t(`section_five_description_two`)}</p>
             <p className="font-bold">{t(`section_five_description_three`)}</p>
           </div>
-          <Image className="w-[34.6875rem]" src={tcm_warehouse} alt="โกดัง" />
+          <Image className="w-[34.6875rem]" src={tcm_warehouse} alt="โกดัง" title="โกดัง" placeholder="blur" />
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
           <defs>
@@ -177,25 +177,29 @@ export default async function Index(props: IIndexProps) {
           {t(`section_six_title`)}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <div className="grid grid-cols-1 justify-center gap-8 sm:grid-cols-2 md:grid-cols-3 lg:mx-40 lg:grid-cols-4">
-          {articleItems.map(item => (
-            <div key={item} className="flex w-full flex-col border">
-              <Image
-                src={`/assets/images/Powder-${item}.jpg`}
-                alt={`section_six_${item}_title_en`}
-                className="h-40 w-full"
-                width={320}
-                height={320}
-              />
-              <div className="flex h-full flex-col p-3">
-                <h2>{t(`section_six_${item}_title_th` as `section_six_${ArticleKeys}_title_th`)}</h2>
-                <h2>{t(`section_six_${item}_title_en` as `section_six_${ArticleKeys}_title_en`)}</h2>
-                <p>
-                  {t(`section_six_${item}_description` as `section_six_${ArticleKeys}_description`)}
-                </p>
+        <div className="flex w-full justify-center">
+          <div className="grid w-[60rem] grid-cols-1 justify-center gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {articleItems.map(item => (
+              <div key={item} className="flex w-full flex-col border">
+                <Image
+                  src={`/assets/images/Powder-${item}.jpg`}
+                  alt={`section_six_${item}_title_en`}
+                  className="h-40 w-full"
+                  width={320}
+                  height={320}
+                  title={`section_six_${item}_title_en`}
+                  placeholder="blur"
+                />
+                <div className="flex h-full flex-col p-3">
+                  <h2>{t(`section_six_${item}_title_th` as `section_six_${ArticleKeys}_title_th`)}</h2>
+                  <h2>{t(`section_six_${item}_title_en` as `section_six_${ArticleKeys}_title_en`)}</h2>
+                  <p>
+                    {t(`section_six_${item}_description` as `section_six_${ArticleKeys}_description`)}
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
     </>

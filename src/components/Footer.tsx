@@ -16,18 +16,18 @@ export const Footer = async () => {
         <h1>{t('contact.title')}</h1>
         <ul>
           <li id="address" className="flex items-start">
-            <i><LocationCompany className="mr-2 size-4" /></i>
+            <i><LocationCompany className="mr-2 mt-1 size-4" /></i>
             <span>{t('contact.address')}</span>
           </li>
           <li id="phone" className="flex items-start">
-            <i><PhoneFilled className="mr-2 size-4" /></i>
+            <i><PhoneFilled className="mr-2 mt-1 size-4" /></i>
             <span>{t('contact.phone')}</span>
           </li>
-          <li id="mail" className="flex items-start">
+          <li id="mail" className="flex items-center">
             <i><Email className="mr-2 size-4" /></i>
             <span>{t('contact.mail')}</span>
           </li>
-          <li id="website" className="flex items-start">
+          <li id="website" className="flex items-center">
             <i><Earth className="mr-2 size-4" /></i>
             <span>{t('contact.website')}</span>
           </li>
