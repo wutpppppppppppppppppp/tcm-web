@@ -1,3 +1,10 @@
+## [2.4.1](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.4.0...v2.4.1) (2025-01-22)
+
+
+### Bug Fixes
+
+* crowdin automation translation ([5e9c21e](https://github.com/wutpppppppppppppppppp/tcm-web/commit/5e9c21e1e294d2ab870469b16cc33152673d75c4))
+
 # [2.4.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.3.1...v2.4.0) (2025-01-22)
 
 
