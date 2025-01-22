@@ -1,3 +1,21 @@
+# [2.4.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.3.1...v2.4.0) (2025-01-22)
+
+
+### Bug Fixes
+
+* merge branch 'main' of https://github.com/wutpppppppppppppppppp/tcm-web into feat-footer ([c2d4bcb](https://github.com/wutpppppppppppppppppp/tcm-web/commit/c2d4bcb5ee1c8801345715e9c18c8b7be9de4149))
+* navbar upperletter typo ([781dc96](https://github.com/wutpppppppppppppppppp/tcm-web/commit/781dc96f0c0d3e33912041311b190b7c9e81706d))
+
+
+### Features
+
+* catalog card responsive ([6d7e938](https://github.com/wutpppppppppppppppppp/tcm-web/commit/6d7e938d39a36afe4e7dadc237bcad9a4043d4ea))
+* eng translation ([ba2850b](https://github.com/wutpppppppppppppppppp/tcm-web/commit/ba2850b0a25390897e3f9923960605a5bff0a8f7))
+* footer init ([0688a69](https://github.com/wutpppppppppppppppppp/tcm-web/commit/0688a698ee790fc6cb9ec7f53af549bcde30e64f))
+* footer style ([56ffb36](https://github.com/wutpppppppppppppppppp/tcm-web/commit/56ffb36ac15680abc9de623d12f9fa83b64b14f5))
+* header design fixed ([1a7043a](https://github.com/wutpppppppppppppppppp/tcm-web/commit/1a7043a951d5a4b1131f9af4050f33de07740e86))
+* product pic ([39e18e9](https://github.com/wutpppppppppppppppppp/tcm-web/commit/39e18e9437f981238de27c88cd67170509a349a1))
+
 ## [2.3.1](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.3.0...v2.3.1) (2025-01-22)
 
 
