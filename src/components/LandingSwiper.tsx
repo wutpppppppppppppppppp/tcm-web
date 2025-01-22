@@ -33,7 +33,7 @@ export default function LandingSwiper({ translations }: ClientComponentProps) {
     >
       <SwiperSlide>
         <div className="relative flex items-center justify-center">
-          <Image className="h-full" src={banner_1} alt="โกดัง" />
+          <Image className="h-full" src={banner_1} alt="โกดัง_1" title="โกดัง_1" placeholder="blur" />
           <div
             className={`absolute flex flex-col items-center justify-center transition-all duration-[1500ms] ${
               activeSlide === 0 ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
@@ -55,7 +55,7 @@ export default function LandingSwiper({ translations }: ClientComponentProps) {
 
       <SwiperSlide>
         <div className="relative flex items-center justify-center">
-          <Image className="h-full" src={banner_2} alt="โกดัง" />
+          <Image className="h-full" src={banner_2} alt="โกดัง_2" title="โกดัง_2" placeholder="blur" />
           <div
             className={`absolute flex flex-col items-center justify-center transition-all duration-700 ${
               activeSlide === 1 ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
