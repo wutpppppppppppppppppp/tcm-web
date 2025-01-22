@@ -44,7 +44,7 @@ export default async function Contact(props: IContactProps) {
 
   return (
     <>
-      <section>
+      <section className="mx-auto">
         <h1>
           {t('contact_info.title')}
           <hr className="w-10 border-t-2 border-black"></hr>
@@ -93,7 +93,7 @@ export default async function Contact(props: IContactProps) {
         </div>
       </section>
 
-      <section>
+      <section className="mx-auto">
         <h1>
           {t('image.title')}
           <hr className="w-10 border-t-2 border-black"></hr>

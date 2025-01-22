@@ -11,7 +11,7 @@ export const BaseTemplate = (props: {
   const t = useTranslations('BaseTemplate');
 
   return (
-    <div className="flex w-full flex-col items-center px-1 text-gray-700 antialiased">
+    <div className="flex w-full flex-col items-center text-gray-700 antialiased">
       <header>
         <div className="flex-col justify-items-center pb-8 pt-16">
           <Image

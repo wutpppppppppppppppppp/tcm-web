@@ -21,7 +21,7 @@ export async function generateMetadata(props: ICatalogProps) {
   };
 }
 
-export default async function Portfolio(props: ICatalogProps) {
+export default async function Catalog(props: ICatalogProps) {
   const { locale } = await props.params;
   setRequestLocale(locale);
   const t = await getTranslations({
@@ -31,7 +31,7 @@ export default async function Portfolio(props: ICatalogProps) {
 
   return (
     <>
-      <section>
+      <section className="mx-auto">
         <h1>
           {t('title')}
           <hr className="w-10 border-t-2 border-black"></hr>
@@ -43,12 +43,12 @@ export default async function Portfolio(props: ICatalogProps) {
               href={`/catalog/${index}`}
               className="product"
             >
-              <CatalogCard title={t(`${index}.name` as `${IndexKeys}.name`)} />
+              <CatalogCard title={t(`${index}.name` as `${IndexKeys}.name`)} locale={locale} imgPath={index} />
             </Link>
           ))}
         </div>
       </section>
-      <section>
+      <section className="mx-auto">
         <h1>
           {t('keywords')}
           <hr className="w-10 border-t-2 border-black"></hr>

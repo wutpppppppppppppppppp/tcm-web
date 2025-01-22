@@ -1,25 +1,40 @@
 'use client';
 
-import placeholder from '@/public/p300.png';
-import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Navigation } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { CatalogCard } from './CatalogCard';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import '../styles/custom-arrow.css';
 
 const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculite', 'Bentonite', 'Ceramic', 'Food_chemical', 'Swimming_pool'];
+type IndexKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite' | 'Ceramic' | 'Food_chemical' | 'Swimming_pool';
 
 type ClientComponentProps = {
   translations: Record<string, string>;
+  params?: Promise<{ locale: string }>;
+  locale: string; // Add this property
 };
 
-export default function ProductSwiper({ translations }: ClientComponentProps) {
+export default function ProductSwiper({ translations, params, locale }: ClientComponentProps) {
   const c = (key: string) => translations[key] || key;
+  const [resolvedLocale, setResolvedLocale] = useState<string | null>(locale || null);
 
+  useEffect(() => {
+    if (!locale && params) {
+      params.then((resolvedParams) => {
+        setResolvedLocale(resolvedParams.locale);
+      });
+    }
+  }, [locale, params]);
+
+  if (!resolvedLocale) {
+    // Optionally, show a loader or return null while waiting for the locale
+    return <div>Loading...</div>;
+  }
   return (
     <Swiper
       navigation
@@ -45,16 +60,7 @@ export default function ProductSwiper({ translations }: ClientComponentProps) {
             href={`/catalog/${index}`}
             className="product"
           >
-            <div className="flex flex-col items-center border-2">
-              <Image src={placeholder} width={300} height={300} className="p-4" alt={c(`${index}`)} />
-              <h3 className="mb-2 text-pretty text-center font-extrabold">{c(`${index}`)}</h3>
-              <button
-                type="button"
-                className="h-10 place-self-stretch border border-[#42C5AB] bg-gradient-to-l from-[#1A1C57] to-[#42C5AB] font-normal text-white hover:from-white hover:to-white hover:text-[#42C5AB]"
-              >
-                {c('view_details')}
-              </button>
-            </div>
+            <CatalogCard title={c(`${index}` as `${IndexKeys}`)} locale={locale} imgPath={index} />
           </Link>
         </SwiperSlide>
       ))}

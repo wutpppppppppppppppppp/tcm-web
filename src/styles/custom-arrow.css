@@ -6,3 +6,12 @@
 .swiper-pagination-bullet {
   @apply bg-white;
 }
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  @apply text-white text-opacity-50 w-10 h-14 bg-black bg-opacity-20 rounded-md;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  @apply bg-gray-700;
+}

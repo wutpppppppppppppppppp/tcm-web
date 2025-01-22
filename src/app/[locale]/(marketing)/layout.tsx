@@ -1,6 +1,6 @@
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
-import Navbar from '@/components/navbar';
+import Navbar from '@/components/Navbar';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
@@ -31,7 +31,7 @@ export default async function Layout(props: {
           <Navbar translations={translations} />
         )}
       >
-        <div className="py-5 text-xl">{props.children}</div>
+        <div className="py-1">{props.children}</div>
         <Footer />
       </BaseTemplate>
     </>
