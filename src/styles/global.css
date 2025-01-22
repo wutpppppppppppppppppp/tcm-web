@@ -132,3 +132,33 @@ hr.solid {
 .text-shadow {
   text-shadow: 1px 1px 4px black;
 }
+
+.footer ul {
+  @apply m-0 list-none p-0;
+}
+
+.footer ul li i {
+  @apply text-amber-400;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -37,11 +37,6 @@ export default async function Index(props: IIndexProps) {
     namespace: 'Catalog',
   });
 
-  const cc = await getTranslations({
-    locale,
-    namespace: 'CatalogCard',
-  });
-
   const translations_c = {
     Talcum: c('Talcum.name'),
     Graphite: c('Graphite.name'),
@@ -51,7 +46,6 @@ export default async function Index(props: IIndexProps) {
     Ceramic: c('Ceramic.name'),
     Food_chemical: c('Food_chemical.name'),
     Swimming_pool: c('Swimming_pool.name'),
-    view_details: cc('view_details'),
   };
 
   const articleItems = [
@@ -154,7 +148,7 @@ export default async function Index(props: IIndexProps) {
           {t(`section_four_title`)}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <ProductSwiper translations={translations_c} />
+        <ProductSwiper translations={translations_c} locale={locale} />
       </section>
 
       <section className="max-w-none">

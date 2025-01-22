@@ -33,7 +33,7 @@ export default async function About(props: IAboutProps) {
 
   return (
     <>
-      <section>
+      <section className="mx-auto">
         <h1>
           {t('meta_title')}
           <hr className="w-10 border-t-2 border-black"></hr>
@@ -92,7 +92,7 @@ export default async function About(props: IAboutProps) {
         </div>
       </section>
 
-      <section>
+      <section className="mx-auto">
         <h1>
           {t('product.meta_title')}
           <hr className="w-10 border-t-2 border-black"></hr>
