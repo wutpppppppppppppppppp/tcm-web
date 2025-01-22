@@ -1,3 +1,21 @@
+## [2.3.1](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.3.0...v2.3.1) (2025-01-22)
+
+
+### Bug Fixes
+
+* crowdin bug translation ([05092d1](https://github.com/wutpppppppppppppppppp/tcm-web/commit/05092d1398204dd95ba9e9b4a3626fc77f72469d))
+* **i18n and css:** i18n and css ([d8d5361](https://github.com/wutpppppppppppppppppp/tcm-web/commit/d8d5361b159b3927537d7f0790e1fa720fe6485c))
+* merge branch 'main' of https://github.com/wutpppppppppppppppppp/tcm-web into i18n ([ca87efa](https://github.com/wutpppppppppppppppppp/tcm-web/commit/ca87efa26ea5edd316e4ec2a2e740b72076265da))
+* resolve crowdin automation translation ([4555869](https://github.com/wutpppppppppppppppppp/tcm-web/commit/45558692caa9e23341e478fd726ff33ffb2b67cc))
+* thai locale typo ([b5c7b13](https://github.com/wutpppppppppppppppppp/tcm-web/commit/b5c7b1354ea140a8daddcdd45a1e8da92aa4d3d2))
+
+# [2.3.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.2.0...v2.3.0) (2025-01-21)
+
+
+### Features
+
+* **i18n:** i18n ([e4ba361](https://github.com/wutpppppppppppppppppp/tcm-web/commit/e4ba3612ab3d2eb409842dd08841b0eaf1da5d6e))
+
 # [2.2.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.1.0...v2.2.0) (2025-01-21)
 
 

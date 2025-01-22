@@ -177,9 +177,9 @@ export default async function Index(props: IIndexProps) {
           {t(`section_six_title`)}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <div className="flex flex-wrap justify-center gap-8">
+        <div className="grid grid-cols-1 justify-center gap-8 sm:grid-cols-2 md:grid-cols-3 lg:mx-40 lg:grid-cols-4">
           {articleItems.map(item => (
-            <div key={item} className="flex h-[32rem] w-56 flex-col border">
+            <div key={item} className="flex w-full flex-col border">
               <Image
                 src={`/assets/images/Powder-${item}.jpg`}
                 alt={`section_six_${item}_title_en`}
@@ -187,7 +187,7 @@ export default async function Index(props: IIndexProps) {
                 width={320}
                 height={320}
               />
-              <div className="grow p-3">
+              <div className="flex h-full flex-col p-3">
                 <h2>{t(`section_six_${item}_title_th` as `section_six_${ArticleKeys}_title_th`)}</h2>
                 <h2>{t(`section_six_${item}_title_en` as `section_six_${ArticleKeys}_title_en`)}</h2>
                 <p>

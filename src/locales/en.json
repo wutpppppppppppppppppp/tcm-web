@@ -1,66 +1,83 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About Us",
-    "catalog_link": "Catalog",
-    "contact_link": "Contact Us",
-    "sign_in_link": "Sign In",
-    "sign_up_link": "Sign Up"
+    "home_link": "crwdns1640:0crwdne1640:0",
+    "about_link": "crwdns1642:0crwdne1642:0",
+    "catalog_link": "crwdns1644:0crwdne1644:0",
+    "contact_link": "crwdns1646:0crwdne1646:0",
+    "sign_in_link": "crwdns1648:0crwdne1648:0",
+    "sign_up_link": "crwdns1650:0crwdne1650:0"
   },
   "BaseTemplate": {
-    "description": "Supplier of chemical products - Laemthong Marketing Chemicals",
-    "made_with": "Created by <author></author>."
+    "description": "crwdns1652:0crwdne1652:0",
+    "made_with": "crwdns1654:0crwdne1654:0"
   },
   "Index": {
-    "meta_title": "บริษัทเคมีแหลมทองมาร์เกตติ้งจำกัด ขายเคมีภัณฑ์สำหรับอุตสาหกรรม",
-    "banner_one_topic": "บริษัท เคมีแหลมทอง มาร์เกตติ้ง จำกัด",
-    "banner_one_description_one": "นำเข้าเเละจำหน่ายเคมีภัณฑ์",
-    "banner_one_description_two": "อุตสาหกรรมการผลิตยา",
-    "banner_one_description_three": "อุตสาหกรรมการผลิตกระดาษ",
-    "banner_one_description_four": "อุตสาหกรรมการเกษตร",
-    "banner_one_description_five": "อุตสาหกรรมกระดาษ",
-    "banner_two_topic": "ศูนย์รวมเคมีภัณฑ์อุตสาหกรรม",
-    "banner_two_description_one": "เคมีคุณภาพ จัดส่งรวดเร็ว ราคายุติธรรม",
-    "banner_two_description_two": "จำหน่ายเคมี ราคาถูก",
-    "banner_two_description_three": "จำหน่ายเคมี ราคาโรงงาน",
-    "banner_two_description_four": "บริการจัดส่งทั่วกรุงเทพเเละปริมณฑล",
-    "tel_title": "เบอร์โทร",
-    "tel_one": "066-112-4917,",
-    "tel_two": "085-921-7197",
-    "email_title": "อีเมล",
-    "email": "peangjanpiya@gmail.com",
-    "address_title": "ที่อยู่",
-    "address_one": "แขวงคลองสาน เขตคลองสาน",
-    "address_two": "กรุงเทพมหานคร",
-    "meta_description": "ดำเนินธุรกิจนำเข้า และจัดจำหน่ายเคมีภัณฑ์ทุกชนิด เคมีภัณฑ์สำหรับอุตสาหกรรม และกิจการอื่นๆ ที่ใช้สารเคมี ด้วยราคายุติธรรม บริการเป็นกันเอง",
-    "section_two_title": "ขายเคมีภัณฑ์สำหรับอุตสาหกรรม",
-    "section_two_description_one": "ดำเนินธุรกิจนำเข้า และจัดจำหน่ายเคมีภัณฑ์ทุกชนิด เคมีภัณฑ์สำหรับอุตสาหกรรมเอง",
-    "section_two_description_two": "และกิจการอื่นๆที่ใช้สารเคมี ด้วยราคายุติธรรม บริการเป็นกัน",
-    "section_two_footer": "พร้อมให้คำปรึกษาจาก ผู้เชี่ยวชาญด้านเคมีภัณฑ์ฟรี!",
-    "section_three_one_title": "มีประสบการณ์ด้านเคมีภัณฑ์มากว่า 30 ปี",
-    "section_three_one_description": "เรามีความเชี่ยวชาญและประสบการณ์ด้านเคมีภัณฑ์สำหรับอุตสาหกรรม พร้อมให้คำปรึกษาอย่างจริงใจ เพื่อให้ผลลัพธ์ทางธุรกิจและลูกค้ามีความเชื่อมั่นในสินค้าของเราอย่างยั่งยืน",
-    "section_three_two_title": "ราคายุติธรรม",
-    "section_three_two_description": "จำหน่ายเคมีภัณฑ์ราคาส่ง-ปลีก ราคาแบบกันเองไม่ว่าจะซื้อมากน้อยเพียงใด ด้วยเคมีภัณฑ์ที่มีคุณภาพและบริการที่เป็นมิตร เพราะเราให้ความสำคัญกับสิทธิของลูกค้าอย่างเท่าเทียม",
-    "section_three_three_title": "บริการจัดส่งรวดเร็ว",
-    "section_three_three_description": "เรามีบริการจัดส่งเคมีภัณฑ์ที่เหมาะสมเพื่อตอบสนองความต้องการของลูกค้าให้หลากหลายมากขึ้น ไม่ว่าลูกค้าจะอยู่พื้นที่ไหน เราพร้อมบริการส่งด่วนสำหรับโรงงานผู้ผลิต",
-    "section_four_title": "สินค้าเเนะนำ",
-    "section_five_title": "บริษัท เคมีแหลมทองมาร์เกตติ้ง จำกัด สำนักงานใหญ่",
-    "section_five_description_one": "แนะนำขายเคมีภัณฑ์สำหรับอุตสาหกรรมและกิจการที่ใช้สารเคมี",
-    "section_five_description_two": "เช่น โรงแรม, ฟาร์ม, สระว่ายน้ำ, โรงหล่อ, ขุดเจาะ, เคมีช่วยดูดซับเสียง, ช่วยป้องกันไฟ, ตกแต่งบ้าน, เคมีบำบัดน้ำเสีย ฯลฯ เราใส่ใจถึงคุณภาพและจัดจำหน่ายสินค้าเคมีภัณฑ์ที่มีมาตรฐานคุณภาพเดียวกับระดับสากล",
-    "section_five_description_three": "รับปรึกษาการเลือกใช้เคมีภัณฑ์ประเภทต่างๆ บริการส่งด่วนสำหรับโรงงานผู้ผลิต พร้อมจัดส่งทั่วประเทศไทย",
-    "section_six_title": "บทความ",
-    "section_six_one_title_th": "ผงแป้งทัลคัม",
-    "section_six_one_title_en": "Talcum Powder",
-    "section_six_one_description": "ผงที่ได้จากการบดหินทาลค์ (Talc) ซึ่งเป็นแร่ประเภท ไฮเดรท แมกนีเซียม ซิลิเกต ที่พบได้ตามธรรมชาติ โดยหินทาลค์สามารถเกิดได้จากปฏิกิริยา Hydrothermal ของหินโดโลไมท์และหินอัคนี ที่มีแมกนีเซียมและซิลิกาเป็นองค์ประกอบ มักนำมาใช้เป็นองค์ประกอบในอุตสาหกรรมเครื่องสำอาง และสามารถนำไปใช้เป็นตัวเติม (filler) ในอุตสาหกรรมกระดาษและพลาสติกได้อีกด้วย",
-    "section_six_two_title_th": "ผงกราไฟท์",
-    "section_six_two_title_en": "Graphite Powder",
-    "section_six_two_description": "เป็นอัญรูปหนึ่งของธาตุคาร์บอน ชื่อสามัญเรียกว่า พลัมเบโก (plumbago) หรือแร่ดินสอดำ มีลักษณะเป็นของแข็ง มีรูปผลึกเป็นแผ่นบาง ๆ ทึบแสง อ่อนนุ่ม สีเทาเข้มถึงดำ เนื้ออ่อน เป็นตัวนำความร้อนและไฟฟ้าได้ดี มักใช้ประโยขน์ในเรื่อง การผลิตเหล็กกล้า อุตสาหกรรมเครื่องเขียน การผลิตอุปกรณ์ที่ช่วยลดการสูญเสียความร้อน การผลิตอุปกรณ์เบรกรถยนต์ อุตสาหกรรมผลิตแบตเตอร์รี่",
-    "section_six_three_title_th": "เวอร์มิคูไลท์",
-    "section_six_three_title_en": "Vermiculite",
-    "section_six_three_description": "เป็นแร่ธาตุชนิดหนึ่งที่มีสารอาหารหลายชนิด เช่น โพแทสเซียม ฟอสฟอรัส แมกนีเซียม และแคลเซียม มีน้ำหนักเบา ไม่ละลายน้ำ อุ้มน้ำและดูดซับน้ำ เป็นฉนวนกันความร้อนให้รากได้อย่างดี สามารถดูดซับธาตุอาหารแล้วค่อยๆปลดปล่อยในภายหลัง ใช้ร่วมกับวัสดุปลูกอื่นๆได้ มักใช้เป็นส่วนประกอบในการปรุงดินสำหรับปลูกต้นไม้ ไม้ดอก ไม้ประดับ กระบองเพชร หรือผักไฮโดรโปนิกส์",
-    "section_six_four_title_th": "แมกนีเซียมออกไซด์",
-    "section_six_four_title_en": "Magnesium oxide",
-    "section_six_four_description": "เป็นแร่ของแข็งสีขาว เป็นสารประกอบโลหะออกไซด์ของแมกนีเซียม เมื่อละลายน้ำแล้วจะทำให้น้ำเป็นด่าง นำมาใช้ประโยชน์หลายด้าน ทั้งในด้านอุตสาหกรรม การแพทย์ อาหาร และการเกษตร เช่น ใช้ผลิตเป็นวัสดุหรือฉนวนกันความร้อน ส่วนผสมของซีเมนต์ก่ออิฐทนไฟ อุตสาหกรรมผลิตยาง ปิโตรเคมี และสารทำความสะอาด"
+    "meta_title": "crwdns1656:0crwdne1656:0",
+    "banner_one_topic": "crwdns1658:0crwdne1658:0",
+    "banner_one_description_one": "crwdns1660:0crwdne1660:0",
+    "banner_one_description_two": "crwdns1662:0crwdne1662:0",
+    "banner_one_description_three": "crwdns1664:0crwdne1664:0",
+    "banner_one_description_four": "crwdns1666:0crwdne1666:0",
+    "banner_one_description_five": "crwdns1668:0crwdne1668:0",
+    "banner_two_topic": "crwdns1670:0crwdne1670:0",
+    "banner_two_description_one": "crwdns1672:0crwdne1672:0",
+    "banner_two_description_two": "crwdns1674:0crwdne1674:0",
+    "banner_two_description_three": "crwdns1676:0crwdne1676:0",
+    "banner_two_description_four": "crwdns1678:0crwdne1678:0",
+    "tel_title": "crwdns1680:0crwdne1680:0",
+    "tel_one": "crwdns1682:0crwdne1682:0",
+    "tel_two": "crwdns1684:0crwdne1684:0",
+    "email_title": "crwdns1686:0crwdne1686:0",
+    "email": "crwdns1688:0crwdne1688:0",
+    "address_title": "crwdns1690:0crwdne1690:0",
+    "address_one": "crwdns1692:0crwdne1692:0",
+    "address_two": "crwdns1694:0crwdne1694:0",
+    "meta_description": "crwdns1696:0crwdne1696:0",
+    "section_two_title": "crwdns1698:0crwdne1698:0",
+    "section_two_description_one": "crwdns1700:0crwdne1700:0",
+    "section_two_description_two": "crwdns1702:0crwdne1702:0",
+    "section_two_footer": "crwdns1704:0crwdne1704:0",
+    "section_three_one_title": "crwdns1706:0crwdne1706:0",
+    "section_three_one_description": "crwdns1708:0crwdne1708:0",
+    "section_three_two_title": "crwdns1710:0crwdne1710:0",
+    "section_three_two_description": "crwdns1712:0crwdne1712:0",
+    "section_three_three_title": "crwdns1714:0crwdne1714:0",
+    "section_three_three_description": "crwdns1716:0crwdne1716:0",
+    "section_four_title": "crwdns1718:0crwdne1718:0",
+    "section_five_title": "crwdns1720:0crwdne1720:0",
+    "section_five_description_one": "crwdns1722:0crwdne1722:0",
+    "section_five_description_two": "crwdns1724:0crwdne1724:0",
+    "section_five_description_three": "crwdns1726:0crwdne1726:0",
+    "section_six_title": "crwdns1728:0crwdne1728:0",
+    "section_six_one_title_th": "crwdns1730:0crwdne1730:0",
+    "section_six_one_title_en": "crwdns1732:0crwdne1732:0",
+    "section_six_one_description": "crwdns1734:0crwdne1734:0",
+    "section_six_two_title_th": "crwdns1736:0crwdne1736:0",
+    "section_six_two_title_en": "crwdns1738:0crwdne1738:0",
+    "section_six_two_description": "crwdns1740:0crwdne1740:0",
+    "section_six_three_title_th": "crwdns1742:0crwdne1742:0",
+    "section_six_three_title_en": "crwdns1744:0crwdne1744:0",
+    "section_six_three_description": "crwdns1746:0crwdne1746:0",
+    "section_six_four_title_th": "crwdns1748:0crwdne1748:0",
+    "section_six_four_title_en": "crwdns1750:0crwdne1750:0",
+    "section_six_four_description": "crwdns1752:0crwdne1752:0"
+  },
+  "Footer": {
+    "description": {
+      "title": "crwdns1754:0crwdne1754:0",
+      "content": "crwdns1756:0crwdne1756:0"
+    },
+    "contact": {
+      "title": "crwdns1758:0crwdne1758:0",
+      "address": "crwdns1760:0crwdne1760:0",
+      "phone": "crwdns1762:0crwdne1762:0",
+      "mail": "crwdns1764:0crwdne1764:0",
+      "website": "crwdns1766:0crwdne1766:0"
+    },
+    "line": {
+      "title": "crwdns1768:0crwdne1768:0",
+      "content": "crwdns1770:0crwdne1770:0"
+    }
   },
   "Footer": {
     "description": {
@@ -80,193 +97,193 @@
     }
   },
   "About": {
-    "meta_title": "เกี่ยวกับเรา",
-    "meta_description": "บริษัทขายเคมีภัณฑ์สำหรับอุตสาหกรรม เคมีบำบัดน้ำเสีย เคมีทำความสะอาด",
-    "about_paragraph": "ดำเนินธุรกิจนำเข้า และจัดจำหน่ายเคมีภัณฑ์ทุกชนิด เคมีภัณฑ์สำหรับอุตสาหกรรม และกิจการอื่นๆ ที่ใช้สารเคมี เช่น โรงแรม ฟาร์ม สระว่ายน้ำ โรงหล่า ขุดเจาะ เคมีช่วยดูดซับเสียง ช่วยป้องกันไฟ ตกแต่งบ้าน เคมีบำบัดน้ำเสีย ฯลฯ เหมาะสำหรับอุตสาหกรรมทุกประเภท เรามีลูกค้าทั้งนอกและในนิคมอุตสาหกรรม และกลุ่มลูกค้าทั่วไป",
-    "about_footer_one": "ด้วยราคายุติธรรม พร้อมบริการอย่างเป็นกันเอง ทำให้ลูกค้ามีความเชื่อมั่นในสินค้าของเรามายาวนาน",
-    "about_footer_two": "พร้อมบริการจัดส่งรวดเร็ว เพื่อตอบสนองความต้องการของลูกค้าทำให้หลากหลายมากขึ้น",
-    "about_footer_three": "แนะนำบริษัทขายเคมีภัณฑ์สำหรับอุตสาหกรรม เคมีหล่อลื่น เคมีอาหารสัตว์ เคมีบำบัดน้ำ ต้อง ",
-    "location_title": "ที่ตั้งบริษัท",
-    "location": "409 สมเด็จเจ้าพระยา แขวงคลองสาน เขตคลองสาน กทม 10600",
-    "tel_title": "โทร",
-    "tel": "085-921-7197, 081-481-4917, 02-439-0298, 02-438-3412",
-    "fax_title": "FAX",
-    "fax": "02-438-3412",
-    "email_title": "E-mail",
-    "email": "Pengchain@hotmail.com",
+    "meta_title": "crwdns1772:0crwdne1772:0",
+    "meta_description": "crwdns1774:0crwdne1774:0",
+    "about_paragraph": "crwdns1776:0crwdne1776:0",
+    "about_footer_one": "crwdns1778:0crwdne1778:0",
+    "about_footer_two": "crwdns1780:0crwdne1780:0",
+    "about_footer_three": "crwdns1782:0crwdne1782:0",
+    "location_title": "crwdns1784:0crwdne1784:0",
+    "location": "crwdns1786:0crwdne1786:0",
+    "tel_title": "crwdns1788:0crwdne1788:0",
+    "tel": "crwdns1790:0crwdne1790:0",
+    "fax_title": "crwdns1792:0crwdne1792:0",
+    "fax": "crwdns1794:0crwdne1794:0",
+    "email_title": "crwdns1796:0crwdne1796:0",
+    "email": "crwdns1798:0crwdne1798:0",
     "index": {
-      "meta_title": "บริษัท เคมีเเหลมทองมาร์เกตติ้ง จำกัด",
-      "meta_description": "มีประสบการณ์ด้านเคมีภัณฑ์มากว่า 30 ปี"
+      "meta_title": "crwdns1800:0crwdne1800:0",
+      "meta_description": "crwdns1802:0crwdne1802:0"
     },
     "product": {
-      "meta_title": "สินค้าและบริการ",
-      "meta_description": "จำหน่ายเคมีภัณฑ์ นำเข้าเคมีภัณฑ์ที่มีคุณภาพ",
-      "description_one": "ขายเคมีสำหรับโรงงานอุตสาหกรรม เคมีอุตสาหกรรม",
-      "description_two": "ขายเคมีเกษตร  เคมีสำหรับเป็นสารกำจัดวัชพืช เคมีสารกำจัดแมลง เคมีสารป้องกันกำจัดโรคพืช และ ฮอร์โมนอาหารเสริม",
-      "description_three": "ขายเคมียางชนิดต่างๆ สารเคมีสำหรับยา",
-      "category_one": "เคมีเซรามิค เคมีภัณฑ์เครื่องสำอางค์ เคมีพลาสติก",
-      "category_two": "เคมีสำหรับโรงหล่อ, ขุดเจาะ",
-      "category_three": "เคมีหล่อลื่น (ทาเบ้า, ทาแบบ)",
-      "category_four": "เคมีเซรามิค เคมีภัณฑ์เครื่องสำอางค์ เคมีพลาสติก",
-      "category_five": "เคมีอาหารสัตว์ เคมีสำหรับฟาร์มกุ้ง เคมีอาหาร",
-      "category_six": "เคมีสระว่ายน้ำ เคมีบำบัดน้ำเสีย",
-      "category_seven": "โรงงานผลิตอาหาร",
-      "product_one": "ทัลคัม เพาเดอร์",
-      "product_one_description": "ใช้ในอุตสาหกรรมเซรามิก ยาง พลาสติก กระดาษ เคมีสำหรับผลิตแป้งทาตัว เคมีสำหรับอุตสาหกรรมหล่อเรซิ่น",
-      "product_two": "กราไฟท์ - ดำ , กราไฟท์ - เงา",
-      "product_two_description": "เป็นเคมีภัณฑ์ที่ใช้ในการผลิตน้ำมันหล่อลื่น เคมีที่ใช้ทำไส้ดินสอ",
-      "product_three": "เวอร์มิคูไลท์",
-      "product_three_description": "ใช้เป็นวัสดุปลูกในระบบปลูกพืชไร้ดิน ใช้เป็นฉนวนกันความร้อน",
-      "product_four": "เบนโทไนท์",
-      "product_four_description": "เคมีสำหรับอุตสาหกรรมทำกระดาษ เคมีสำหรับอุตสาหกรรมเซรามิค เคมีที่ใช้ในโรงหล่อ เคมีสำหรับบำบัดน้ำเสีย"
+      "meta_title": "crwdns1804:0crwdne1804:0",
+      "meta_description": "crwdns1806:0crwdne1806:0",
+      "description_one": "crwdns1808:0crwdne1808:0",
+      "description_two": "crwdns1810:0crwdne1810:0",
+      "description_three": "crwdns1812:0crwdne1812:0",
+      "category_one": "crwdns1814:0crwdne1814:0",
+      "category_two": "crwdns1816:0crwdne1816:0",
+      "category_three": "crwdns1818:0crwdne1818:0",
+      "category_four": "crwdns1820:0crwdne1820:0",
+      "category_five": "crwdns1822:0crwdne1822:0",
+      "category_six": "crwdns1824:0crwdne1824:0",
+      "category_seven": "crwdns1826:0crwdne1826:0",
+      "product_one": "crwdns1828:0crwdne1828:0",
+      "product_one_description": "crwdns1830:0crwdne1830:0",
+      "product_two": "crwdns1832:0crwdne1832:0",
+      "product_two_description": "crwdns1834:0crwdne1834:0",
+      "product_three": "crwdns1836:0crwdne1836:0",
+      "product_three_description": "crwdns1838:0crwdne1838:0",
+      "product_four": "crwdns1840:0crwdne1840:0",
+      "product_four_description": "crwdns1842:0crwdne1842:0"
     },
-    "about_service_title": "รับปรึกษาการเลือกใช้เคมีภัณฑ์ประเภทต่างๆ พร้อมบริการส่งด่วนสำหรับโรงงานผู้ผลิต",
-    "about_service_description": " ย่านนิคมอุตสาหกรรมบางปู บางพลี แพรกษา เทพารักษ์ บางบ่อ บางปลา บางเสาธง บางโฉลง กิ่งแก้ว ราชาเทวะ บางนาตราด ศรีษะจรเข้ ร่มเกล้า ลาดกระบัง สมุทรสงคราม สามพราน อ้อมใหญ่ อ้อมน้อย นครชัยศรี ธนบุรี พระราม2 หนองแขม กรุงเทพมหานคร หัวหมาก นนทบุรี ไทรน้อย บางเลน สามโคก ลาดบัวหลวง ลาดหลุมแก้ว บางชัน สุวินทวงศ์ หนองจอก บางน้ำเปรี้ยว บางวัว ฉะเชิงเทรา กบินทร์บุรี ปราจีนบุรี นครนายก พระนครศรีอยุธยา สระบุรี สมุทรสาคร มหาชัย นาดี สินสาคร กระทุ่มแบน คลองหลวง ปทุมธานี นวนคร นิคมบางกะดี",
-    "footer": "จำหน่ายเคมีราคาส่ง –ปลีก, เทลคัม พาวเดอร์, เบนโทไนท์, กราไฟท์, แมกนีเซียมออกไซด์, เวอร์มิคูไลท์, ยิปซั่ม, แคลเซียม คาร์บอเนต, แมกนีเซียม คาร์บอเนต, ติเตเนียม ฯลฯ สั่งแบ่งแพคเล็กได้ "
+    "about_service_title": "crwdns1844:0crwdne1844:0",
+    "about_service_description": "crwdns1846:0crwdne1846:0",
+    "footer": "crwdns1848:0crwdne1848:0"
   },
   "Catalog": {
-    "meta_title": "Industrial Product Catalog | Laemthong Marketing Chemicals Co., Ltd",
-    "meta_description": "High-quality industrial chemical products, including talcum powder and raw materials for ceramics, rubber, plastics, and paper industries.",
-    "title": "Product Catalog",
-    "description": "All products of Laemthong Marketing Chemicals Co., Ltd for industrial use.",
-    "keywords": "คำค้นสินค้า",
+    "meta_title": "crwdns1850:0crwdne1850:0",
+    "meta_description": "crwdns1852:0crwdne1852:0",
+    "title": "crwdns1854:0crwdne1854:0",
+    "description": "crwdns1856:0crwdne1856:0",
+    "keywords": "crwdns1858:0crwdne1858:0",
     "Talcum": {
-      "name": "แป้งทัลคัม (Talcum Powder)",
-      "metadata": "แป้งเทลคัมพาวเดอร์ 1250 mesh",
-      "h1": "จำหน่าย Talcum Powder (แป้งทัลคัม)",
-      "h2": "ขายส่งแป้งทัลคัม พาวเดอร์ Talcum Powder",
-      "p": "ราคาส่ง มีสต็อกพร้อมส่งในพื้นที่กรุงเทพ นนทบุรี นครปฐม ปทุมธานี สมุทรปราการ สมุทรสาคร แป้งฝุ่นทัลคัมมีสารทัลค์ เป็นองค์ประกอบหลัก สำหรับใช้เป็นวัตถุดิบในการผลิตเครื่องสำอาง เช่น แป้งพัฟอัดแข็ง บลัชออน โคลนพอกผิว ใช้เป็นวัตถุดิบในการผลิตแป้งฝุ่นโรยตัว มีคุณสมบัติในการดูดซับความชื้น ป้องกันและลดความอับชื้น บรรเทาอาการคันจากความชื้นของผิวกาย"
+      "name": "crwdns1860:0crwdne1860:0",
+      "metadata": "crwdns1862:0crwdne1862:0",
+      "h1": "crwdns1864:0crwdne1864:0",
+      "h2": "crwdns1866:0crwdne1866:0",
+      "p": "crwdns1868:0crwdne1868:0"
     },
     "Graphite": {
-      "name": "ผงกราไฟท์, กราไฟท์ดำ",
-      "metadata": "ผงกราไฟต์ดำ",
-      "h1": "ผงกราไฟท์, กราไฟท์ดำ",
-      "h2": "",
-      "p": "นำเข้าเเละขายส่งผงกราไฟท์ ราคาส่ง มีสินค้ากราไฟท์ดำพร้อมจัดส่งทั่วประเทศ เป็นตัวนำความร้อนและตัวนำไฟฟ้าได้ดี มักใช้เป็นประโยขน์ในเรื่อง การผลิตเหล็กกล้า ผลิตสื่อนำความร้อน ประจุไฟฟ้า สำหรับการใช้ในอุตสาหกรรมเครื่องเขียน อุตสาหกรรมผลิตแบตเตอรี่ เป็นต้น"
+      "name": "crwdns1870:0crwdne1870:0",
+      "metadata": "crwdns1872:0crwdne1872:0",
+      "h1": "crwdns1874:0crwdne1874:0",
+      "h2": "crwdns1876:0crwdne1876:0",
+      "p": "crwdns1878:0crwdne1878:0"
     },
     "MgO": {
-      "name": "ผงแป้งแมกนีเซียมออกไซด์",
-      "metadata": "แมกนีเซียมออกไซด์",
-      "h1": "นำเข้า ผงแป้งแมกนีเซียม จำหน่าย แมกนีเซียมออกไซด์",
-      "h2": "",
-      "p": "ผงแป้งที่ใช้ในวงการวัสดุทนไฟ เช่นปูนทนไฟ, อิฐทนไฟ รวมทั้งเป็นส่วนผสมในเซรามิค"
+      "name": "crwdns1880:0crwdne1880:0",
+      "metadata": "crwdns1882:0crwdne1882:0",
+      "h1": "crwdns1884:0crwdne1884:0",
+      "h2": "crwdns1886:0crwdne1886:0",
+      "p": "crwdns1888:0crwdne1888:0"
     },
     "Vermiculite": {
-      "name": "เวอร์มิคูไลท์ Vermiculite",
-      "metadata": "เวอร์มิคูไลท์",
-      "h1": "นำเข้า และจำหน่าย เวอร์มิคูไลท์",
-      "h2": "ขายส่ง เวอร์มิคูไลท์ Vermiculite ราคาส่ง เวอร์มิคูไลท์เป็นแร่ในกลุ่ม alumino-silicate ใช้เป็นวัสดุปลูกในระบบปลูกพืชไร้ดิน ใช้เป็นฉนวนกันความร้อน",
-      "p": "มีคุณสมบัติดูดน้ำได้ดีไม่ละลายน้ำ มีค่า pH เป็นกลาง เวอร์มิคูไลท์มีธาตุอาหาร โพแทสเซียม แมกนีเซียม และแคลเซียม ที่พืชสามารถนำไปใช้ประโยชน์ได้ เนื่องจากมีการดูดน้ำ นิยมนำเอาเวอร์มิคูไลท์มาผสมกับเพอร์ไลท์ เพิ่มความโปร่งในกับวัสดุปลูกได้เป็นอย่างดี เพื่อใช้เป็นวัสดุในการปลูกการปลูกผักไฮโดรโปนิกส์   "
+      "name": "crwdns1890:0crwdne1890:0",
+      "metadata": "crwdns1892:0crwdne1892:0",
+      "h1": "crwdns1894:0crwdne1894:0",
+      "h2": "crwdns1896:0crwdne1896:0",
+      "p": "crwdns1898:0crwdne1898:0"
     },
     "Bentonite": {
-      "name": "เบนโทไนท์ Bentonite",
-      "metadata": "เบนโทไนท์",
-      "h1": "นำเข้า เบนโทไนท์ ชนิดผง (ฺBENTONITE POWDER)",
-      "h2": "",
-      "p": "เคมีสำหรับอุตสาหกรรมทำกระดาษ เคมีสำหรับอุตสาหกรรมเซรามิค เคมีที่ใช้ในโรงหล่อ เคมีสำหรับบำบัดน้ำเสีย"
+      "name": "crwdns1900:0crwdne1900:0",
+      "metadata": "crwdns1902:0crwdne1902:0",
+      "h1": "crwdns1904:0crwdne1904:0",
+      "h2": "crwdns1906:0crwdne1906:0",
+      "p": "crwdns1908:0crwdne1908:0"
     },
     "Ceramic": {
-      "name": "ผงเซรามิก",
-      "metadata": "เซรามิก",
-      "h1": "จำหน่าย ผงเซรามิก เคมีวัตถุดิบที่นำมาใช้ผลิตสีเซรามิก",
-      "h2": "",
-      "p": "จำหน่ายผงเซรามิกราคาส่ง สำหรับกระบวนการผลิตเซรามิก เช่น ผงเคลือบและผงสีเซรามิกที่ทนความร้อนสูง ที่เหมาะแก่การอบเครื่องเซรามิกในอุตสาหกรรม"
+      "name": "crwdns1910:0crwdne1910:0",
+      "metadata": "crwdns1912:0crwdne1912:0",
+      "h1": "crwdns1914:0crwdne1914:0",
+      "h2": "crwdns1916:0crwdne1916:0",
+      "p": "crwdns1918:0crwdne1918:0"
     },
     "Food_chemical": {
-      "name": "เคมีอาหาร",
-      "metadata": "เคมีอาหาร",
-      "h1": "เคมีสำหรับอุตสาหกรรมผลิตอาหาร",
-      "h2": "",
-      "p": "เคมีสำหรับอุตสาหกรรมผลิตอาหารสัตว์ เคมีอาหารสัตว์ เคมีสำหรับฟาร์มกุ้ง เคมีอาหาร"
+      "name": "crwdns1920:0crwdne1920:0",
+      "metadata": "crwdns1922:0crwdne1922:0",
+      "h1": "crwdns1924:0crwdne1924:0",
+      "h2": "crwdns1926:0crwdne1926:0",
+      "p": "crwdns1928:0crwdne1928:0"
     },
     "Swimming_pool": {
-      "name": "เคมีสระว่ายน้ำ",
-      "metadata": "เคมีสระว่ายน้ำ",
-      "h1": "เคมีสระว่ายน้ำ",
-      "h2": "",
-      "p": "การเลือกใช้เคมีสำหรับดูแลสระว่ายน้ำ ไม่ว่าจะเพื่อใช้ในการฆ่าเชื้อหรือการควบคุมคุณภาพน้ำในสระว่ายน้ำ รับปรึกษาการเลือกใช้เคมีภัณฑ์ประเภทต่างๆ พร้อมบริการส่งด่วนสำหรับโรงงานผู้ผลิต ย่านนิคมอุตสาหกรรม"
+      "name": "crwdns1930:0crwdne1930:0",
+      "metadata": "crwdns1932:0crwdne1932:0",
+      "h1": "crwdns1934:0crwdne1934:0",
+      "h2": "crwdns1936:0crwdne1936:0",
+      "p": "crwdns1938:0crwdne1938:0"
     }
   },
   "CatalogSlug": {
-    "meta_title": "Product {slug} | Laemthong Marketing Chemicals Co., Ltd",
-    "meta_description": "{slug} by Laemthong Marketing Chemicals Co., Ltd for industrial use.",
-    "title": "{name}",
-    "description": "{short_description}",
-    "full_description": "{full_description}",
-    "image": "{image}",
-    "meta_keywords": "{meta_keywords}",
-    "share": "แชร์"
+    "meta_title": "crwdns1940:0{slug}crwdne1940:0",
+    "meta_description": "crwdns1942:0{slug}crwdne1942:0",
+    "title": "crwdns1944:0{name}crwdne1944:0",
+    "description": "crwdns1946:0{short_description}crwdne1946:0",
+    "full_description": "crwdns1948:0{full_description}crwdne1948:0",
+    "image": "crwdns1950:0{image}crwdne1950:0",
+    "meta_keywords": "crwdns1952:0{meta_keywords}crwdne1952:0",
+    "share": "crwdns1954:0crwdne1954:0"
   },
   "SignIn": {
-    "meta_title": "Sign In",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "crwdns1956:0crwdne1956:0",
+    "meta_description": "crwdns1958:0crwdne1958:0"
   },
   "SignUp": {
-    "meta_title": "Sign Up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "crwdns1960:0crwdne1960:0",
+    "meta_description": "crwdns1962:0crwdne1962:0"
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "meta_title": "crwdns1964:0crwdne1964:0",
+    "hello_message": "crwdns1966:0{email}crwdne1966:0"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "crwdns1968:0crwdne1968:0"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage Your Account",
-    "sign_out": "Sign Out"
+    "dashboard_link": "crwdns1970:0crwdne1970:0",
+    "user_profile_link": "crwdns1972:0crwdne1972:0",
+    "sign_out": "crwdns1974:0crwdne1974:0"
   },
   "Contact": {
-    "meta_title": "ติดต่อเรา",
-    "meta_description": "ช่องทางการติดต่อ บริษัท เคมีแหลมทองมาร์เกตติ้ง จำกัด",
+    "meta_title": "crwdns1976:0crwdne1976:0",
+    "meta_description": "crwdns1978:0crwdne1978:0",
     "contact_info": {
-      "title": "ติดต่อเรา",
+      "title": "crwdns1980:0crwdne1980:0",
       "name": {
-        "title": "ชื่อธุรกิจ",
-        "value": "บริษัท เคมีแหลมทองมาร์เกตติ้ง จำกัด"
+        "title": "crwdns1982:0crwdne1982:0",
+        "value": "crwdns1984:0crwdne1984:0"
       },
       "address": {
-        "title": "ที่อยู่",
-        "value": "409 ถนนสมเด็จเจ้าพระยา แขวงคลองสาน เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย"
+        "title": "crwdns1986:0crwdne1986:0",
+        "value": "crwdns1988:0crwdne1988:0"
       },
       "phone": {
-        "title": "โทรศัพท์",
-        "value": "06-6112-4917, 08-5921-7191, 08-1481,4917, 0-2439-0298"
+        "title": "crwdns1990:0crwdne1990:0",
+        "value": "crwdns1992:0crwdne1992:0"
       },
       "fax": {
-        "title": "โทรสาร",
-        "value": "0-2438-3412"
+        "title": "crwdns1994:0crwdne1994:0",
+        "value": "crwdns1996:0crwdne1996:0"
       },
       "line_id": {
-        "title": "ไอดีไลน์",
-        "value": "thai_chemical"
+        "title": "crwdns1998:0crwdne1998:0",
+        "value": "crwdns2000:0crwdne2000:0"
       },
       "email": {
-        "title": "อีเมล",
-        "value": "peangjanpiya@gmail.com"
+        "title": "crwdns2002:0crwdne2002:0",
+        "value": "crwdns2004:0crwdne2004:0"
       },
       "website": {
-        "title": "เว็บไซต์",
-        "value": "รอนะจ๊ะ"
+        "title": "crwdns2006:0crwdne2006:0",
+        "value": "crwdns2008:0crwdne2008:0"
       },
       "office_hours": {
-        "title": "เวลาทำการ",
-        "value": "จันทร์-ศุกร์ 08.00-17.00 น."
+        "title": "crwdns2010:0crwdne2010:0",
+        "value": "crwdns2012:0crwdne2012:0"
       },
       "map": {
-        "title": "แผนที่",
-        "value": "https://maps.app.goo.gl/5WgaqWyCeFpC2s2X6"
+        "title": "crwdns2014:0crwdne2014:0",
+        "value": "crwdns2016:0crwdne2016:0"
       }
     },
     "image": {
-      "title": "ภาพกิจการ",
-      "title1": "บริษัทเคมีแหลมทองมาร์เกตติ้งจำกัด",
-      "title2": "นำเข้าและจัดจำหน่ายเคมีภัณฑ์",
-      "title3": "สำหรับอุตสาหกรรม"
+      "title": "crwdns2018:0crwdne2018:0",
+      "title1": "crwdns2020:0crwdne2020:0",
+      "title2": "crwdns2022:0crwdne2022:0",
+      "title3": "crwdns2024:0crwdne2024:0"
     }
   },
   "CatalogCard": {
-    "view_details": "ดูรายละเอียด"
+    "view_details": "crwdns2026:0crwdne2026:0"
   }
 }
