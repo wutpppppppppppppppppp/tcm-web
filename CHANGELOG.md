@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.5.0...v2.6.0) (2025-01-25)
+
+
+### Features
+
+* add analytic and speed insight from vercel ([8b3c0df](https://github.com/wutpppppppppppppppppp/tcm-web/commit/8b3c0dfaac2940928f99e2d8631a91093ff6a347))
+
 # [2.5.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.4.2...v2.5.0) (2025-01-22)
 
 
