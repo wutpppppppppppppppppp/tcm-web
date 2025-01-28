@@ -125,17 +125,17 @@ export default async function Index(props: IIndexProps) {
           <div className="flex w-96 flex-col items-center text-white">
             <Events size="160" className="mb-8" />
             <h2 className="mb-2">{t(`section_three_one_title`)}</h2>
-            <h2 className="text-center font-normal">{t(`section_three_one_description`)}</h2>
+            <p className="text-center font-normal">{t(`section_three_one_description`)}</p>
           </div>
           <div className="flex w-96 flex-col items-center text-white">
             <Currency size="160" className="mb-8" />
             <h2 className="mb-2">{t(`section_three_two_title`)}</h2>
-            <h2 className="text-center font-normal">{t(`section_three_two_description`)}</h2>
+            <p className="text-center font-normal">{t(`section_three_two_description`)}</p>
           </div>
           <div className="flex w-96 flex-col items-center text-white">
             <Shuttle size="160" className="mb-8" />
             <h2 className="mb-2">{t(`section_three_three_title`)}</h2>
-            <h2 className="text-center font-normal">{t(`section_three_three_description`)}</h2>
+            <p className="text-center font-normal">{t(`section_three_three_description`)}</p>
           </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
@@ -160,7 +160,7 @@ export default async function Index(props: IIndexProps) {
       <section className="max-w-none">
         <div className="flex h-fit w-full flex-row flex-wrap justify-center gap-10 bg-gradient-to-r from-[#1797C7] to-[#1D265C] px-20 py-16 text-white lg:gap-20">
           <div className="flex flex-col justify-center text-center lg:w-2/5">
-            <h2 className="mb-4">{t(`section_five_title`)}</h2>
+            <h1 className="mb-4">{t(`section_five_title`)}</h1>
             <p>{t(`section_five_description_one`)}</p>
             <p>{t(`section_five_description_two`)}</p>
             <p className="font-bold">{t(`section_five_description_three`)}</p>
@@ -183,9 +183,9 @@ export default async function Index(props: IIndexProps) {
           {t(`section_six_title`)}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <div className="flex flex-wrap justify-center gap-8">
+        <div className="flex flex-wrap justify-center gap-8 h-fit">
           {articleItems.map(item => (
-            <div key={item} className="flex h-[32rem] w-56 flex-col border">
+            <div key={item} className="flex w-60 flex-col border">
               <Image
                 src={`/assets/images/Powder-${item}.jpg`}
                 alt={`section_six_${item}_title_en`}

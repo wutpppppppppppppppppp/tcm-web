@@ -30,7 +30,7 @@ export default async function Layout(props: {
           <Navbar translations={translations} />
         )}
       >
-        <div className="py-5 text-xl">{props.children}</div>
+        <div className="py-1 text-xl">{props.children}</div>
       </BaseTemplate>
     </>
   );

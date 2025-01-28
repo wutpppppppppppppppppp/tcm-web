@@ -139,6 +139,7 @@ export default async function About(props: IAboutProps) {
               <span className="font-normal">
                 &nbsp;
                 -
+                &nbsp;
                 {t('product.product_one_description')}
               </span>
             </li>
@@ -147,6 +148,7 @@ export default async function About(props: IAboutProps) {
               <span className="font-normal">
                 &nbsp;
                 -
+                &nbsp;
                 {t('product.product_two_description')}
               </span>
             </li>
@@ -155,6 +157,7 @@ export default async function About(props: IAboutProps) {
               <span className="font-normal">
                 &nbsp;
                 -
+                &nbsp;
                 {t('product.product_three_description')}
               </span>
             </li>
@@ -163,6 +166,7 @@ export default async function About(props: IAboutProps) {
               <span className="font-normal">
                 &nbsp;
                 -
+                &nbsp;
                 {t('product.product_four_description')}
               </span>
             </li>

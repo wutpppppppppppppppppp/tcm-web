@@ -11,7 +11,7 @@ export const BaseTemplate = (props: {
   const t = useTranslations('BaseTemplate');
 
   return (
-    <div className="flex w-full flex-col items-center px-1 text-gray-700 antialiased">
+    <div className="flex w-full flex-col items-center px-1 text-gray-700 antialiased h-full">
       <header>
         <div className="flex-col justify-items-center pb-8 pt-16">
           <Image
@@ -25,21 +25,16 @@ export const BaseTemplate = (props: {
           </h1>
           <h2 className="text-xl">{t('description')}</h2>
         </div>
-
-        <div className="flex justify-center">
-          <nav>
-            <ul className="flex list-none flex-wrap gap-0 text-xl">
-              {props.leftNav}
-            </ul>
-          </nav>
-
-          <nav>
-            <ul className="flex list-none flex-wrap gap-0 text-xl">
-              {props.rightNav}
-            </ul>
-          </nav>
-        </div>
       </header>
+
+      <nav className="flex justify-center w-screen bg-white h-12 sticky top-0 z-50 items-end">
+        <ul className="flex list-none flex-wrap gap-0 text-xl">
+          {props.leftNav}
+        </ul>
+        <ul className="flex list-none flex-wrap gap-0 text-xl">
+          {props.rightNav}
+        </ul>
+      </nav>
 
       <main>{props.children}</main>
 
@@ -47,14 +42,12 @@ export const BaseTemplate = (props: {
         {`© Copyright ${new Date().getFullYear()} ${AppConfig.name}. `}
         {t.rich('made_with', {
           author: () => (
-            <Link
-              href="https://github.com/wutpppppppppppppppppp"
-            >
+            <Link href="https://github.com/wutpppppppppppppppppp">
               wutpppppppppppppppppp
             </Link>
           ),
         })}
-        {/*
+        {/* 
            * PLEASE READ THIS SECTION
            * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.
            * The link doesn't need to appear on every pages, one link on one page is enough.
