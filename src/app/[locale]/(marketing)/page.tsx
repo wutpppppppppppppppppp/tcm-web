@@ -2,6 +2,7 @@ import LandingSwiper from '@/components/LandingSwiper';
 import LineIcon from '@/components/LineIcon';
 import ProductSwiper from '@/components/ProductSwiper';
 import tcm_warehouse from '@/public/assets/images/tcm-warehouse.jpg';
+import placeholder from '@/public/placeholder.png';
 import { Currency, Email, Events, PhoneFilled, Shuttle, Store } from '@carbon/icons-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
@@ -37,11 +38,6 @@ export default async function Index(props: IIndexProps) {
     namespace: 'Catalog',
   });
 
-  const cc = await getTranslations({
-    locale,
-    namespace: 'CatalogCard',
-  });
-
   const translations_c = {
     Talcum: c('Talcum.name'),
     Graphite: c('Graphite.name'),
@@ -51,7 +47,6 @@ export default async function Index(props: IIndexProps) {
     Ceramic: c('Ceramic.name'),
     Food_chemical: c('Food_chemical.name'),
     Swimming_pool: c('Swimming_pool.name'),
-    view_details: cc('view_details'),
   };
 
   const articleItems = [
@@ -154,7 +149,7 @@ export default async function Index(props: IIndexProps) {
           {t(`section_four_title`)}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <ProductSwiper translations={translations_c} />
+        <ProductSwiper translations={translations_c} locale={locale} />
       </section>
 
       <section className="max-w-none">
@@ -165,7 +160,7 @@ export default async function Index(props: IIndexProps) {
             <p>{t(`section_five_description_two`)}</p>
             <p className="font-bold">{t(`section_five_description_three`)}</p>
           </div>
-          <Image className="w-[34.6875rem]" src={tcm_warehouse} alt="โกดัง" />
+          <Image className="w-[34.6875rem]" src={tcm_warehouse} alt="โกดัง" title="โกดัง" placeholder="blur" loading="lazy"/>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
           <defs>
@@ -192,6 +187,10 @@ export default async function Index(props: IIndexProps) {
                 className="h-40 w-full"
                 width={320}
                 height={320}
+                title={`section_six_${item}_title_en`}
+                placeholder="blur" 
+                blurDataURL={placeholder.src}
+                loading="lazy"
               />
               <div className="grow p-3">
                 <h2>{t(`section_six_${item}_title_th` as `section_six_${ArticleKeys}_title_th`)}</h2>

@@ -33,29 +33,29 @@ export default function LandingSwiper({ translations }: ClientComponentProps) {
     >
       <SwiperSlide>
         <div className="relative flex items-center justify-center">
-          <Image className="h-full" src={banner_1} alt="โกดัง" />
+          <Image className="h-full" src={banner_1} alt="โกดัง_1" title="โกดัง_1" placeholder="blur" />
           <div
             className={`absolute flex flex-col items-center justify-center transition-all duration-[1500ms] ${
               activeSlide === 0 ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}
           >
-            <h1 className="text-4xl text-[#25A954]">{t('Banner_one_topic')}</h1>
-            <p className="text-3xl font-bold text-[#00662E]">
+            <h1 className="landing">{t('Banner_one_topic')}</h1>
+            <p className="landing_one">
               "
               {t('Banner_one_description_one')}
               "
             </p>
-            <p className="text-2xl font-bold text-[#00662E]">{t('Banner_one_description_two')}</p>
-            <p className="text-2xl font-bold text-[#00662E]">{t('Banner_one_description_three')}</p>
-            <p className="text-2xl font-bold text-[#00662E]">{t('Banner_one_description_four')}</p>
-            <p className="text-2xl font-bold text-[#00662E]">{t('Banner_one_description_five')}</p>
+            <p className="landing_two">{t('Banner_one_description_two')}</p>
+            <p className="landing_two">{t('Banner_one_description_three')}</p>
+            <p className="landing_two">{t('Banner_one_description_four')}</p>
+            <p className="landing_two">{t('Banner_one_description_five')}</p>
           </div>
         </div>
       </SwiperSlide>
 
       <SwiperSlide>
         <div className="relative flex items-center justify-center">
-          <Image className="h-full" src={banner_2} alt="โกดัง" />
+          <Image className="h-full" src={banner_2} alt="โกดัง_2" title="โกดัง_2" placeholder="blur" />
           <div
             className={`absolute flex flex-col items-center justify-center transition-all duration-700 ${
               activeSlide === 1 ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'

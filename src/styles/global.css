@@ -12,7 +12,7 @@ section {
 }
 
 p {
-  @apply mb-3 text-base;
+  @apply mb-3 lg:text-base text-sm;
 }
 
 p.table {
@@ -23,21 +23,33 @@ p.product {
   @apply text-pretty text-base;
 }
 
+p.landing_one {
+  @apply text-3xl font-bold text-[#00662E];
+}
+
+p.landing_two {
+  @apply text-2xl font-bold text-[#00662E] mb-0;
+}
+
 h1,
 h2 {
   @apply font-bold;
 }
 
 h1 {
-  @apply text-xl mb-6;
+  @apply lg:text-xl text-lg mb-6;
 }
 
 h1.product {
   @apply text-2xl mb-1;
 }
 
+h1.landing {
+  @apply text-4xl text-[#25A954];
+}
+
 h2 {
-  @apply mb-1 text-lg;
+  @apply mb-1 lg:text-lg text-base;
 }
 
 h2.product {
@@ -45,7 +57,7 @@ h2.product {
 }
 
 h2.table {
-  @apply mb-0 text-lg w-1/6 pl-4;
+  @apply mb-0 w-1/6 pl-4;
 }
 
 h3.product {
@@ -142,4 +154,34 @@ hr.solid {
 
 .text-shadow {
   text-shadow: 1px 1px 4px black;
+}
+
+.footer ul {
+  @apply m-0 list-none p-0;
+}
+
+.footer ul li i {
+  @apply text-amber-400;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

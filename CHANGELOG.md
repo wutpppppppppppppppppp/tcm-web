@@ -1,3 +1,73 @@
+# [2.6.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.5.0...v2.6.0) (2025-01-25)
+
+
+### Features
+
+* add analytic and speed insight from vercel ([8b3c0df](https://github.com/wutpppppppppppppppppp/tcm-web/commit/8b3c0dfaac2940928f99e2d8631a91093ff6a347))
+
+# [2.5.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.4.2...v2.5.0) (2025-01-22)
+
+
+### Bug Fixes
+
+* **key change:** key change ([22e2b62](https://github.com/wutpppppppppppppppppp/tcm-web/commit/22e2b62de5e26118e5c3bd8409782581ee1d5577))
+
+
+### Features
+
+* **blur and css fix:** add blur and css fix ([fd65d6a](https://github.com/wutpppppppppppppppppp/tcm-web/commit/fd65d6a3d2484dd4a4192d78102af35ed10e8a7d))
+* **placeholder add:** placeholder add ([fe6ef5f](https://github.com/wutpppppppppppppppppp/tcm-web/commit/fe6ef5fd699c3e339be245eb2d1342d8c8db1b95))
+
+## [2.4.2](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.4.1...v2.4.2) (2025-01-22)
+
+
+### Bug Fixes
+
+* crowdin en translation ([bbb59ce](https://github.com/wutpppppppppppppppppp/tcm-web/commit/bbb59ce37fb5ca4b7a3bff4392cf5a7a48f08de5))
+
+## [2.4.1](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.4.0...v2.4.1) (2025-01-22)
+
+
+### Bug Fixes
+
+* crowdin automation translation ([5e9c21e](https://github.com/wutpppppppppppppppppp/tcm-web/commit/5e9c21e1e294d2ab870469b16cc33152673d75c4))
+
+# [2.4.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.3.1...v2.4.0) (2025-01-22)
+
+
+### Bug Fixes
+
+* merge branch 'main' of https://github.com/wutpppppppppppppppppp/tcm-web into feat-footer ([c2d4bcb](https://github.com/wutpppppppppppppppppp/tcm-web/commit/c2d4bcb5ee1c8801345715e9c18c8b7be9de4149))
+* navbar upperletter typo ([781dc96](https://github.com/wutpppppppppppppppppp/tcm-web/commit/781dc96f0c0d3e33912041311b190b7c9e81706d))
+
+
+### Features
+
+* catalog card responsive ([6d7e938](https://github.com/wutpppppppppppppppppp/tcm-web/commit/6d7e938d39a36afe4e7dadc237bcad9a4043d4ea))
+* eng translation ([ba2850b](https://github.com/wutpppppppppppppppppp/tcm-web/commit/ba2850b0a25390897e3f9923960605a5bff0a8f7))
+* footer init ([0688a69](https://github.com/wutpppppppppppppppppp/tcm-web/commit/0688a698ee790fc6cb9ec7f53af549bcde30e64f))
+* footer style ([56ffb36](https://github.com/wutpppppppppppppppppp/tcm-web/commit/56ffb36ac15680abc9de623d12f9fa83b64b14f5))
+* header design fixed ([1a7043a](https://github.com/wutpppppppppppppppppp/tcm-web/commit/1a7043a951d5a4b1131f9af4050f33de07740e86))
+* product pic ([39e18e9](https://github.com/wutpppppppppppppppppp/tcm-web/commit/39e18e9437f981238de27c88cd67170509a349a1))
+
+## [2.3.1](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.3.0...v2.3.1) (2025-01-22)
+
+
+### Bug Fixes
+
+* crowdin bug translation ([05092d1](https://github.com/wutpppppppppppppppppp/tcm-web/commit/05092d1398204dd95ba9e9b4a3626fc77f72469d))
+* **i18n and css:** i18n and css ([d8d5361](https://github.com/wutpppppppppppppppppp/tcm-web/commit/d8d5361b159b3927537d7f0790e1fa720fe6485c))
+* merge branch 'main' of https://github.com/wutpppppppppppppppppp/tcm-web into i18n ([ca87efa](https://github.com/wutpppppppppppppppppp/tcm-web/commit/ca87efa26ea5edd316e4ec2a2e740b72076265da))
+* resolve crowdin automation translation ([4555869](https://github.com/wutpppppppppppppppppp/tcm-web/commit/45558692caa9e23341e478fd726ff33ffb2b67cc))
+* thai locale typo ([b5c7b13](https://github.com/wutpppppppppppppppppp/tcm-web/commit/b5c7b1354ea140a8daddcdd45a1e8da92aa4d3d2))
+
+# [2.3.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.2.0...v2.3.0) (2025-01-21)
+
+
+### Features
+
+* **i18n:** i18n ([e4ba361](https://github.com/wutpppppppppppppppppp/tcm-web/commit/e4ba3612ab3d2eb409842dd08841b0eaf1da5d6e))
+
 # [2.2.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.1.0...v2.2.0) (2025-01-21)
 
 

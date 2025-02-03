@@ -33,7 +33,7 @@ export default async function About(props: IAboutProps) {
 
   return (
     <>
-      <section>
+      <section className="mx-auto">
         <h1>
           {t('meta_title')}
           <hr className="w-10 border-t-2 border-black"></hr>
@@ -41,7 +41,7 @@ export default async function About(props: IAboutProps) {
         <div className="flex flex-col items-center">
           <h2>{t('meta_description')}</h2>
           <p className="text-justify">{t('about_paragraph')}</p>
-          <Image className="mb-2" src={tcm_bigbag} alt="สารเคมี" />
+          <Image className="mb-2" src={tcm_bigbag} alt="สารเคมี" title="สารเคมี" placeholder="blur" loading="lazy" />
           <Link href="/" className="about">{t('index.meta_title')}</Link>
           <Link href="/" className="about">{t('index.meta_description')}</Link>
         </div>
@@ -50,13 +50,15 @@ export default async function About(props: IAboutProps) {
           <p>{t('about_footer_two')}</p>
           <p className="font-bold">
             {t('about_footer_three')}
+            {' '}
+            &nbsp;
             <Link href="/" className="about">{t('index.meta_title')}</Link>
           </p>
           <p className="font-bold">
             {t('location_title')}
             :
             <span className="font-normal">
-                &nbsp;
+              &nbsp;
               {t('location')}
             </span>
           </p>
@@ -65,7 +67,7 @@ export default async function About(props: IAboutProps) {
             &nbsp;
             :
             <span className="font-normal">
-                &nbsp;
+              &nbsp;
               {t('tel')}
             </span>
           </p>
@@ -74,7 +76,7 @@ export default async function About(props: IAboutProps) {
             &nbsp;
             :
             <span className="font-normal">
-                &nbsp;
+              &nbsp;
               {t('fax')}
             </span>
           </p>
@@ -83,14 +85,14 @@ export default async function About(props: IAboutProps) {
             &nbsp;
             :
             <span className="font-normal">
-                &nbsp;
+              &nbsp;
               {t('email')}
             </span>
           </p>
         </div>
       </section>
 
-      <section>
+      <section className="mx-auto">
         <h1>
           {t('product.meta_title')}
           <hr className="w-10 border-t-2 border-black"></hr>
@@ -108,7 +110,7 @@ export default async function About(props: IAboutProps) {
               {t('product.description_three')}
             </li>
           </ul>
-          <Image className="mb-2" src={tcm_talcum} alt="Talcum" />
+          <Image className="mb-2" src={tcm_talcum} alt="Talcum" title="Talcum" placeholder="blur" loading="lazy" />
           <ul>
             <li>
               {t('product.category_one')}
@@ -132,7 +134,7 @@ export default async function About(props: IAboutProps) {
               {t('product.category_seven')}
             </li>
           </ul>
-          <Image className="mb-2" src={tcm_graphite} alt="Graphite" />
+          <Image className="mb-2" src={tcm_graphite} alt="Graphite" title="Graphite" placeholder="blur" loading="lazy" />
           <ul>
             <li className="font-bold">
               {t('product.product_one')}
@@ -171,7 +173,7 @@ export default async function About(props: IAboutProps) {
               </span>
             </li>
           </ul>
-          <Image className="mb-2" src={tcm_woodenpallet} alt="WoodenPallet" />
+          <Image className="mb-2" src={tcm_woodenpallet} alt="WoodenPallet" title="WoodenPallet" placeholder="blur" loading="lazy" />
           <p className="text-justify font-bold">
             {t('about_service_title')}
             <span className="font-normal">{t('about_service_description')}</span>
@@ -182,7 +184,7 @@ export default async function About(props: IAboutProps) {
             &nbsp;
             :
             <span className="font-normal">
-                &nbsp;
+              &nbsp;
               {t('tel')}
             </span>
           </p>
