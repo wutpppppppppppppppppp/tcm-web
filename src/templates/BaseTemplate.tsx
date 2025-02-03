@@ -1,7 +1,6 @@
 import { AppConfig } from '@/utils/AppConfig';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export const BaseTemplate = (props: {
   leftNav: React.ReactNode;
@@ -11,7 +10,7 @@ export const BaseTemplate = (props: {
   const t = useTranslations('BaseTemplate');
 
   return (
-    <div className="flex w-full flex-col items-center px-1 text-gray-700 antialiased h-full">
+    <div className="flex size-full flex-col items-center text-gray-700 antialiased">
       <header>
         <div className="flex-col justify-items-center pb-8 pt-16">
           <Image
@@ -20,15 +19,15 @@ export const BaseTemplate = (props: {
             width={100}
             height={100}
           />
-          <h1 className="text-3xl font-bold text-gray-900">
+          <h1 className="text-gray-900">
             {AppConfig.name}
           </h1>
           <h2 className="text-xl">{t('description')}</h2>
         </div>
       </header>
 
-      <nav className="flex justify-center w-screen bg-white h-12 sticky top-0 z-50 items-end">
-        <ul className="flex list-none flex-wrap gap-0 text-xl">
+      <nav>
+        <ul className="flex w-full list-none flex-wrap justify-between gap-0 text-xl md:w-fit md:justify-normal">
           {props.leftNav}
         </ul>
         <ul className="flex list-none flex-wrap gap-0 text-xl">
@@ -40,14 +39,7 @@ export const BaseTemplate = (props: {
 
       <footer className="border-t border-gray-300 py-8 text-center text-sm">
         {`© Copyright ${new Date().getFullYear()} ${AppConfig.name}. `}
-        {t.rich('made_with', {
-          author: () => (
-            <Link href="https://github.com/wutpppppppppppppppppp">
-              wutpppppppppppppppppp
-            </Link>
-          ),
-        })}
-        {/* 
+        {/*
            * PLEASE READ THIS SECTION
            * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.
            * The link doesn't need to appear on every pages, one link on one page is enough.

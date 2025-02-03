@@ -160,7 +160,7 @@ export default async function Index(props: IIndexProps) {
             <p>{t(`section_five_description_two`)}</p>
             <p className="font-bold">{t(`section_five_description_three`)}</p>
           </div>
-          <Image className="w-[34.6875rem]" src={tcm_warehouse} alt="โกดัง" title="โกดัง" placeholder="blur" loading="lazy"/>
+          <Image className="w-[34.6875rem]" src={tcm_warehouse} alt="โกดัง" title="โกดัง" placeholder="blur" loading="lazy" />
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
           <defs>
@@ -178,7 +178,7 @@ export default async function Index(props: IIndexProps) {
           {t(`section_six_title`)}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <div className="flex flex-wrap justify-center gap-8 h-fit">
+        <div className="flex h-fit flex-wrap justify-center gap-8">
           {articleItems.map(item => (
             <div key={item} className="flex w-60 flex-col border">
               <Image
@@ -188,11 +188,11 @@ export default async function Index(props: IIndexProps) {
                 width={320}
                 height={320}
                 title={`section_six_${item}_title_en`}
-                placeholder="blur" 
+                placeholder="blur"
                 blurDataURL={placeholder.src}
                 loading="lazy"
               />
-              <div className="grow p-3">
+              <div className="p-3">
                 <h2>{t(`section_six_${item}_title_th` as `section_six_${ArticleKeys}_title_th`)}</h2>
                 <h2>{t(`section_six_${item}_title_en` as `section_six_${ArticleKeys}_title_en`)}</h2>
                 <p>

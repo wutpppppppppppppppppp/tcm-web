@@ -36,7 +36,7 @@ export default async function Portfolio(props: ICatalogProps) {
           {t('title')}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <div className="grid grid-cols-2 justify-items-center gap-3 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-2 xl:grid-cols-3">
           {catalogList.map(index => (
             <Link
               key={index}
@@ -48,6 +48,7 @@ export default async function Portfolio(props: ICatalogProps) {
           ))}
         </div>
       </section>
+
       <section className="mx-auto">
         <h1>
           {t('keywords')}
