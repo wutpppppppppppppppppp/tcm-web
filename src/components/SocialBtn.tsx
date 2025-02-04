@@ -6,7 +6,7 @@ export const SocialBtn = async () => {
   const t = await getTranslations('CatalogSlug');
   return (
     <div className="bg-box">
-      <div className="share-btn">
+      <div className="share-btn scale-hover">
         <span className="text-share-btn">{t('share')}</span>
         <ul className="share-items">
           <li><a target="_blank" href="https://www.facebook.com" rel="noopener noreferrer" title="Facebook"><i><LogoFacebook className="h-full" /></i></a></li>

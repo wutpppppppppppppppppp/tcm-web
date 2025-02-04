@@ -17,7 +17,7 @@ export default function ImageSlider({ images }: ImageSliderProps) {
   return (
     <Swiper
       spaceBetween={30}
-      centeredSlides
+      centeredSlides={true}
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,
@@ -27,18 +27,13 @@ export default function ImageSlider({ images }: ImageSliderProps) {
       }}
       navigation
       modules={[Autoplay, Pagination, Navigation]}
-      className="mySwiper"
     >
       {images.map((image, index) => (
-        <SwiperSlide key={image} className="swiper-slide">
+        <SwiperSlide key={image} className="my-auto">
           <Image
             src={image}
             alt={`Slide ${index + 1}`}
-            sizes="100vw"
-            style={{
-              width: '100%',
-              height: 'auto',
-            }}
+            className='w-full'
             width={300}
             height={300}
           />

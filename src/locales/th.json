@@ -13,7 +13,7 @@
   },
   "Index": {
     "meta_title": "บริษัท เคมีเเหลมทองมาร์เก็ตติ้ง จำกัด ขายเคมีภัณฑ์สำหรับอุตสาหกรรม",
-    "banner_one_topic": "บริษัท เคมีเเหลมทองมาร์เก็ตติ้ง จำกัด จำกัด",
+    "banner_one_topic": "บริษัท เคมีเเหลมทองมาร์เก็ตติ้ง จำกัด",
     "banner_one_description_one": "นำเข้าเเละจำหน่ายเคมีภัณฑ์",
     "banner_one_description_two": "อุตสาหกรรมการผลิตยา",
     "banner_one_description_three": "อุตสาหกรรมการผลิตกระดาษ",
@@ -196,7 +196,8 @@
     "full_description": "{full_description}",
     "image": "{image}",
     "meta_keywords": "{meta_keywords}",
-    "share": "แชร์"
+    "share": "แชร์",
+    "return":"ย้อนกลับ"
   },
   "SignIn": {
     "meta_title": "Sign In",

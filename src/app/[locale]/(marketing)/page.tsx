@@ -60,12 +60,12 @@ export default async function Index(props: IIndexProps) {
 
   return (
     <>
-      <section className="max-w-none">
+      <section className="max-w-none px-0">
         <LandingSwiper translations={translations} />
-        <div className="grid min-h-20 w-full grid-cols-4 divide-x divide-[#CCCCCC] bg-[#F4F4F4] p-4">
-          <div className="flex w-full flex-row items-center justify-center gap-8 px-8">
-            <div className="flex flex-col items-center justify-center gap-1">
-              <PhoneFilled size="32" />
+        <div className="grid min-h-20 w-full lg:grid-cols-4 lg:grid-rows-none grid-cols-none grid-flow-row lg:divide-x divide-[#CCCCCC] bg-[#F4F4F4] p-4 lg:justify-normal justify-center">
+          <div className="landing_contact">
+            <div className="landing_contact_image">
+              <PhoneFilled className="lg:w-8 lg:h-8 w-16 h-16" size="32" />
               <h2 className="m-0">{t('tel_title')}</h2>
             </div>
             <div className="flex flex-col">
@@ -73,16 +73,16 @@ export default async function Index(props: IIndexProps) {
               <p className="m-0">{t('tel_two')}</p>
             </div>
           </div>
-          <div className="flex w-full flex-row items-center justify-center gap-8 px-8">
-            <div className="flex flex-col items-center justify-center gap-1">
-              <Email size="32" />
+          <div className="landing_contact">
+            <div className="landing_contact_image">
+              <Email className="lg:w-8 lg:h-8 w-16 h-16" size="32" />
               <h2 className="m-0">{t('email_title')}</h2>
             </div>
             <p>{t('email')}</p>
           </div>
-          <div className="flex w-full flex-row items-center justify-center gap-8 px-8">
-            <div className="flex flex-col items-center justify-center gap-1">
-              <Store size="32" />
+          <div className="landing_contact">
+            <div className="landing_contact_image">
+              <Store className="lg:w-8 lg:h-8 w-16 h-16" size="32" />
               <h2 className="m-0">{t('address_title')}</h2>
             </div>
             <div className="flex flex-col">
@@ -90,13 +90,13 @@ export default async function Index(props: IIndexProps) {
               <p className="m-0">{t('address_two')}</p>
             </div>
           </div>
-          <div className="flex w-full flex-row px-8">
+          <div className="lg:flex w-full flex-row px-8 hidden">
             <LineIcon width="40" height="40" className="text-green-400" />
           </div>
         </div>
       </section>
 
-      <section className="mb-0 flex max-w-none flex-col items-center justify-center">
+      <section className="lg:my-0 flex max-w-none flex-col items-center justify-center text-center px-4">
         <h1 className="flex flex-col items-center gap-2">
           {t(`section_two_title`)}
           <hr className="w-12 border-t-2 border-black"></hr>
@@ -106,7 +106,7 @@ export default async function Index(props: IIndexProps) {
         <p className="text-base font-bold">{t(`section_two_footer`)}</p>
       </section>
 
-      <section className="max-w-none">
+      <section className="max-w-none px-0">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 180">
           <defs>
             <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -116,21 +116,21 @@ export default async function Index(props: IIndexProps) {
           </defs>
           <path fill="url(#gradient1)" fillOpacity="1" d="M0,20L60,24C120,28,240,36,360,46.7C480,57,600,69,720,74.7C840,80,960,80,1080,76C1200,72,1320,64,1380,59.3L1440,56L1440,180L1380,180C1320,180,1200,180,1080,180C960,180,840,180,720,180C600,180,480,180,360,180C240,180,120,180,60,180L0,180Z"></path>
         </svg>
-        <div className="flex h-fit w-full flex-row flex-wrap items-center justify-center gap-12 bg-gradient-to-r from-[#3DB2A1] to-[#1D265C] pb-12 pt-8">
+        <div className="flex h-fit w-full lg:flex-row flex-col flex-wrap items-center justify-center gap-12 bg-gradient-to-r from-[#3DB2A1] to-[#1D265C] pb-12 pt-8">
           <div className="flex w-96 flex-col items-center text-white">
             <Events size="160" className="mb-8" />
             <h2 className="mb-2">{t(`section_three_one_title`)}</h2>
-            <p className="text-center font-normal">{t(`section_three_one_description`)}</p>
+            <p className="text-center font-normal px-6">{t(`section_three_one_description`)}</p>
           </div>
           <div className="flex w-96 flex-col items-center text-white">
             <Currency size="160" className="mb-8" />
             <h2 className="mb-2">{t(`section_three_two_title`)}</h2>
-            <p className="text-center font-normal">{t(`section_three_two_description`)}</p>
+            <p className="text-center font-normal px-6">{t(`section_three_two_description`)}</p>
           </div>
           <div className="flex w-96 flex-col items-center text-white">
             <Shuttle size="160" className="mb-8" />
             <h2 className="mb-2">{t(`section_three_three_title`)}</h2>
-            <p className="text-center font-normal">{t(`section_three_three_description`)}</p>
+            <p className="text-center font-normal px-6">{t(`section_three_three_description`)}</p>
           </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
@@ -144,16 +144,18 @@ export default async function Index(props: IIndexProps) {
         </svg>
       </section>
 
-      <section className="mx-20 h-fit max-w-none">
+      <section className="lg:px-20 h-fit w-full max-w-none">
         <h1>
           {t(`section_four_title`)}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <ProductSwiper translations={translations_c} locale={locale} />
+        <div className='w-full flex justify-center'>
+          <ProductSwiper translations={translations_c} locale={locale} />
+        </div>
       </section>
 
-      <section className="max-w-none">
-        <div className="flex h-fit w-full flex-row flex-wrap justify-center gap-10 bg-gradient-to-r from-[#1797C7] to-[#1D265C] px-20 py-16 text-white lg:gap-20">
+      <section className="max-w-none px-0">
+        <div className="flex h-fit w-full flex-row flex-wrap justify-center gap-10 bg-gradient-to-r from-[#1797C7] to-[#1D265C] lg:px-20 px-10 py-16 text-white lg:gap-20">
           <div className="flex flex-col justify-center text-center lg:w-2/5">
             <h1 className="mb-4">{t(`section_five_title`)}</h1>
             <p>{t(`section_five_description_one`)}</p>
@@ -173,14 +175,14 @@ export default async function Index(props: IIndexProps) {
         </svg>
       </section>
 
-      <section className="mx-20 max-w-none">
+      <section className="lg:px-20 max-w-none">
         <h1>
           {t(`section_six_title`)}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
         <div className="flex h-fit flex-wrap justify-center gap-8">
           {articleItems.map(item => (
-            <div key={item} className="flex w-60 flex-col border">
+            <div key={item} className="flex sm:w-60 w-full flex-col border">
               <Image
                 src={`/assets/images/Powder-${item}.jpg`}
                 alt={`section_six_${item}_title_en`}

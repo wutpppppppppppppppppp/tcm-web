@@ -58,9 +58,9 @@ export default async function ProductDetail(props: ProductDetailProps) {
           {t('title')}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <div className="container flex flex-col items-start justify-between gap-6 md:flex-row">
+        <div className="container w-full flex flex-col items-start justify-center gap-10 md:flex-row">
           {/* Image Slider */}
-          <div className="w-full md:w-1/2">
+          <div className="max-w-sm md:w-1/3">
             <ImageSlider images={validImages} />
           </div>
 
@@ -82,7 +82,8 @@ export default async function ProductDetail(props: ProductDetailProps) {
           </div>
         </div>
       </section>
-      <section className="mx-auto">
+
+      <section className="mx-auto grid gap-4">
         <SocialBtn />
       </section>
     </>

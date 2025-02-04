@@ -195,7 +195,8 @@
     "full_description": "{full_description}",
     "image": "{image}",
     "meta_keywords": "{meta_keywords}",
-    "share": "Share"
+    "share": "Share",
+    "return":"Return"
   },
   "SignIn": {
     "meta_title": "Sign In",

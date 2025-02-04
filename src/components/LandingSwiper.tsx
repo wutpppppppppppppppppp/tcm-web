@@ -23,7 +23,7 @@ export default function LandingSwiper({ translations }: ClientComponentProps) {
     <Swiper
       navigation
       modules={[Autoplay, Navigation]}
-      className="flex h-full w-screen bg-white"
+      className="flex w-screen bg-white"
       onSlideChange={swiper => setActiveSlide(swiper.activeIndex)}
       speed={1000}
       autoplay={{
@@ -32,8 +32,8 @@ export default function LandingSwiper({ translations }: ClientComponentProps) {
       }}
     >
       <SwiperSlide>
-        <div className="relative flex items-center justify-center">
-          <Image className="h-full" src={banner_1} alt="โกดัง_1" title="โกดัง_1" placeholder="blur" priority />
+        <div className="relative flex items-center justify-center overflow-hidden">
+          <Image className="object-cover" src={banner_1} alt="โกดัง_1" title="โกดัง_1" placeholder="blur" priority />
           <div
             className={`absolute flex flex-col items-center justify-center transition-all duration-[1500ms] ${
               activeSlide === 0 ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
@@ -54,22 +54,22 @@ export default function LandingSwiper({ translations }: ClientComponentProps) {
       </SwiperSlide>
 
       <SwiperSlide>
-        <div className="relative flex items-center justify-center">
-          <Image className="h-full" src={banner_2} alt="โกดัง_2" title="โกดัง_2" placeholder="blur" priority />
+        <div className="relative flex items-center justify-center overflow-hidden">
+          <Image className="object-cover" src={banner_2} alt="โกดัง_2" title="โกดัง_2" placeholder="blur" priority />
           <div
             className={`absolute flex flex-col items-center justify-center transition-all duration-700 ${
               activeSlide === 1 ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}
           >
-            <h1 className="text-4xl text-[#00662E]">{t('Banner_two_topic')}</h1>
-            <p className="text-shadow text-3xl font-bold text-white">
+            <h1 className="xl:text-4xl md:text-3xl sm:text-2xl text-xl text-[#00662E] mb-2 lg:mb-6">{t('Banner_two_topic')}</h1>
+            <p className="landing_shadow_one">
               "
               {t('Banner_two_description_one')}
               "
             </p>
-            <p className="text-shadow text-2xl font-bold text-white">{t('Banner_two_description_two')}</p>
-            <p className="text-shadow text-2xl font-bold text-white">{t('Banner_two_description_three')}</p>
-            <p className="text-shadow text-2xl font-bold text-white">{t('Banner_two_description_four')}</p>
+            <p className="landing_shadow_two">{t('Banner_two_description_two')}</p>
+            <p className="landing_shadow_two">{t('Banner_two_description_three')}</p>
+            <p className="landing_shadow_two">{t('Banner_two_description_four')}</p>
           </div>
         </div>
       </SwiperSlide>
