@@ -58,7 +58,7 @@ export default async function ProductDetail(props: ProductDetailProps) {
           {t('title')}
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
-        <div className="container w-full flex flex-col items-start justify-center gap-10 md:flex-row">
+        <div className="container flex w-full flex-col items-start justify-center gap-10 md:flex-row">
           {/* Image Slider */}
           <div className="max-w-sm md:w-1/3">
             <ImageSlider images={validImages} />

@@ -61,7 +61,7 @@ export default function LandingSwiper({ translations }: ClientComponentProps) {
               activeSlide === 1 ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}
           >
-            <h1 className="xl:text-4xl md:text-3xl sm:text-2xl text-xl text-[#00662E] mb-2 lg:mb-6">{t('Banner_two_topic')}</h1>
+            <h1 className="mb-2 text-xl text-[#00662E] sm:text-2xl md:text-3xl lg:mb-6 xl:text-4xl">{t('Banner_two_topic')}</h1>
             <p className="landing_shadow_one">
               "
               {t('Banner_two_description_one')}

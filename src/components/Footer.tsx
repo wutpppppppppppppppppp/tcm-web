@@ -34,7 +34,7 @@ export const Footer = async () => {
         </ul>
 
       </div>
-      <div className="lg:items-normal flex flex-col items-center" id="line id">
+      <div className="flex flex-col items-center lg:items-start" id="line id">
         <h1>
           {t('line.title')}
         </h1>

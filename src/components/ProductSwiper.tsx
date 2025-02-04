@@ -16,7 +16,7 @@ type IndexKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite' | '
 type ClientComponentProps = {
   translations: Record<string, string>;
   params?: Promise<{ locale: string }>;
-  locale: string; 
+  locale: string;
 };
 
 export default function ProductSwiper({ translations, params, locale }: ClientComponentProps) {
@@ -40,7 +40,7 @@ export default function ProductSwiper({ translations, params, locale }: ClientCo
       modules={[Navigation]}
       spaceBetween={30}
       freeMode
-      className='lg:max-w-5xl max-w-sm'
+      className="max-w-sm lg:max-w-5xl"
       direction="horizontal"
       breakpoints={{
         0: { slidesPerView: 1, spaceBetween: 20 },

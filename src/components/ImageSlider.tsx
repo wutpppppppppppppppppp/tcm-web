@@ -17,7 +17,7 @@ export default function ImageSlider({ images }: ImageSliderProps) {
   return (
     <Swiper
       spaceBetween={30}
-      centeredSlides={true}
+      centeredSlides
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,
@@ -33,7 +33,7 @@ export default function ImageSlider({ images }: ImageSliderProps) {
           <Image
             src={image}
             alt={`Slide ${index + 1}`}
-            className='w-full'
+            className="w-full"
             width={300}
             height={300}
           />

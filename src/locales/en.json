@@ -196,7 +196,7 @@
     "image": "{image}",
     "meta_keywords": "{meta_keywords}",
     "share": "Share",
-    "return":"Return"
+    "return": "Return"
   },
   "SignIn": {
     "meta_title": "Sign In",
