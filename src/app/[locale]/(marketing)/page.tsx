@@ -61,8 +61,8 @@ export default async function Index(props: IIndexProps) {
 
   return (
     <>
-      <section className="max-w-none px-0">
-        <div className="hidden flex-col md:flex">
+      <section className="flex w-full max-w-none justify-center px-0">
+        <div className="hidden flex-col lg:flex lg:w-[99vw]">
           <LandingSwiper translations={translations} />
           <div className="grid min-h-20 w-full grid-flow-row grid-cols-none justify-center divide-[#CCCCCC] bg-[#F4F4F4] p-4 lg:grid-cols-4 lg:grid-rows-none lg:justify-normal lg:divide-x">
             <div className="landing_contact">
@@ -98,7 +98,7 @@ export default async function Index(props: IIndexProps) {
           </div>
         </div>
 
-        <div className="flex h-[calc(100vh-4rem)] w-full flex-col items-center justify-center bg-gradient-to-br from-[#3DB2A1] to-[#1D265C] md:hidden">
+        <div className="flex h-[calc(100vh-4rem)] w-full flex-col items-center justify-center bg-gradient-to-br from-[#3DB2A1] to-[#1D265C] text-center lg:hidden">
           <Image
             src={logo}
             alt="tcm-logo"

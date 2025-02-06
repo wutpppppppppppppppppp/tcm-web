@@ -2,7 +2,7 @@ import logo from '@/public/solid.webp';
 import Image from 'next/image';
 
 const Loading = ({ height }: { height?: string }) => (
-  <div className={`absolute z-0 flex w-screen items-center justify-center bg-white ${height}`}>
+  <div className={`absolute z-50 flex w-screen items-center justify-center bg-white ${height}`}>
     <Image
       src={logo}
       alt="Loading..."

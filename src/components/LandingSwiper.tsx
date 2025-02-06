@@ -23,7 +23,7 @@ export default function LandingSwiper({ translations }: ClientComponentProps) {
     <Swiper
       navigation
       modules={[Autoplay, Navigation]}
-      className="flex w-screen bg-white"
+      className="flex w-full bg-white"
       onSlideChange={swiper => setActiveSlide(swiper.activeIndex)}
       speed={1000}
       autoplay={{
@@ -32,8 +32,8 @@ export default function LandingSwiper({ translations }: ClientComponentProps) {
       }}
     >
       <SwiperSlide>
-        <div className="relative flex items-center justify-center overflow-hidden">
-          <Image className="object-cover" src={banner_1} alt="โกดัง_1" title="โกดัง_1" placeholder="blur" priority />
+        <div className="relative flex w-screen items-center justify-center">
+          <Image className="h-auto w-full" src={banner_1} alt="โกดัง_1" title="โกดัง_1" placeholder="blur" priority />
           <div
             className={`absolute flex flex-col items-center justify-center transition-all duration-[1500ms] ${
               activeSlide === 0 ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
@@ -54,8 +54,8 @@ export default function LandingSwiper({ translations }: ClientComponentProps) {
       </SwiperSlide>
 
       <SwiperSlide>
-        <div className="relative flex items-center justify-center overflow-hidden">
-          <Image className="object-cover" src={banner_2} alt="โกดัง_2" title="โกดัง_2" placeholder="blur" priority />
+        <div className="relative flex w-screen items-center justify-center">
+          <Image className="h-auto w-full" src={banner_2} alt="โกดัง_2" title="โกดัง_2" placeholder="blur" priority />
           <div
             className={`absolute flex flex-col items-center justify-center transition-all duration-700 ${
               activeSlide === 1 ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
