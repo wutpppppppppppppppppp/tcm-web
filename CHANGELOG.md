@@ -1,3 +1,21 @@
+# [2.7.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.6.0...v2.7.0) (2025-02-06)
+
+
+### Bug Fixes
+
+* **fix something:** fix something ([40f3bdc](https://github.com/wutpppppppppppppppppp/tcm-web/commit/40f3bdcc0268d270d64b461c214ee7e79ab82b29))
+* **lint fix:** lint fix ([76a330e](https://github.com/wutpppppppppppppppppp/tcm-web/commit/76a330e572f69711783afc816228624fe7449803))
+
+
+### Features
+
+* **font and responsive:** font responsive navbar ([fcea64e](https://github.com/wutpppppppppppppppppp/tcm-web/commit/fcea64e17054864d3e6313bbcb5ad14bc644963e))
+* **fully functional responsive / preloader added (suspense):** responsive and ux improvement ([ed56022](https://github.com/wutpppppppppppppppppp/tcm-web/commit/ed56022a35ae7467a35c17c9434c2414676133de))
+* **fully responsive:** fully responsive ([ffd2020](https://github.com/wutpppppppppppppppppp/tcm-web/commit/ffd20202bb10fc4eaab792c9ab895f11a8aa0ff1))
+* **lint improve:** lint ([ae3cd49](https://github.com/wutpppppppppppppppppp/tcm-web/commit/ae3cd49227ae59ef37b87427e6a4a564621fbcd2))
+* **responsive:** responsive ([caa221f](https://github.com/wutpppppppppppppppppp/tcm-web/commit/caa221ff6684062b11673229546c11233841d735))
+* **sticky nav / sizing change (including font):** sticky nav / font size / max-w ([cc4efd4](https://github.com/wutpppppppppppppppppp/tcm-web/commit/cc4efd4d7297bc87f3cd656a67c4cff0cf702d79))
+
 # [2.6.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.5.0...v2.6.0) (2025-01-25)
 
 
