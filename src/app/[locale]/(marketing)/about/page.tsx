@@ -41,7 +41,7 @@ export default async function About(props: IAboutProps) {
         <div className="flex flex-col items-center">
           <h2>{t('meta_description')}</h2>
           <p className="text-justify">{t('about_paragraph')}</p>
-          <Image className="mb-2" src={tcm_bigbag} alt="สารเคมี" title="สารเคมี" placeholder="blur"/>
+          <Image className="mb-2" src={tcm_bigbag} alt="สารเคมี" title="สารเคมี" placeholder="blur" />
           <Link href="/" className="about">{t('index.meta_title')}</Link>
           <Link href="/" className="about">{t('index.meta_description')}</Link>
         </div>
@@ -110,7 +110,7 @@ export default async function About(props: IAboutProps) {
               {t('product.description_three')}
             </li>
           </ul>
-          <Image className="mb-2" src={tcm_talcum} alt="Talcum" title="Talcum" placeholder="blur"/>
+          <Image className="mb-2" src={tcm_talcum} alt="Talcum" title="Talcum" placeholder="blur" />
           <ul>
             <li>
               {t('product.category_one')}
@@ -134,7 +134,7 @@ export default async function About(props: IAboutProps) {
               {t('product.category_seven')}
             </li>
           </ul>
-          <Image className="mb-2" src={tcm_graphite} alt="Graphite" title="Graphite" placeholder="blur"/>
+          <Image className="mb-2" src={tcm_graphite} alt="Graphite" title="Graphite" placeholder="blur" />
           <ul>
             <li className="font-bold">
               {t('product.product_one')}
@@ -173,7 +173,7 @@ export default async function About(props: IAboutProps) {
               </span>
             </li>
           </ul>
-          <Image className="mb-2" src={tcm_woodenpallet} alt="WoodenPallet" title="WoodenPallet" placeholder="blur"/>
+          <Image className="mb-2" src={tcm_woodenpallet} alt="WoodenPallet" title="WoodenPallet" placeholder="blur" />
           <p className="text-justify font-bold">
             {t('about_service_title')}
             <span className="font-normal">{t('about_service_description')}</span>

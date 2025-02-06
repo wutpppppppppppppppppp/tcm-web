@@ -3,10 +3,10 @@ import LineIcon from '@/components/LineIcon';
 import ProductSwiper from '@/components/ProductSwiper';
 import tcm_warehouse from '@/public/assets/images/tcm-warehouse.jpg';
 import placeholder from '@/public/placeholder.png';
+import logo from '@/public/solid.webp';
 import { Currency, Email, Events, PhoneFilled, Shuttle, Store } from '@carbon/icons-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
-import logo from "@/public/solid.webp";
 
 type IIndexProps = {
   params: Promise<{ locale: string }>;
@@ -62,7 +62,7 @@ export default async function Index(props: IIndexProps) {
   return (
     <>
       <section className="max-w-none px-0">
-        <div className='hidden md:flex flex-col'>
+        <div className="hidden flex-col md:flex">
           <LandingSwiper translations={translations} />
           <div className="grid min-h-20 w-full grid-flow-row grid-cols-none justify-center divide-[#CCCCCC] bg-[#F4F4F4] p-4 lg:grid-cols-4 lg:grid-rows-none lg:justify-normal lg:divide-x">
             <div className="landing_contact">
@@ -98,19 +98,23 @@ export default async function Index(props: IIndexProps) {
           </div>
         </div>
 
-        <div className='flex flex-col md:hidden w-full h-[calc(100vh-4rem)] justify-center items-center bg-gradient-to-br from-[#3DB2A1] to-[#1D265C]'>
+        <div className="flex h-[calc(100vh-4rem)] w-full flex-col items-center justify-center bg-gradient-to-br from-[#3DB2A1] to-[#1D265C] md:hidden">
           <Image
             src={logo}
             alt="tcm-logo"
             width={140}
             height={140}
-            className="mb-10 brightness-0 invert opacity-90"
+            className="mb-10 opacity-90 brightness-0 invert"
           />
-          <h1 className='text-xl text-white mb-2 text-shadow'>{t('banner_one_topic')}</h1>
-          <h1 className='text-xl text-white mb-4 text-shadow'>"{t('banner_one_description_one')}"</h1>
-          <p className='text-lg font-bold text-white mb-2 text-shadow'>{t('banner_one_description_two')}</p>
-          <p className='text-lg font-bold text-white mb-2 text-shadow'>{t('banner_one_description_three')}</p>
-          <p className='text-lg font-bold text-white mb-2 text-shadow'>{t('banner_one_description_four')}</p>
+          <h1 className="text-shadow mb-2 text-xl text-white">{t('banner_one_topic')}</h1>
+          <h1 className="text-shadow mb-4 text-xl text-white">
+            "
+            {t('banner_one_description_one')}
+            "
+          </h1>
+          <p className="text-shadow mb-2 text-lg font-bold text-white">{t('banner_one_description_two')}</p>
+          <p className="text-shadow mb-2 text-lg font-bold text-white">{t('banner_one_description_three')}</p>
+          <p className="text-shadow mb-2 text-lg font-bold text-white">{t('banner_one_description_four')}</p>
         </div>
       </section>
 

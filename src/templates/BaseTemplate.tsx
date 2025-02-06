@@ -1,8 +1,8 @@
+import Loading from '@/components/Loading';
 import { AppConfig } from '@/utils/AppConfig';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { Suspense } from 'react'
-import Loading from '@/components/Loading';
+import { Suspense } from 'react';
 
 export const BaseTemplate = (props: {
   leftNav: React.ReactNode;
@@ -37,11 +37,11 @@ export const BaseTemplate = (props: {
         </ul>
       </nav>
 
-      <Suspense fallback={<><Loading height='h-[calc(100vh-4rem)]'/></>}>
-        <main className='w-full'>{props.children}</main>
+      <Suspense fallback={<><Loading height="h-[calc(100vh-4rem)]" /></>}>
+        <main className="w-full">{props.children}</main>
       </Suspense>
 
-      <footer className="border-t border-gray-300 py-8 text-center md:text-base text-sm">
+      <footer className="border-t border-gray-300 py-8 text-center text-sm md:text-base">
         {`© Copyright ${new Date().getFullYear()} ${AppConfig.name}. `}
         {/*
            * PLEASE READ THIS SECTION
@@ -50,6 +50,6 @@ export const BaseTemplate = (props: {
            * For example, in the `About` page. Thank you for your support, it'll mean a lot to me.
            */}
       </footer>
-    </div >
+    </div>
   );
 };

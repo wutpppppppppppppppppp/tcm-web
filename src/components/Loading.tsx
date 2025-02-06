@@ -1,8 +1,8 @@
-import Image from "next/image";
-import logo from "@/public/solid.webp";
+import logo from '@/public/solid.webp';
+import Image from 'next/image';
 
 const Loading = ({ height }: { height?: string }) => (
-  <div className={`flex justify-center items-center w-screen bg-white absolute z-0 ${height}`}>
+  <div className={`absolute z-0 flex w-screen items-center justify-center bg-white ${height}`}>
     <Image
       src={logo}
       alt="Loading..."
