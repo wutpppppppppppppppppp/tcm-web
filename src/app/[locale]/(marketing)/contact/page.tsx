@@ -99,8 +99,8 @@ export default async function Contact(props: IContactProps) {
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
 
-        <div className="flex gap-4">
-          <div>
+        <div className="flex flex-col justify-center gap-4 sm:flex-row">
+          <div className="h-full">
             <Image
               src={warehouse2}
               alt={t('contact_info.name.value')}
@@ -114,7 +114,7 @@ export default async function Contact(props: IContactProps) {
             />
             <p className="flex items-center justify-center bg-gray-100 py-4 text-center">{t('image.title2')}</p>
           </div>
-          <div>
+          <div className="h-full">
             <Image
               src={warehouse4}
               alt={t('contact_info.name.value')}

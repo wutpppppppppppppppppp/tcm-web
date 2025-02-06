@@ -28,8 +28,8 @@ export default function Navbar({ translations }: ClientComponentProps) {
       <li>
         <Link
           href={getLocalizedPath('/')}
-          className={`px-4 py-2 hover:border-b-2 hover:border-[#25A954] ${
-            isActive('/') ? 'border-b-2 border-[#25A954] text-[#25A954]' : 'text-gray-700'
+          className={`nav ${
+            isActive('/') ? 'nav_hover' : 'text-gray-700'
           }`}
         >
           {translations.home_link}
@@ -38,8 +38,8 @@ export default function Navbar({ translations }: ClientComponentProps) {
       <li>
         <Link
           href={getLocalizedPath('/about')}
-          className={`px-4 py-2 hover:border-b-2 hover:border-[#25A954] ${
-            isActive('/about') ? 'border-b-2 border-[#25A954] text-[#25A954]' : 'text-gray-700'
+          className={`nav ${
+            isActive('/about') ? 'nav_hover' : 'text-gray-700'
           }`}
         >
           {translations.about_link}
@@ -48,8 +48,8 @@ export default function Navbar({ translations }: ClientComponentProps) {
       <li>
         <Link
           href={getLocalizedPath('/catalog')}
-          className={`px-4 py-2 hover:border-b-2 hover:border-[#25A954] ${
-            isActive('/catalog') ? 'border-b-2 border-[#25A954] text-[#25A954]' : 'text-gray-700'
+          className={`nav ${
+            isActive('/catalog') ? 'nav_hover' : 'text-gray-700'
           }`}
         >
           {translations.catalog_link}
@@ -58,8 +58,8 @@ export default function Navbar({ translations }: ClientComponentProps) {
       <li>
         <Link
           href={getLocalizedPath('/contact')}
-          className={`px-4 py-2 hover:border-b-2 hover:border-[#25A954] ${
-            isActive('/contact') ? 'border-b-2 border-[#25A954] text-[#25A954]' : 'text-gray-700'
+          className={`nav ${
+            isActive('/contact') ? 'nav_hover' : 'text-gray-700'
           }`}
         >
           {translations.contact_link}

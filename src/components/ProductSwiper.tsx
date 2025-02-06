@@ -16,7 +16,7 @@ type IndexKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite' | '
 type ClientComponentProps = {
   translations: Record<string, string>;
   params?: Promise<{ locale: string }>;
-  locale: string; // Add this property
+  locale: string;
 };
 
 export default function ProductSwiper({ translations, params, locale }: ClientComponentProps) {
@@ -32,26 +32,19 @@ export default function ProductSwiper({ translations, params, locale }: ClientCo
   }, [locale, params]);
 
   if (!resolvedLocale) {
-    // Optionally, show a loader or return null while waiting for the locale
     return <div>Loading...</div>;
   }
   return (
     <Swiper
       navigation
       modules={[Navigation]}
-      className="max-w-5xl"
       spaceBetween={30}
       freeMode
+      className="max-w-sm lg:max-w-5xl"
       direction="horizontal"
       breakpoints={{
-        0: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        800: {
-          slidesPerView: 4,
-          spaceBetween: 30,
-        },
+        0: { slidesPerView: 1, spaceBetween: 20 },
+        1024: { slidesPerView: 4, spaceBetween: 30 },
       }}
     >
       {catalogList.map(index => (

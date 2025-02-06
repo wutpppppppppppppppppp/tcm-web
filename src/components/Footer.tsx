@@ -7,12 +7,12 @@ export const Footer = async () => {
   const t = await getTranslations('Footer');
 
   return (
-    <div className="footer flex min-h-80 flex-col bg-[#263248] text-white md:flex-row">
-      <div className="flex-1 p-10" id="description">
+    <div className="footer flex min-h-80 flex-col gap-10 bg-[#263248] p-10 text-white md:flex-row">
+      <div className="flex-1" id="description">
         <h1>{t('description.title')}</h1>
         <p>{t('description.content')}</p>
       </div>
-      <div className="flex-1 p-10" id="contact">
+      <div className="flex-1" id="contact">
         <h1>{t('contact.title')}</h1>
         <ul>
           <li id="address" className="flex items-start">
@@ -34,12 +34,12 @@ export const Footer = async () => {
         </ul>
 
       </div>
-      <div className="flex flex-col p-10" id="line id">
+      <div className="flex flex-col items-center lg:items-start" id="line id">
         <h1>
           {t('line.title')}
         </h1>
         <Image src={LineQR} alt="QR Code" width={200} height={200} />
-        <p>
+        <p className="mt-2">
           {t.rich('line.content', {
             a: () => (
               <a title="Line ID" href="https://line.me/ti/p/~thai_chemical">

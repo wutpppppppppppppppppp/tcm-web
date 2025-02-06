@@ -51,7 +51,7 @@ export default async function About(props: IAboutProps) {
           <p className="font-bold">
             {t('about_footer_three')}
             {' '}
-&nbsp;
+            &nbsp;
             <Link href="/" className="about">{t('index.meta_title')}</Link>
           </p>
           <p className="font-bold">
@@ -141,6 +141,7 @@ export default async function About(props: IAboutProps) {
               <span className="font-normal">
                 &nbsp;
                 -
+                &nbsp;
                 {t('product.product_one_description')}
               </span>
             </li>
@@ -149,6 +150,7 @@ export default async function About(props: IAboutProps) {
               <span className="font-normal">
                 &nbsp;
                 -
+                &nbsp;
                 {t('product.product_two_description')}
               </span>
             </li>
@@ -157,6 +159,7 @@ export default async function About(props: IAboutProps) {
               <span className="font-normal">
                 &nbsp;
                 -
+                &nbsp;
                 {t('product.product_three_description')}
               </span>
             </li>
@@ -165,6 +168,7 @@ export default async function About(props: IAboutProps) {
               <span className="font-normal">
                 &nbsp;
                 -
+                &nbsp;
                 {t('product.product_four_description')}
               </span>
             </li>
