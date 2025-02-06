@@ -60,7 +60,7 @@ export default async function ProductDetail(props: ProductDetailProps) {
         </h1>
         <div className="container flex w-full flex-col items-start justify-center gap-10 md:flex-row">
           {/* Image Slider */}
-          <div className="max-w-sm md:w-1/3">
+          <div className="w-full max-w-sm md:w-1/3">
             <ImageSlider images={validImages} />
           </div>
 

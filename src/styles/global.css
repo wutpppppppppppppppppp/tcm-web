@@ -9,15 +9,15 @@ body {
 }
 
 section {
-  @apply mb-6 text-pretty max-w-screen-lg lg:px-0 px-4;
+  @apply mb-6 text-pretty lg:max-w-screen-lg md:max-w-screen-md max-w-screen-sm lg:px-0 px-4;
 }
 
 p {
-  @apply mb-3 lg:text-base text-sm;
+  @apply mb-3 text-base;
 }
 
 p.table {
-  @apply mb-0 text-sm w-2/3 lg:w-5/6 h-fit;
+  @apply mb-0 text-base w-2/3 lg:w-5/6 h-fit;
 }
 
 p.product {
@@ -76,7 +76,7 @@ h3.product {
 }
 
 a {
-  @apply text-[#42c5ab] hover:text-[#25A954] hover:cursor-pointer lg:text-base text-sm font-bold;
+  @apply text-[#42c5ab] hover:text-[#25A954] hover:cursor-pointer text-base font-bold;
 }
 
 a.about {
@@ -87,12 +87,24 @@ a.product {
   @apply text-[#42c5ab] hover:cursor-pointer text-base font-semibold;
 }
 
+a.nav {
+  @apply py-2 hover:border-b-2 hover:border-[#25A954] md:px-4 text-base font-bold;
+}
+
+a.nav_hover {
+  @apply border-b-2 border-[#25A954] text-[#25A954];
+}
+
 ul {
   @apply gap-2 list-disc pl-6;
 }
 
 li {
-  @apply lg:text-base text-sm mb-2;
+  @apply text-base mb-2;
+}
+
+span {
+  @apply text-base;
 }
 
 div #table :nth-of-type(even) {
@@ -112,7 +124,7 @@ header {
 }
 
 nav {
-  @apply flex justify-center w-screen bg-white h-12 sticky top-0 z-50 items-end;
+  @apply flex justify-center w-full bg-white md:h-12 h-14 sticky top-0 z-50 items-end;
 }
 
 .bg-box {

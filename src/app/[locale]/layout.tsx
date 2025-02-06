@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Suspense } from 'react'
 import arcjet, { detectBot, request } from '@/libs/Arcjet';
 import { Env } from '@/libs/Env';
 import { routing } from '@/libs/i18nNavigation';
@@ -7,6 +8,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import Loading from '@/components/Loading';
 import '@/styles/global.css';
 
 export const metadata: Metadata = {
@@ -89,14 +91,16 @@ export default async function RootLayout(props: {
   return (
     <html lang={locale}>
       <body suppressHydrationWarning>
-        <NextIntlClientProvider
-          locale={locale}
-          messages={messages}
-        >
-          {props.children}
-        </NextIntlClientProvider>
-        <Analytics />
-        <SpeedInsights />
+        <Suspense fallback={<><Loading height='h-screen'/></>}>
+          <NextIntlClientProvider
+            locale={locale}
+            messages={messages}
+          >
+            {props.children}
+          </NextIntlClientProvider>
+          <Analytics />
+          <SpeedInsights />
+        </Suspense>
       </body>
     </html>
   );

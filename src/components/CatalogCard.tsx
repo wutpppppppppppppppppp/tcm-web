@@ -14,7 +14,7 @@ export const CatalogCard: React.FC<CatalogCardProps> = (props: CatalogCardProps)
   const [imgSrc, setImgSrc] = useState<string | StaticImageData>(`/assets/images/${props.imgPath}_Profile.png`);
   return (
     <div className="flex h-full flex-col items-center border-2">
-      <Image src={imgSrc} width={250} height={250} className="p-4" alt={props.title} title={props.title} placeholder="blur" blurDataURL={placeholder.src} onError={() => setImgSrc(placeholder)} loading="lazy" />
+      <Image src={imgSrc} width={250} height={250} className="p-4" alt={props.title} title={props.title} placeholder="blur" blurDataURL={placeholder.src} onError={() => setImgSrc(placeholder)} />
       <h3 className="mb-2 text-pretty px-2 text-center font-extrabold">{props.title}</h3>
       <button
         type="button"

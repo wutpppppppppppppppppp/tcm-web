@@ -27,13 +27,14 @@ export default function ImageSlider({ images }: ImageSliderProps) {
       }}
       navigation
       modules={[Autoplay, Pagination, Navigation]}
+      className='w-full h-auto'
     >
       {images.map((image, index) => (
         <SwiperSlide key={image} className="my-auto">
           <Image
             src={image}
             alt={`Slide ${index + 1}`}
-            className="w-full"
+            className="w-full h-auto"
             width={300}
             height={300}
           />

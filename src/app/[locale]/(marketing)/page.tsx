@@ -6,6 +6,7 @@ import placeholder from '@/public/placeholder.png';
 import { Currency, Email, Events, PhoneFilled, Shuttle, Store } from '@carbon/icons-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
+import logo from "@/public/solid.webp";
 
 type IIndexProps = {
   params: Promise<{ locale: string }>;
@@ -61,38 +62,55 @@ export default async function Index(props: IIndexProps) {
   return (
     <>
       <section className="max-w-none px-0">
-        <LandingSwiper translations={translations} />
-        <div className="grid min-h-20 w-full grid-flow-row grid-cols-none justify-center divide-[#CCCCCC] bg-[#F4F4F4] p-4 lg:grid-cols-4 lg:grid-rows-none lg:justify-normal lg:divide-x">
-          <div className="landing_contact">
-            <div className="landing_contact_image">
-              <PhoneFilled className="size-16 lg:size-8" size="32" />
-              <h2 className="m-0">{t('tel_title')}</h2>
+        <div className='hidden md:flex flex-col'>
+          <LandingSwiper translations={translations} />
+          <div className="grid min-h-20 w-full grid-flow-row grid-cols-none justify-center divide-[#CCCCCC] bg-[#F4F4F4] p-4 lg:grid-cols-4 lg:grid-rows-none lg:justify-normal lg:divide-x">
+            <div className="landing_contact">
+              <div className="landing_contact_image">
+                <PhoneFilled className="size-16 lg:size-8" size="32" />
+                <h2 className="m-0">{t('tel_title')}</h2>
+              </div>
+              <div className="flex flex-col">
+                <p className="m-0">{t('tel_one')}</p>
+                <p className="m-0">{t('tel_two')}</p>
+              </div>
             </div>
-            <div className="flex flex-col">
-              <p className="m-0">{t('tel_one')}</p>
-              <p className="m-0">{t('tel_two')}</p>
+            <div className="landing_contact">
+              <div className="landing_contact_image">
+                <Email className="size-16 lg:size-8" size="32" />
+                <h2 className="m-0">{t('email_title')}</h2>
+              </div>
+              <p>{t('email')}</p>
+            </div>
+            <div className="landing_contact">
+              <div className="landing_contact_image">
+                <Store className="size-16 lg:size-8" size="32" />
+                <h2 className="m-0">{t('address_title')}</h2>
+              </div>
+              <div className="flex flex-col">
+                <p className="m-0">{t('address_one')}</p>
+                <p className="m-0">{t('address_two')}</p>
+              </div>
+            </div>
+            <div className="hidden w-full flex-row px-8 lg:flex">
+              <LineIcon width="40" height="40" className="text-green-400" />
             </div>
           </div>
-          <div className="landing_contact">
-            <div className="landing_contact_image">
-              <Email className="size-16 lg:size-8" size="32" />
-              <h2 className="m-0">{t('email_title')}</h2>
-            </div>
-            <p>{t('email')}</p>
-          </div>
-          <div className="landing_contact">
-            <div className="landing_contact_image">
-              <Store className="size-16 lg:size-8" size="32" />
-              <h2 className="m-0">{t('address_title')}</h2>
-            </div>
-            <div className="flex flex-col">
-              <p className="m-0">{t('address_one')}</p>
-              <p className="m-0">{t('address_two')}</p>
-            </div>
-          </div>
-          <div className="hidden w-full flex-row px-8 lg:flex">
-            <LineIcon width="40" height="40" className="text-green-400" />
-          </div>
+        </div>
+
+        <div className='flex flex-col md:hidden w-full h-[calc(100vh-4rem)] justify-center items-center bg-gradient-to-br from-[#3DB2A1] to-[#1D265C]'>
+          <Image
+            src={logo}
+            alt="tcm-logo"
+            width={140}
+            height={140}
+            className="mb-10 brightness-0 invert opacity-90"
+          />
+          <h1 className='text-xl text-white mb-2 text-shadow'>{t('banner_one_topic')}</h1>
+          <h1 className='text-xl text-white mb-4 text-shadow'>"{t('banner_one_description_one')}"</h1>
+          <p className='text-lg font-bold text-white mb-2 text-shadow'>{t('banner_one_description_two')}</p>
+          <p className='text-lg font-bold text-white mb-2 text-shadow'>{t('banner_one_description_three')}</p>
+          <p className='text-lg font-bold text-white mb-2 text-shadow'>{t('banner_one_description_four')}</p>
         </div>
       </section>
 
@@ -162,7 +180,7 @@ export default async function Index(props: IIndexProps) {
             <p>{t(`section_five_description_two`)}</p>
             <p className="font-bold">{t(`section_five_description_three`)}</p>
           </div>
-          <Image className="w-[34.6875rem]" src={tcm_warehouse} alt="โกดัง" title="โกดัง" placeholder="blur" loading="lazy" />
+          <Image className="w-[34.6875rem]" src={tcm_warehouse} alt="โกดัง" title="โกดัง" placeholder="blur" />
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
           <defs>
@@ -186,13 +204,12 @@ export default async function Index(props: IIndexProps) {
               <Image
                 src={`/assets/images/Powder-${item}.jpg`}
                 alt={`section_six_${item}_title_en`}
-                className="h-40 w-full"
+                className="h-auto w-full"
                 width={320}
                 height={320}
                 title={`section_six_${item}_title_en`}
                 placeholder="blur"
                 blurDataURL={placeholder.src}
-                loading="lazy"
               />
               <div className="p-3">
                 <h2>{t(`section_six_${item}_title_th` as `section_six_${ArticleKeys}_title_th`)}</h2>
