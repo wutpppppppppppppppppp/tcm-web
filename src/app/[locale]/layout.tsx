@@ -7,7 +7,7 @@ import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
-import { Anuphan } from 'next/font/google';
+import localFont from 'next/font/local';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 import '@/styles/global.css';
@@ -67,11 +67,16 @@ const aj = arcjet.withRule(
   }),
 );
 
-const anuphan = Anuphan({
-  subsets: ['thai', 'latin'], // Add 'thai' for Thai characters
-  weight: ['100', '200', '300', '400', '500', '600', '700'], // Specify weights you use
-  display: 'swap',
-  variable: '--font-anuphan', // Custom CSS variable
+// Improve performance with local fonts
+const anuphan = localFont({
+  src: [
+    {
+      path: '../../../fonts/Anuphan-VariableFont_wght.ttf',
+      weight: '100 700',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-anuphan',
 });
 
 export default async function RootLayout(props: {
@@ -117,15 +122,9 @@ export default async function RootLayout(props: {
           as="image"
           type="image/png"
         />
-        {/* <link
-        rel="preload"
-        href="/assets/solid.webp"
-        as="image"
-        type="image/webp"
-      /> */}
         <link
           rel="preload"
-          href="/fonts/custom-font.woff2" // Example for fonts
+          href="/fonts/Anuphan-VariableFont_wght.ttf"
           as="font"
           type="font/woff2"
           crossOrigin="anonymous"
