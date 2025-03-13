@@ -1,4 +1,6 @@
+import type { SlugKeys } from '@/constants/CatalogList';
 import { CatalogCard } from '@/components/CatalogCard';
+import { CATALOG_LIST } from '@/constants/CatalogList';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 
@@ -6,8 +8,6 @@ type ICatalogProps = {
   params: Promise<{ locale: string }>;
 };
 
-const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculite', 'Bentonite', 'Ceramic', 'Food_chemical', 'Swimming_pool'];
-type IndexKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite' | 'Ceramic' | 'Food_chemical' | 'Swimming_pool';
 export async function generateMetadata(props: ICatalogProps) {
   const { locale } = await props.params;
   const t = await getTranslations({
@@ -37,13 +37,13 @@ export default async function Portfolio(props: ICatalogProps) {
           <hr className="w-10 border-t-2 border-black"></hr>
         </h1>
         <div className="grid grid-cols-2 gap-3 md:grid-cols-2 xl:grid-cols-3">
-          {catalogList.map(index => (
+          {CATALOG_LIST.map(index => (
             <Link
               key={index}
               href={`/catalog/${index}`}
               className="product"
             >
-              <CatalogCard title={t(`${index}.name` as `${IndexKeys}.name`)} locale={locale} imgPath={index} />
+              <CatalogCard title={t(`${index}.name` as `${SlugKeys}.name`)} locale={locale} imgPath={index} />
             </Link>
           ))}
         </div>

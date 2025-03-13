@@ -1,5 +1,7 @@
+import type { SlugKeys } from '@/constants/CatalogList';
 import ImageSlider from '@/components/ImageSlider';
 import { SocialBtn } from '@/components/SocialBtn';
+import { CATALOG_LIST } from '@/constants/CatalogList';
 import { routing } from '@/libs/i18nNavigation';
 import { checkFileExists } from '@/utils/checkFileExists';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
@@ -8,14 +10,10 @@ type ProductDetailProps = {
   params: Promise<{ slug: string; locale: string }>;
 };
 
-const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculite', 'Bentonite', 'Ceramic', 'Food_chemical', 'Swimming_pool'];
-
-type SlugKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite' | 'Ceramic' | 'Food_chemical' | 'Swimming_pool';
-
 export async function generateStaticParams() {
   return routing.locales
     .map(locale =>
-      catalogList.map(slug => ({
+      CATALOG_LIST.map(slug => ({
         slug,
         locale,
       })),

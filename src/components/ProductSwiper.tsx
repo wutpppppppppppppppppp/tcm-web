@@ -1,17 +1,16 @@
 'use client';
 
+import type { SlugKeys } from '@/constants/CatalogList';
+import { CATALOG_LIST } from '@/constants/CatalogList';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import { Navigation } from 'swiper/modules';
 
+import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { CatalogCard } from './CatalogCard';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import '../styles/custom-arrow.css';
-
-const catalogList = ['Talcum', 'Graphite', 'MgO', 'Vermiculite', 'Bentonite', 'Ceramic', 'Food_chemical', 'Swimming_pool'];
-type IndexKeys = 'Talcum' | 'Graphite' | 'MgO' | 'Vermiculite' | 'Bentonite' | 'Ceramic' | 'Food_chemical' | 'Swimming_pool';
 
 type ClientComponentProps = {
   translations: Record<string, string>;
@@ -47,13 +46,13 @@ export default function ProductSwiper({ translations, params, locale }: ClientCo
         1024: { slidesPerView: 4, spaceBetween: 30 },
       }}
     >
-      {catalogList.map(index => (
+      {CATALOG_LIST.map(index => (
         <SwiperSlide key={index}>
           <Link
             href={`/catalog/${index}`}
             className="product"
           >
-            <CatalogCard title={c(`${index}` as `${IndexKeys}`)} locale={locale} imgPath={index} />
+            <CatalogCard title={c(`${index}` as `${SlugKeys}`)} locale={locale} imgPath={index} />
           </Link>
         </SwiperSlide>
       ))}
