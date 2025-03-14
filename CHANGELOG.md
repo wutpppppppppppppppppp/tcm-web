@@ -1,3 +1,16 @@
+# [2.8.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.7.0...v2.8.0) (2025-03-14)
+
+
+### Bug Fixes
+
+* preload font ([4e695e5](https://github.com/wutpppppppppppppppppp/tcm-web/commit/4e695e5429eabd993d9dc59072b223c95fde46bb))
+
+
+### Features
+
+* **generate sitemp and robots.ts:** sitemap and robots generation ([3f5974c](https://github.com/wutpppppppppppppppppp/tcm-web/commit/3f5974c10befdf8b803e9d360a54a8f03a591241))
+* text local for loading optimization ([a86547f](https://github.com/wutpppppppppppppppppp/tcm-web/commit/a86547fdc2a43e212c0a9ce5100bb0861bccd3af))
+
 # [2.7.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.6.0...v2.7.0) (2025-02-06)
 
 
