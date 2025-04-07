@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import Loading from '@/components/Loading';
 import arcjet, { detectBot, request } from '@/libs/Arcjet';
 import { Env } from '@/libs/Env';
@@ -13,6 +13,10 @@ import { Suspense } from 'react';
 import '@/styles/global.css';
 
 export const metadata: Metadata = {
+  title: 'ขายเคมีภัณฑ์ นำเข้าเคมีภัณฑ์ เคมีแหลมทองมาร์เกตติ้ง จำกัด',
+  description: 'ขายเคมีภัณฑ์ ทัลคัม กราไฟต์ แมกนีเซียมออกไซด์ เวอร์มิคูไลท์ เบนโทไนท์ จำหน่ายเคมีภัณฑ์ พร้อมจัดส่ง',
+  keywords: ['เคมีแหลมทองมาร์เกตติ้ง', 'ทัลคัม', 'กราไฟต์', 'แมกนีเซียมออกไซด์', 'เวอร์มิคูไลท์', 'เบนโทไนท์', 'ขายเคมีภัณฑ์', 'ขายเคมี', 'นำเข้าเคมีภัณฑ์', 'นำเข้าเคมี', 'ซื้อเคมี', 'ซื้อเคมีภัณฑ์'],
+  robots: 'index, follow',
   icons: [
     {
       rel: 'icon',
@@ -42,17 +46,39 @@ export const metadata: Metadata = {
       url: '/assets/tcm-icon.png', // Apple devices icon
     },
   ],
-  title: 'ขายเคมีภัณฑ์ นำเข้าเคมีภัณฑ์ เคมีแหลมทองมาร์เกตติ้ง จำกัด',
-  description: 'ขายเคมีภัณฑ์ ทัลคัม กราไฟต์ แมกนีเซียมออกไซด์ เวอร์มิคูไลท์ เบนโทไนท์ จำหน่ายเคมีภัณฑ์ พร้อมจัดส่ง',
-  keywords: ['เคมีแหลมทองมาร์เกตติ้ง', 'ทัลคัม', 'กราไฟต์', 'แมกนีเซียมออกไซด์', 'เวอร์มิคูไลท์', 'เบนโทไนท์', 'ขายเคมีภัณฑ์', 'ขายเคมี', 'นำเข้าเคมีภัณฑ์', 'นำเข้าเคมี', 'ซื้อเคมี', 'ซื้อเคมีภัณฑ์'],
-  robots: 'index, follow',
-  alternates: { canonical: 'https://thaichemicalmarketing.com', languages: { 'en-US': 'https://www.thaichemicalmarketing.com/en' } },
+  alternates: { canonical: 'https://thaichemicalmarketing.com', languages: { 'en-US': 'https://www.thaichemicalmarketing.com/en', 'th-TH': 'https://thaichemicalmarketing.com' } },
+  // how it looks when shared on social media
+  openGraph: {
+    title: 'ขายเคมีภัณฑ์ นำเข้าเคมีภัณฑ์ | เคมีแหลมทองมาร์เกตติ้ง จำกัด',
+    description: 'ขายเคมีภัณฑ์ ทัลคัม กราไฟต์ แมกนีเซียมออกไซด์ เวอร์มิคูไลท์ เบนโทไนท์ พร้อมจัดส่งทั่วประเทศ',
+    url: 'https://thaichemicalmarketing.com',
+    siteName: 'เคมีแหลมทองมาร์เกตติ้ง จำหน่ายเคมีภัณฑ์',
+    type: 'website',
+    images: [
+      {
+        url: 'https://thaichemicalmarketing.com/assets/og-image.jpg', // wait for the image to be uploaded
+        width: 1200,
+        height: 630,
+        alt: 'ขายเคมีภัณฑ์ - เคมีแหลมทองมาร์เกตติ้ง',
+      },
+    ],
+  },
+
+  metadataBase: new URL('https://thaichemicalmarketing.com'),
 };
 
 export function generateStaticParams() {
   return routing.locales.map(locale => ({ locale }));
 }
-
+export const viewport: Viewport = {
+  themeColor: 'black',
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  minimumScale: 1,
+  userScalable: false,
+  height: 'device-height',
+};
 // Improve security with Arcjet
 const aj = arcjet.withRule(
   detectBot({
