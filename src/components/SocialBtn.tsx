@@ -3,7 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import LineSvgComponent from './LineIcon';
 
 export const SocialBtn = async () => {
-  const t = await getTranslations('CatalogSlug');
+  const t = await getTranslations('SocialBtn');
   return (
     <div className="bg-box">
       <div className="share-btn scale-hover">

@@ -1,4 +1,5 @@
 import type { SlugKeys } from '@/constants/CatalogList';
+import type { Metadata } from 'next';
 import { CatalogCard } from '@/components/CatalogCard';
 import { CATALOG_LIST } from '@/constants/CatalogList';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
@@ -8,16 +9,23 @@ type ICatalogProps = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(props: ICatalogProps) {
+export async function generateMetadata(props: ICatalogProps): Promise<Metadata> {
   const { locale } = await props.params;
-  const t = await getTranslations({
-    locale,
-    namespace: 'Catalog',
-  });
+  const t = await getTranslations({ locale, namespace: 'Catalog' });
 
   return {
     title: t('meta_title'),
     description: t('meta_description'),
+    keywords: [t('keywords')],
+    alternates: {
+      canonical: `https://thaichemicalmarketing.com/${locale}/catalog`,
+    },
+    openGraph: {
+      title: t('meta_title'),
+      description: t('meta_description'),
+      url: `https://thaichemicalmarketing.com/${locale}/catalog`,
+      type: 'website',
+    },
   };
 }
 

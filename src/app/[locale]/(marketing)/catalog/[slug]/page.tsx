@@ -1,7 +1,9 @@
 import type { SlugKeys } from '@/constants/CatalogList';
+import type { Metadata } from 'next';
 import ImageSlider from '@/components/ImageSlider';
 import { SocialBtn } from '@/components/SocialBtn';
 import { CATALOG_LIST } from '@/constants/CatalogList';
+import { getCatalogTranslation } from '@/libs/getCatalogProductMeta';
 import { routing } from '@/libs/i18nNavigation';
 import { checkFileExists } from '@/utils/checkFileExists';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
@@ -21,16 +23,14 @@ export async function generateStaticParams() {
     .flat(1);
 }
 
-export async function generateMetadata(props: ProductDetailProps) {
+export async function generateMetadata(props: ProductDetailProps): Promise<Metadata> {
   const { locale, slug } = await props.params;
-  const t = await getTranslations({
-    locale,
-    namespace: 'CatalogSlug',
-  });
-
+  const catalog = await getCatalogTranslation(locale);
+  const product = catalog[slug];
   return {
-    title: t('meta_title', { slug }),
-    description: t('meta_description', { slug }),
+    title: product?.meta_title ?? catalog.meta_title,
+    description: product?.meta_description ?? catalog.meta_description,
+    keywords: product?.keywords ?? catalog.keywords,
   };
 }
 
