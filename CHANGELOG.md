@@ -1,3 +1,16 @@
+# [2.9.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.8.0...v2.9.0) (2025-04-08)
+
+
+### Bug Fixes
+
+* delete console log and comments ([db31f64](https://github.com/wutpppppppppppppppppp/tcm-web/commit/db31f64f7ec7c408c02816f21e4722cd1f543f3b))
+* meta detail changed about ([290f996](https://github.com/wutpppppppppppppppppp/tcm-web/commit/290f99645eb5c5f0085a6146c691ae7f05f3e0bc))
+
+
+### Features
+
+* generate all keywords, title, desc for products ([a790e23](https://github.com/wutpppppppppppppppppp/tcm-web/commit/a790e23acaf26a15c164b445c343d19eaabcf732))
+
 # [2.8.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.7.0...v2.8.0) (2025-03-14)
 
 
