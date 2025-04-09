@@ -78,7 +78,7 @@
     "@vitest/coverage-v8": "^2.1.8",
     "@vitest/expect": "^2.1.8",
     "autoprefixer": "^10.4.20",
-    "checkly": "^4.15.0",
+    "checkly": "^3.1.1",
     "commitizen": "^4.3.1",
     "cross-env": "^7.0.3",
     "cssnano": "^7.0.6",
