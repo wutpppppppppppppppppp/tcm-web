@@ -1,3 +1,11 @@
+# [2.10.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.9.0...v2.10.0) (2025-04-09)
+
+
+### Features
+
+* **copilot :** copilot ([75cdf8c](https://github.com/wutpppppppppppppppppp/tcm-web/commit/75cdf8c04f68059c80ff1f4ecee7d4f1d61c197c))
+* **slug metadata:** slug metadata ([ad183bc](https://github.com/wutpppppppppppppppppp/tcm-web/commit/ad183bc09230b6d65c911b6f64d500d9ad34823d))
+
 # [2.9.0](https://github.com/wutpppppppppppppppppp/tcm-web/compare/v2.8.0...v2.9.0) (2025-04-08)
 
 
