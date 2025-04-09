@@ -33,13 +33,13 @@ export async function generateMetadata(props: ProductDetailProps): Promise<Metad
     keywords: product?.keywords ?? catalog.keywords,
     openGraph: {
       title: product?.meta_title ?? catalog.meta_title,
-      url: `https://thaichemicalmarketing.com/catalog/${slug}`,
+      url: `https://thaichemicalmarketing.com/catalog/${encodeURIComponent(slug)}`,
       description: product?.meta_description ?? catalog.meta_description,
       siteName: 'เคมีแหลมทองมาร์เกตติ้ง จำหน่ายเคมีภัณฑ์',
       type: 'website',
       images: [
         {
-          url: `https://thaichemicalmarketing.com/assets/images/${slug}_1.jpeg`,
+          url: `https://thaichemicalmarketing.com/assets/images/${encodeURIComponent(slug)}_1.jpeg`,
           width: 1200,
           height: 630,
           alt: product?.meta_title ?? catalog.meta_title,
