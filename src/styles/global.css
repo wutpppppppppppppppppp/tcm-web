@@ -230,7 +230,7 @@ hr.solid {
 }
 
 ::-webkit-scrollbar {
-  @apply w-1
+  @apply w-1;
 }
 
 ::-webkit-scrollbar-thumb {
