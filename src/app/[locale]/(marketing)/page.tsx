@@ -62,7 +62,7 @@ export default async function Index(props: IIndexProps) {
   return (
     <>
       <section className="flex w-full max-w-none justify-center px-0">
-        <div className="hidden flex-col lg:flex lg:w-[99vw]">
+        <div className="hidden flex-col lg:flex lg:w-screen">
           <LandingSwiper translations={translations} />
           <div className="grid min-h-20 w-full grid-flow-row grid-cols-none justify-center divide-[#CCCCCC] bg-[#F4F4F4] p-4 lg:grid-cols-4 lg:grid-rows-none lg:justify-normal lg:divide-x">
             <div className="landing_contact">
@@ -139,20 +139,20 @@ export default async function Index(props: IIndexProps) {
           <path fill="url(#gradient1)" fillOpacity="1" d="M0,20L60,24C120,28,240,36,360,46.7C480,57,600,69,720,74.7C840,80,960,80,1080,76C1200,72,1320,64,1380,59.3L1440,56L1440,180L1380,180C1320,180,1200,180,1080,180C960,180,840,180,720,180C600,180,480,180,360,180C240,180,120,180,60,180L0,180Z"></path>
         </svg>
         <div className="flex h-fit w-full flex-col flex-wrap items-center justify-center gap-12 bg-gradient-to-r from-[#3DB2A1] to-[#1D265C] pb-12 pt-8 lg:flex-row">
-          <div className="flex w-96 flex-col items-center text-white">
+          <div className="flex w-96 flex-col items-center text-center text-white">
             <Events size="160" className="mb-8" />
             <h2 className="mb-2">{t(`section_three_one_title`)}</h2>
-            <p className="px-6 text-center font-normal">{t(`section_three_one_description`)}</p>
+            <p className="px-6 font-normal">{t(`section_three_one_description`)}</p>
           </div>
-          <div className="flex w-96 flex-col items-center text-white">
+          <div className="flex w-96 flex-col items-center text-center text-white">
             <Currency size="160" className="mb-8" />
             <h2 className="mb-2">{t(`section_three_two_title`)}</h2>
-            <p className="px-6 text-center font-normal">{t(`section_three_two_description`)}</p>
+            <p className="px-6 font-normal">{t(`section_three_two_description`)}</p>
           </div>
-          <div className="flex w-96 flex-col items-center text-white">
+          <div className="flex w-96 flex-col items-center text-center text-white">
             <Shuttle size="160" className="mb-8" />
             <h2 className="mb-2">{t(`section_three_three_title`)}</h2>
-            <p className="px-6 text-center font-normal">{t(`section_three_three_description`)}</p>
+            <p className="px-6 font-normal">{t(`section_three_three_description`)}</p>
           </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">

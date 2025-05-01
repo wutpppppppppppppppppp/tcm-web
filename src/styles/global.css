@@ -228,3 +228,15 @@ hr.solid {
   height: 100%;
   object-fit: cover;
 }
+
+::-webkit-scrollbar {
+  @apply w-1;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-lg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500;
+}
