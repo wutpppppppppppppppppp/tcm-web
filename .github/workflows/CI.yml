@@ -94,31 +94,3 @@ jobs:
           name: test-results
           path: test-results/
           retention-days: 7
-
-  synchronize-with-crowdin:
-    name: Synchronize with Crowdin
-    runs-on: ubuntu-latest
-
-    needs: [build, test]
-    # Translation sync is not a correctness gate: a third-party API having a bad
-    # afternoon should not make a pull request unmergeable. Runs after merge.
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: crowdin action
-        uses: crowdin/github-action@v2
-        with:
-          upload_sources: true
-          upload_translations: true
-          download_translations: true
-          create_pull_request: false
-          localization_branch_name: ${{ github.ref_name }}
-          commit_message: 'chore: new Crowdin translations by GitHub Action'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}

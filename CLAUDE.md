@@ -8,7 +8,7 @@ Next.js App Router marketing site for Thai Chemical Marketing Co., Ltd., deploye
 
 **No `legacy-peer-deps`.** The tree resolves cleanly without it. The flag previously masked a real conflict — React pinned to an exact version Clerk did not support. If a peer conflict appears, fix the versions rather than restoring the flag.
 
-**`react` and `react-dom` must satisfy Clerk's peer range**, which is narrower than Next's and pins specific patch lines (`~19.0.3 || ~19.1.4 || ~19.2.3` at the time of writing). Check Clerk before bumping React.
+**There is no authentication.** Clerk and its entire `(auth)` route group — dashboard, sign-in, sign-up, user profile — were unlinked boilerplate scaffolding and have been removed. This is a public marketing site with no logged-in surface. Adding auth back means designing it, not restoring it.
 
 **Conventional commits are enforced** by the husky `commit-msg` hook via commitlint, and `npm run commit` walks you through one. This is kept for readability, not for releases — see [ADR 0001](docs/adr/0001-retire-semantic-release.md).
 
@@ -29,7 +29,7 @@ The e2e suite builds and starts a production server itself. In CI the build alre
 
 `next-intl` with `localePrefix: 'as-needed'` and `th` as the default locale, so Thai routes are unprefixed and English routes carry `/en`. The locale is also negotiated from `Accept-Language`, which means an English browser hitting `/` is redirected to `/en`. Tests that assert on a locale must set the browser locale, not just the header.
 
-Thai (`src/locales/th.json`) is synced through Crowdin after merge to `main`, not on pull requests.
+Translations are edited directly in `src/locales/en.json` and `src/locales/th.json`. Crowdin was removed — the organisation was suspended and translation sync had not been working — so both files are now maintained by hand. Keep their key sets identical; a key present in one and missing from the other surfaces as a raw key in the UI.
 
 ## Environment
 
@@ -37,4 +37,4 @@ Thai (`src/locales/th.json`) is synced through Crowdin after merge to `main`, no
 
 Secrets belong in `.env.local`, which is gitignored along with everything else matching `.env*`. Real values for deployments live in Vercel's project settings. CI copies `.env.example` to `.env` purely to satisfy build-time validation.
 
-`src/libs/Env.ts` validates required variables with `@t3-oss/env-nextjs` **at build time**, so a missing `CLERK_SECRET_KEY` fails the build loudly rather than surfacing as a runtime mystery. Adding a required variable therefore means adding it to `.env.example` too, or CI will break.
+`src/libs/Env.ts` validates variables with `@t3-oss/env-nextjs` **at build time**. Since Clerk was removed, every variable is optional and the app builds with none of them set — each just disables its feature. If you add a *required* variable, add it to `.env.example` too, or CI will break loudly at build time rather than mysteriously at runtime.

@@ -206,26 +206,6 @@
   "SocialBtn": {
     "share": "แชร์"
   },
-  "SignIn": {
-    "meta_title": "Sign In",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
-  },
-  "SignUp": {
-    "meta_title": "Sign Up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
-  },
-  "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
-  },
-  "UserProfile": {
-    "meta_title": "User Profile"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage Your Account",
-    "sign_out": "Sign Out"
-  },
   "Contact": {
     "meta_title": "ติดต่อเรา",
     "meta_description": "ช่องทางการติดต่อ บริษัท เคมีแหลมทองมาร์เกตติ้ง จำกัด",
