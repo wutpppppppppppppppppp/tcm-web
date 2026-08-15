@@ -9,7 +9,7 @@ export const Hello = async () => {
     <>
       <p>
         {`👋 `}
-        {t('hello_message', { email: user?.emailAddresses[0]?.emailAddress })}
+        {t('hello_message', { email: user?.emailAddresses[0]?.emailAddress ?? '' })}
       </p>
       <p>hello</p>
     </>
