@@ -33,4 +33,8 @@ Thai (`src/locales/th.json`) is synced through Crowdin after merge to `main`, no
 
 ## Environment
 
-Secrets belong in `.env.local`, which is gitignored. `src/libs/Env.ts` validates them with `@t3-oss/env-nextjs` at build time, so a missing `CLERK_SECRET_KEY` fails the build rather than surfacing at runtime.
+`.env.example` lists every variable the app needs, with non-secret placeholders. It is the only env file in git — copy it to `.env.local` and fill in real values to work locally.
+
+Secrets belong in `.env.local`, which is gitignored along with everything else matching `.env*`. Real values for deployments live in Vercel's project settings. CI copies `.env.example` to `.env` purely to satisfy build-time validation.
+
+`src/libs/Env.ts` validates required variables with `@t3-oss/env-nextjs` **at build time**, so a missing `CLERK_SECRET_KEY` fails the build loudly rather than surfacing as a runtime mystery. Adding a required variable therefore means adding it to `.env.example` too, or CI will break.

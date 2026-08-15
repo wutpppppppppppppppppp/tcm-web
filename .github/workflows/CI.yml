@@ -26,6 +26,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: npm
       - run: npm ci
+      # Env.ts validates required variables at build time. Real values live in
+      # Vercel; CI only needs the non-secret placeholders to get a build out.
+      - name: Provide placeholder environment
+        run: cp .env.example .env
       - run: npm run build
 
   test:
@@ -46,6 +50,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: npm
       - run: npm ci
+
+      # Env.ts validates required variables at build time. Real values live in
+      # Vercel; CI only needs the non-secret placeholders to get a build out.
+      - name: Provide placeholder environment
+        run: cp .env.example .env
 
       - name: Build Next.js for E2E tests
         run: npm run build
